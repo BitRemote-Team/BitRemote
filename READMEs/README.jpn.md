@@ -1,6 +1,10 @@
 <h1 align="center">BitRemote</h1>
 <h3 align="center">開発中...</h3>
 
+<p align="center">
+<img width="1200" src="https://user-images.githubusercontent.com/31207151/223722039-34fb9809-5a17-42ef-a1ef-f34138e9b87b.png">
+</p>
+
 <h4 align="center">Apple プラットフォームの BitTorrent クライアント遠隔操作アプリ</h4>
 
 <p align="center">
