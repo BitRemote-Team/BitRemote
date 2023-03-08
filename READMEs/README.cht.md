@@ -19,8 +19,6 @@
 ## 📢 徵集翻譯 📢
 如果你想幫助翻譯這個應用程式，請提交一個 Pull Request。
 
-App Strings: [{lang}.lproj](/BitRemote/App)
-
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 系統需求

@@ -19,8 +19,6 @@
 ## 📢 Übersetzer gesucht 📢
 Stelle eine Pull-Request wenn du bei der Übersetzung mithelfen möchtest.
 
-App Strings: [{lang}.lproj](/BitRemote/App)
-
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## Systemanforderungen

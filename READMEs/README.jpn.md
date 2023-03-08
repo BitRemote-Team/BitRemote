@@ -19,8 +19,6 @@
 ## 📢 翻訳募集中 📢
 このアプリの翻訳に協力したい場合は、Pull Request を提出してください。
 
-App Strings: [{lang}.lproj](/BitRemote/App)
-
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 必要システム構成
