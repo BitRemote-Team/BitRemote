@@ -1,11 +1,10 @@
 <h1 align="center">BitRemote</h1>
-<h3 align="center">开发中...</h3>
+
+<h4 align="center">Apple 平台的下载器遥控工具</h4>
 
 <p align="center">
-<img width="1200" src="https://user-images.githubusercontent.com/31207151/223722039-34fb9809-5a17-42ef-a1ef-f34138e9b87b.png">
+<img src="https://user-images.githubusercontent.com/31207151/227434521-ecff6af9-b8e6-42bd-9d28-5ea4aca25fe5.png" width="400"></img>
 </p>
-
-<h4 align="center">Apple 平台的 BitTorrent 客户端遥控应用程序</h4>
 
 <p align="center">
   <a href="/README.md">English</a>・
@@ -20,6 +19,11 @@
 如果你想帮助翻译这个应用程序，请提交一个 Pull Request。
 
 GitHub Readme: [README.{lang}.md](/READMEs)
+
+## 支持的下载器
+- qBittorrent
+- Transmission
+- [开发中] Synology / QNAP Download Station
 
 ## 系统要求
 请确保你的设备系统为 iOS / iPadOS 16.0、macOS 13.0 或以上。

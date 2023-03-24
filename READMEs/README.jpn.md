@@ -1,11 +1,10 @@
 <h1 align="center">BitRemote</h1>
-<h3 align="center">開発中...</h3>
+
+<h4 align="center">Apple プラットフォームのダウンローダー遠隔操作アプリ</h4>
 
 <p align="center">
-<img width="1200" src="https://user-images.githubusercontent.com/31207151/223722039-34fb9809-5a17-42ef-a1ef-f34138e9b87b.png">
+<img src="https://user-images.githubusercontent.com/31207151/227434521-ecff6af9-b8e6-42bd-9d28-5ea4aca25fe5.png" width="400"></img>
 </p>
-
-<h4 align="center">Apple プラットフォームの BitTorrent クライアント遠隔操作アプリ</h4>
 
 <p align="center">
   <a href="/README.md">English</a>・
@@ -20,6 +19,11 @@
 このアプリの翻訳に協力したい場合は、Pull Request を提出してください。
 
 GitHub Readme: [README.{lang}.md](/READMEs)
+
+## 対応ダウンローダー
+- qBittorrent
+- Transmission
+- [開発中] Synology / QNAP Download Station
 
 ## 必要システム構成
 デバイスのシステムが iOS・iPadOS 16.0、macOS 13.0 以上であることが必要です。
