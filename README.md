@@ -1,11 +1,10 @@
 <h1 align="center">BitRemote</h1>
-<h3 align="center">Still in progress...</h3>
+
+<h4 align="center">An Apple platforms app to control your downloaders remotely.</h4>
 
 <p align="center">
-<img width="1200" src="https://user-images.githubusercontent.com/31207151/223722039-34fb9809-5a17-42ef-a1ef-f34138e9b87b.png">
+<img src="https://user-images.githubusercontent.com/31207151/227434521-ecff6af9-b8e6-42bd-9d28-5ea4aca25fe5.png" width="400"></img>
 </p>
-
-<h4 align="center">A BitTorrent client remote app for Apple platforms.</h4>
 
 <p align="center">
   <a href="/README.md">English</a>・
@@ -20,6 +19,11 @@
 Please submit a pull request if you want to help with translation.
 
 GitHub Readme: [README.{lang}.md](/READMEs)
+
+## Supported Downloaders
+- qBittorrent
+- Transmission
+- [WIP] Synology / QNAP Download Station
 
 ## System Requirements
 This app requires iOS / iPadOS 16.0, macOS 13.0 or later.
