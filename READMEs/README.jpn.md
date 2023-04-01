@@ -3,7 +3,7 @@
 <h4 align="center">Apple プラットフォームのダウンローダー遠隔操作アプリ</h4>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31207151/229280073-d6fee86f-6b8f-4d81-a4b5-0249d0ee12fe.png" width="512"></img>
+<img src="https://user-images.githubusercontent.com/31207151/227434521-ecff6af9-b8e6-42bd-9d28-5ea4aca25fe5.png" width="400"></img>
 </p>
 
 <p align="center">
