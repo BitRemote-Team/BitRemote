@@ -3,7 +3,8 @@
 <h4 align="center">Apple 平台的下载器遥控工具</h4>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31207151/227434521-ecff6af9-b8e6-42bd-9d28-5ea4aca25fe5.png" width="400"></img>
+<img src="https://user-images.githubusercontent.com/31207151/229284410-56e3b2c0-8aa3-4650-8e8a-05b14ba9f70b.png#gh-light-mode-only" width="512"></img>
+<img src="https://user-images.githubusercontent.com/31207151/229284414-977bb152-2879-44b8-b67a-cb4223751fb5.png#gh-dark-mode-only" width="512"></img>
 </p>
 
 <p align="center">
