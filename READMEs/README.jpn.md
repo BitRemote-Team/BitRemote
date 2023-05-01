@@ -24,7 +24,8 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## 対応ダウンローダー
 - qBittorrent
 - Transmission
-- [開発中] Synology / QNAP Download Station
+- Synology Download Station
+- [開発中] QNAP Download Station
 
 ## 必要システム構成
 デバイスのシステムが iOS・iPadOS 16.0、macOS 13.0 以上であることが必要です。

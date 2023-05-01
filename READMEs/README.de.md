@@ -24,7 +24,8 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## Supported Downloaders
 - qBittorrent
 - Transmission
-- [WIP] Synology / QNAP Download Station
+- Synology Download Station
+- [WIP] QNAP Download Station
 
 ## Systemanforderungen
 Diese App erfordert iOS / iPadOS 16.0, macOS 13.0 oder neuer.
