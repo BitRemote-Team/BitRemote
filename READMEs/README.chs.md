@@ -24,7 +24,8 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## 支持的下载器
 - qBittorrent
 - Transmission
-- [开发中] Synology / QNAP Download Station
+- Synology Download Station
+- [开发中] QNAP Download Station
 
 ## 系统要求
 请确保你的设备系统为 iOS / iPadOS 16.0、macOS 13.0 或以上。
