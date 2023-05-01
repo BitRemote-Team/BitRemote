@@ -30,6 +30,9 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## System Requirements
 This app requires iOS / iPadOS 16.0, macOS 13.0 or later.
 
+## Public Beta
+[TestFlight](https://testflight.apple.com/join/yOuPRI3A)
+
 ## Questions & Feedback
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EMGZVap4)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
