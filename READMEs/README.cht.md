@@ -17,11 +17,11 @@
 </p>
 
 ## 📢 徵集翻譯 📢
-如果你想幫助翻譯這個應用程式，請提交一個 Pull Request。
+如果您願意協助翻譯這個應用程式，請不吝提交 Pull Request。
 
 GitHub Readme: [README.{lang}.md](/READMEs)
 
-## 支援的下載器
+## 支援的下載軟體
 - qBittorrent
 - Transmission
 - Synology Download Station
