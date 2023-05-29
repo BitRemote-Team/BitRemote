@@ -1,0 +1,173 @@
+/*
+  Localizable.strings
+  Localizable
+
+  Created by 荒木辰造 on R 4/06/20.
+
+*/
+
+// MARK: AboutView
+"about_view.section.title.acknowledgements" = "謝辞";
+
+// MARK: AlertView
+"loading_view.title.loading" = "読み込み中...";
+"loading_view.title.preparing_database" = "データベース準備中...";
+"error_view.button.retry" = "リトライ";
+"error_view.button.drop_database" = "データベースを削除";
+"error_view.title.try_later" = "しばらくしてからもう一度お試しください";
+"error_view.title.network" = "ネットワーク障害が発生しました";
+"error_view.title.unknown" = "不明なエラーが発生しました";
+"error_view.title.not_found" = "ここには何もないようです";
+"error_view.title.internal_error.missingAPI" = "API は現在利用できません。";
+"error_view.title.internal_error.missing_parameters" = "API 呼び出しに必要な引数が見つかりません。";
+"error_view.title.API_error.authorization_failed" = "API 呼び出しの認証に失敗しました。";
+"error_view.title.API_error.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
+"error_view.title.database_corrupted" = "データベースが破損しています。\nGitHub で Issue を作成していただくようお願いいたします。";
+
+// MARK: AppMenu
+"app_menu.title.about_app" = "%@ について";
+
+// MARK: Category
+"category.display_name.all" = "すべて";
+"category.display_name.none" = "カテゴリなし";
+"category.display_name.custom" = "カスタム";
+
+// MARK: Common
+"common.title.done" = "完了";
+"common.title.select" = "選択";
+"common.title.cancel" = "キャンセル";
+"common.title.website" = "ウェブサイト";
+"common.title.version" = "バージョン %@ (%@)";
+
+// MARK: Dialog
+"dialog.title.drop_database" = "本アプリでのすべてのデータを失うことになります。\n本当にデータベースを削除してもよろしいですか？";
+"dialog.button.drop_database" = "データベースを削除";
+"dialog.title.delete_client" = "\"%@\" を削除してもよろしいですか？";
+"dialog.button.delete_client" = "クライアントを削除";
+"dialog.title.delete_tasks" = "選択された %d 個のタスクを削除してもよろしいですか？";
+"dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
+"dialog.button.delete_tasks" = "タスクを削除";
+
+// MARK: EditClientView
+"edit_client_view.title" = "新規クライアント";
+"edit_client_view.title.type" = "種類";
+"edit_client_view.title.name" = "名前";
+"edit_client_view.title.host" = "ホスト";
+"edit_client_view.title.username" = "ユーザ名";
+"edit_client_view.title.password" = "パスワード";
+"edit_client_view.button.done" = "完了";
+"edit_client_view.button.cancel" = "キャンセル";
+"edit_client_view.section.description.http_not_secure_message" = "HTTP は、データを安全に伝送する方法ではありません。お客様の情報の安全性を確保し、プライバシーを保護するために、HTTPS を使用することを強くお勧めします。";
+
+// MARK: FiltersView
+"filters_view.title.filters" = "フィルター";
+"filters_view.section_title.status" = "状態";
+"filters_view.section_title.category" = "カテゴリ";
+"filters_view.section_title.tag" = "タグ";
+
+// MARK: MenuBarExtra
+"menu_bar_extra.button.show_app" = "BitRemote を開く";
+"menu_bar_extra.button.quit" = "終了";
+
+// MARK: NewTaskView
+"new_task_view.title" = "新規タスク";
+"new_task_view.title.api_available" = "%@ から利用可能";
+"new_task_view.title.api_unavailable" = "%@ から利用不可";
+"new_task_view.title.relevant_torrents" = "該当するトレント:";
+"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.processing_requests" = "リクエスト処理中... (%@/%@)";
+"new_task_view.model.torrent_format.link" = "リンク";
+"new_task_view.model.torrent_format.file" = "ファイル";
+"new_task_view.model.qBittorrent.torrent_stop_condition.none" = "なし";
+"new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "メタデータを受信後";
+"new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "ファイルのチェック後";
+"new_task_view.model.qBittorrent.torrent_content_layout.original" = "オリジナル";
+"new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "サブフォルダを作成する";
+"new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "サブフォルダを作成しない";
+"new_task_view.qBittorrent_form.section.title.torrents" = "トレント";
+"new_task_view.qBittorrent_form.section.title.options" = "オプション";
+"new_task_view.qBittorrent_form.title.autoTMM" = "自動トレント管理";
+"new_task_view.qBittorrent_form.title.savepath" = "ファイルの保存場所";
+"new_task_view.qBittorrent_form.prompt.savepath" = "/ダウンロード";
+"new_task_view.qBittorrent_form.title.cookie" = "クッキー";
+"new_task_view.qBittorrent_form.prompt.cookie" = "キー1=値1; キー2=値2";
+"new_task_view.qBittorrent_form.title.rename" = "トレント名の変更";
+"new_task_view.qBittorrent_form.prompt.rename" = "新しいトレント名";
+"new_task_view.qBittorrent_form.title.tags" = "タグ";
+"new_task_view.qBittorrent_form.prompt.tags" = "タグ1, タグ2";
+"new_task_view.qBittorrent_form.title.paused" = "一時停止中として追加";
+"new_task_view.qBittorrent_form.title.stop_condition" = "停止条件";
+"new_task_view.qBittorrent_form.title.skipChecking" = "ハッシュチェックを省略";
+"new_task_view.qBittorrent_form.title.content_layout" = "コンテンツのレイアウト";
+"new_task_view.qBittorrent_form.title.rootFolder" = "ルートフォルダの作成";
+"new_task_view.qBittorrent_form.title.sequentialDownload" = "読み取り順にダウンロード";
+"new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "先頭と最後のピースを先にダウンロード";
+"new_task_view.qBittorrent_form.title.upLimit" = "上り速度制限 (KB/s)";
+"new_task_view.qBittorrent_form.prompt.upLimit" = "0";
+"new_task_view.qBittorrent_form.title.dlLimit" = "下り速度制限 (KB/s)";
+"new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
+"new_task_view.qBittorrent_form.title.ratioLimit" = "共有比上限";
+"new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
+"new_task_view.qBittorrent_form.title.seedingTimeLimit" = "シード時間制限 (分)";
+"new_task_view.qBittorrent_form.prompt.seedingTimeLimit" = "0";
+"new_task_view.torrent_picker.button.select_files" = "ファイルを選択";
+"new_task_view.torrent_picker.button.reselect_files" = "ファイルを再選択";
+"new_task_view.category_picker.title.category" = "カテゴリ";
+"new_task_view.category_picker.title.custom_category" = "カスタムカテゴリ";
+"new_task_view.category_picker.prompt.custom_category" = "カテゴリ1";
+
+// MARK: PagePicker
+"page_picker.title.page" = "ページ (%d / %d)";
+"page_picker.title.upper_bound" = "/ %d";
+
+// MARK: Placeholder
+"placeholder.no_client_selected" = "クライアント未選択";
+"placeholder.no_clients_found" = "クライアントが見つかりません";
+"placeholder.no_tasks_found" = "タスクが見つかりません";
+
+// MARK: Sidebar
+"sidebar.button.edit_client.new" = "新規クライアント";
+"sidebar.button.edit_client.edit" = "編集";
+"sidebar.button.delete_client" = "削除";
+
+// MARK: SortKeysPicker
+"sort_keys_picker.title.sort_keys" = "ソートキー";
+
+// MARK: Status
+"task.status.name.all" = "すべて";
+"task.status.name.none" = "なし";
+"task.status.name.downloading" = "ダウンロード中";
+"task.status.name.uploading" = "アップロード中";
+"task.status.name.checking" = "チェック中";
+"task.status.name.moving" = "移動中";
+"task.status.name.completed" = "完了済み";
+"task.status.name.paused" = "一時停止中";
+"task.status.name.stalled" = "停滞中";
+"task.status.name.error" = "エラー";
+"task.status.name.unknown" = "不明";
+
+// MARK: SummaryTableColumn
+"summary_table_column.title.uploadedSize" = "UP %@";
+"summary_table_column.title.downloadedSize" = "DL %@";
+"summary_table_column.title.ratio" = "共有比 %@";
+
+// MARK: Tag
+"tag.display_name.all" = "すべて";
+"tag.display_name.none" = "タグなし";
+
+// MARK: TaskSortPicker
+"task_sort_picker.title.sort" = "ソート";
+
+// MARK: TasksView
+"tasks_view.button.resume" = "再開";
+"tasks_view.button.pause" = "停止";
+"tasks_view.button.delete" = "削除";
+"tasks_view.table_column_title.name" = "名前";
+"tasks_view.table_column_title.size" = "サイズ";
+"tasks_view.table_column_title.progress" = "進捗";
+"tasks_view.table_column_title.status" = "状態";
+"tasks_view.table_column_title.downloadSpeed" = "下り速度";
+"tasks_view.table_column_title.uploadSpeed" = "上り速度";
+"tasks_view.table_column_title.eta" = "残り時間";
+"tasks_view.table_column_title.seeds" = "シード";
+"tasks_view.table_column_title.leechs" = "リーチ";

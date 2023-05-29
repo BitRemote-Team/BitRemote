@@ -1,0 +1,49 @@
+/* 
+  Constants.strings
+  Localizable
+
+  Created by 荒木辰造 on R 5/05/07.
+  
+*/
+
+"null" = "(null)";
+
+"presentation_mode_mark" = "*****";
+
+"prompt.client_host.default" = "https://domain:port";
+"prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
+
+// MARK: App
+"app.name" = "BitRemote";
+"app.website" = "https://bitremote.app";
+"app.copyright" = "Copyright © 2023 荒木辰造. All rights reserved.";
+
+// Contact
+"app.contact.link.website" = "https://bitremote.app";
+"app.contact.link.git_hub" = "https://github.com/tatsuz0u/BitRemote";
+"app.contact.link.discord" = "https://discord.gg/x5TP2z6cFj";
+"app.contact.link.telegram" = "https://t.me/bitremote";
+"app.contact.text.git_hub" = "GitHub";
+"app.contact.text.discord" = "Discord";
+"app.contact.text.telegram" = "Telegram";
+
+"app.acknowledgement.link.swift_gen" = "https://github.com/SwiftGen/SwiftGen";
+"app.acknowledgement.link.alamofire" = "https://github.com/Alamofire/Alamofire";
+"app.acknowledgement.link.swifty_beaver" = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+"app.acknowledgement.link.sf_safe_symbols" = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+"app.acknowledgement.link.snapshot_testing" = "https://github.com/pointfreeco/swift-snapshot-testing";
+"app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation"; "https://github.com/EhTagTranslation/Database";
+"app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
+
+// Acknowledgements texts
+"app.acknowledgement.text.swift_gen" = "SwiftGen";
+"app.acknowledgement.text.alamofire" = "Alamofire";
+"app.acknowledgement.text.swifty_beaver" = "SwiftyBeaver";
+"app.acknowledgement.text.sf_safe_symbols" = "SFSafeSymbols";
+"app.acknowledgement.text.snapshot_testing" = "SnapshotTesting";
+"app.acknowledgement.text.swiftUI_navigation" = "SwiftUI Navigation";
+"app.acknowledgement.text.tca" = "The Composable Architecture";
+
+// MARK: API Availability
+"API_availability.qBittorrent.content_layout" = "v4.3.2";
+"API_availability.qBittorrent.stop_condition" = "v4.5.0";

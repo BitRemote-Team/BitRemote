@@ -1,0 +1,173 @@
+/*
+  Localizable.strings
+  Localizable
+
+  Created by 荒木辰造 on R 4/06/20.
+
+*/
+
+// MARK: AboutView
+"about_view.section.title.acknowledgements" = "致謝";
+
+// MARK: AlertView
+"loading_view.title.loading" = "載入中...";
+"loading_view.title.preparing_database" = "正在準備資料庫...";
+"error_view.button.retry" = "重試";
+"error_view.button.drop_database" = "丟棄資料庫";
+"error_view.title.try_later" = "請稍後再試";
+"error_view.title.network" = "網路發生故障";
+"error_view.title.unknown" = "發生不明錯誤";
+"error_view.title.not_found" = "這邊看起來空空如也";
+"error_view.title.internal_error.missingAPI" = "所呼叫的 API 不可用。";
+"error_view.title.internal_error.missing_parameters" = "無法找到呼叫 API 所需的參數。";
+"error_view.title.API_error.authorization_failed" = "API 呼叫因驗證問題失敗。";
+"error_view.title.API_error.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
+"error_view.title.database_corrupted" = "數據庫已經損壞。\n請提交 issue 至 GitHub。";
+
+// MARK: AppMenu
+"app_menu.title.about_app" = "關於 %@";
+
+// MARK: Category
+"category.display_name.all" = "全部";
+"category.display_name.none" = "未分類";
+"category.display_name.custom" = "自訂";
+
+// MARK: Common
+"common.title.done" = "完成";
+"common.title.select" = "選擇";
+"common.title.cancel" = "取消";
+"common.title.website" = "官方網站";
+"common.title.version" = "版本 %@ (%@)";
+
+// MARK: Dialog
+"dialog.title.drop_database" = "繼續此操作將會清除 APP 中的所有資料。\n確定要刪除資料庫？";
+"dialog.button.drop_database" = "刪除資料庫";
+"dialog.title.delete_client" = "你確定要刪除 \"%@\" 嗎？";
+"dialog.button.delete_client" = "刪除客戶端";
+"dialog.title.delete_tasks" = "你確定要刪除選中的 %d 個任務嗎？";
+"dialog.button.delete_tasks_and_files" = "刪除任務和檔案";
+"dialog.button.delete_tasks" = "刪除任務";
+
+// MARK: EditClientView
+"edit_client_view.title" = "新增用戶端";
+"edit_client_view.title.type" = "類型";
+"edit_client_view.title.name" = "名稱";
+"edit_client_view.title.host" = "主機";
+"edit_client_view.title.username" = "使用者名稱";
+"edit_client_view.title.password" = "密碼";
+"edit_client_view.button.done" = "完成";
+"edit_client_view.button.cancel" = "取消";
+"edit_client_view.section.description.http_not_secure_message" = "請注意，HTTP 並不是一種安全的資料傳輸方式。為確保您個資和隱私的安全，我們強烈建議您使用 HTTPS。";
+
+// MARK: FiltersView
+"filters_view.title.filters" = "篩選";
+"filters_view.section_title.status" = "狀態";
+"filters_view.section_title.category" = "分類";
+"filters_view.section_title.tag" = "標籤";
+
+// MARK: MenuBarExtra
+"menu_bar_extra.button.show_app" = "開啟 BitRemote";
+"menu_bar_extra.button.quit" = "退出";
+
+// MARK: NewTaskView
+"new_task_view.title" = "新增任務";
+"new_task_view.title.api_available" = "自 %@ 起可使用";
+"new_task_view.title.api_unavailable" = "自 %@ 起不可用";
+"new_task_view.title.relevant_torrents" = "相關種子:";
+"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.processing_requests" = "正在處理請求... (%@/%@)";
+"new_task_view.model.torrent_format.link" = "連結";
+"new_task_view.model.torrent_format.file" = "檔案";
+"new_task_view.model.qBittorrent.torrent_stop_condition.none" = "無";
+"new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "已接收詮釋資料";
+"new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "已檢查檔案";
+"new_task_view.model.qBittorrent.torrent_content_layout.original" = "原始";
+"new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "建立子資料夾";
+"new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "不建立子資料夾";
+"new_task_view.qBittorrent_form.section.title.torrents" = "種子";
+"new_task_view.qBittorrent_form.section.title.options" = "選項";
+"new_task_view.qBittorrent_form.title.autoTMM" = "種子自動管理";
+"new_task_view.qBittorrent_form.title.savepath" = "檔案儲存位置";
+"new_task_view.qBittorrent_form.prompt.savepath" = "/下載";
+"new_task_view.qBittorrent_form.title.cookie" = "Cookie";
+"new_task_view.qBittorrent_form.prompt.cookie" = "鍵1=值1; 鍵2=值2";
+"new_task_view.qBittorrent_form.title.rename" = "重新命名種子";
+"new_task_view.qBittorrent_form.prompt.rename" = "新的種子名稱";
+"new_task_view.qBittorrent_form.title.tags" = "標籤";
+"new_task_view.qBittorrent_form.prompt.tags" = "標籤1, 標籤2";
+"new_task_view.qBittorrent_form.title.paused" = "以暫停狀態新增";
+"new_task_view.qBittorrent_form.title.stop_condition" = "停止條件";
+"new_task_view.qBittorrent_form.title.skipChecking" = "跳過雜湊值檢查";
+"new_task_view.qBittorrent_form.title.content_layout" = "內容佈局";
+"new_task_view.qBittorrent_form.title.rootFolder" = "建立根目錄";
+"new_task_view.qBittorrent_form.title.sequentialDownload" = "依順序下載";
+"new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "優先下載首尾檔案塊";
+"new_task_view.qBittorrent_form.title.upLimit" = "限制上傳速率（KB/s）";
+"new_task_view.qBittorrent_form.prompt.upLimit" = "0";
+"new_task_view.qBittorrent_form.title.dlLimit" = "限制下載速率（KB/s）";
+"new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
+"new_task_view.qBittorrent_form.title.ratioLimit" = "分享率上限";
+"new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
+"new_task_view.qBittorrent_form.title.seedingTimeLimit" = "限制做種時間（分鐘）";
+"new_task_view.qBittorrent_form.prompt.seedingTimeLimit" = "0";
+"new_task_view.torrent_picker.button.select_files" = "選擇檔案";
+"new_task_view.torrent_picker.button.reselect_files" = "重新選擇檔案";
+"new_task_view.category_picker.title.category" = "分類";
+"new_task_view.category_picker.title.custom_category" = "自訂分類";
+"new_task_view.category_picker.prompt.custom_category" = "分類1";
+
+// MARK: PagePicker
+"page_picker.title.page" = "頁碼（%d / %d）";
+"page_picker.title.upper_bound" = "/ %d";
+
+// MARK: Placeholder
+"placeholder.no_client_selected" = "未選擇用戶端";
+"placeholder.no_clients_found" = "未找到用戶端";
+"placeholder.no_tasks_found" = "未找到任務";
+
+// MARK: Sidebar
+"sidebar.button.edit_client.new" = "新增用戶端";
+"sidebar.button.edit_client.edit" = "編輯";
+"sidebar.button.delete_client" = "刪除";
+
+// MARK: SortKeysPicker
+"sort_keys_picker.title.sort_keys" = "排序鍵值";
+
+// MARK: Status
+"task.status.name.all" = "全部";
+"task.status.name.none" = "無";
+"task.status.name.downloading" = "下載中";
+"task.status.name.uploading" = "上傳中";
+"task.status.name.checking" = "檢查中";
+"task.status.name.moving" = "移動中";
+"task.status.name.completed" = "已完成";
+"task.status.name.paused" = "已暫停";
+"task.status.name.stalled" = "停滯中";
+"task.status.name.error" = "錯誤";
+"task.status.name.unknown" = "未知";
+
+// MARK: SummaryTableColumn
+"summary_table_column.title.uploadedSize" = "已上傳 %@";
+"summary_table_column.title.downloadedSize" = "已下載 %@";
+"summary_table_column.title.ratio" = "分享率 %@";
+
+// MARK: Tag
+"tag.display_name.all" = "全部";
+"tag.display_name.none" = "無標籤";
+
+// MARK: TaskSortPicker
+"task_sort_picker.title.sort" = "排序";
+
+// MARK: TasksView
+"tasks_view.button.resume" = "繼續";
+"tasks_view.button.pause" = "暫停";
+"tasks_view.button.delete" = "刪除";
+"tasks_view.table_column_title.name" = "名稱";
+"tasks_view.table_column_title.size" = "大小";
+"tasks_view.table_column_title.progress" = "進度";
+"tasks_view.table_column_title.status" = "狀態";
+"tasks_view.table_column_title.downloadSpeed" = "下載速度";
+"tasks_view.table_column_title.uploadSpeed" = "上傳速度";
+"tasks_view.table_column_title.eta" = "預計剩餘時間";
+"tasks_view.table_column_title.seeds" = "種子";
+"tasks_view.table_column_title.leechs" = "用戶";
