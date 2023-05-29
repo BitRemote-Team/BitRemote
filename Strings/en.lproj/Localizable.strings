@@ -1,0 +1,173 @@
+/*
+  Localizable.strings
+  Localizable
+
+  Created by 荒木辰造 on R 4/06/20.
+
+*/
+
+// MARK: AboutView
+"about_view.section.title.acknowledgements" = "Acknowledgements";
+
+// MARK: AlertView
+"loading_view.title.loading" = "Loading...";
+"loading_view.title.preparing_database" = "Preparing the database...";
+"error_view.button.retry" = "Retry";
+"error_view.button.drop_database" = "Drop the database";
+"error_view.title.try_later" = "Please try again later.";
+"error_view.title.network" = "A network error occurred.";
+"error_view.title.unknown" = "An unknown error occurred.";
+"error_view.title.not_found" = "There seems to be nothing here.";
+"error_view.title.internal_error.missingAPI" = "The API is currently unavailable.";
+"error_view.title.internal_error.missing_parameters" = "Missing required parameters on API call.";
+"error_view.title.API_error.authorization_failed" = "The API call failed due to authorization issues.";
+"error_view.title.API_error.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
+"error_view.title.database_corrupted" = "The database is corrupted.\nPlease submit an issue on GitHub.";
+
+// MARK: AppMenu
+"app_menu.title.about_app" = "About %@";
+
+// MARK: Category
+"category.display_name.all" = "All";
+"category.display_name.none" = "None";
+"category.display_name.custom" = "Custom";
+
+// MARK: Common
+"common.title.done" = "Done";
+"common.title.select" = "Select";
+"common.title.cancel" = "Cancel";
+"common.title.website" = "Website";
+"common.title.version" = "Version %@ (%@)";
+
+// MARK: Dialog
+"dialog.title.drop_database" = "You will lose all your data in this app.\nAre you sure to drop the database?";
+"dialog.button.drop_database" = "Drop the database";
+"dialog.title.delete_client" = "Are you sure you want to delete \"%@\"?";
+"dialog.button.delete_client" = "Delete client";
+"dialog.title.delete_tasks" = "Are you sure you want to delete the selected %d tasks?";
+"dialog.button.delete_tasks_and_files" = "Delete tasks and files";
+"dialog.button.delete_tasks" = "Delete tasks";
+
+// MARK: EditClientView
+"edit_client_view.title" = "New Client";
+"edit_client_view.title.type" = "Type";
+"edit_client_view.title.name" = "Name";
+"edit_client_view.title.host" = "Host";
+"edit_client_view.title.username" = "Username";
+"edit_client_view.title.password" = "Password";
+"edit_client_view.button.done" = "Done";
+"edit_client_view.button.cancel" = "Cancel";
+"edit_client_view.section.description.http_not_secure_message" = "Please be aware that using HTTP is not a secure way to transmit data. It's highly recommended to use HTTPS to ensure the safety of your information and protect your privacy.";
+
+// MARK: FiltersView
+"filters_view.title.filters" = "Filters";
+"filters_view.section_title.status" = "Status";
+"filters_view.section_title.category" = "Category";
+"filters_view.section_title.tag" = "Tag";
+
+// MARK: MenuBarExtra
+"menu_bar_extra.button.show_app" = "Show BitRemote";
+"menu_bar_extra.button.quit" = "Quit";
+
+// MARK: NewTaskView
+"new_task_view.title" = "New Task";
+"new_task_view.title.api_available" = "Available from %@";
+"new_task_view.title.api_unavailable" = "Unavailable from %@";
+"new_task_view.title.relevant_torrents" = "Relevant torrent(s):";
+"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.processing_requests" = "Processing requests... (%@/%@)";
+"new_task_view.model.torrent_format.link" = "Link";
+"new_task_view.model.torrent_format.file" = "File";
+"new_task_view.model.qBittorrent.torrent_stop_condition.none" = "None";
+"new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "Metadata received";
+"new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "Files checked";
+"new_task_view.model.qBittorrent.torrent_content_layout.original" = "Original";
+"new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "Creates subfolder";
+"new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "Don't create subfolder";
+"new_task_view.qBittorrent_form.section.title.torrents" = "Torrents";
+"new_task_view.qBittorrent_form.section.title.options" = "Options";
+"new_task_view.qBittorrent_form.title.autoTMM" = "Automatic torrent management";
+"new_task_view.qBittorrent_form.title.savepath" = "Download folder";
+"new_task_view.qBittorrent_form.prompt.savepath" = "/download";
+"new_task_view.qBittorrent_form.title.cookie" = "Cookie";
+"new_task_view.qBittorrent_form.prompt.cookie" = "key1=value1; key2=value2";
+"new_task_view.qBittorrent_form.title.rename" = "Rename torrent";
+"new_task_view.qBittorrent_form.prompt.rename" = "New torrent name";
+"new_task_view.qBittorrent_form.title.tags" = "Tags";
+"new_task_view.qBittorrent_form.prompt.tags" = "Tag1, Tag2";
+"new_task_view.qBittorrent_form.title.paused" = "Adds as paused";
+"new_task_view.qBittorrent_form.title.stop_condition" = "Stop condition";
+"new_task_view.qBittorrent_form.title.skipChecking" = "Skips hash checking";
+"new_task_view.qBittorrent_form.title.content_layout" = "Content layout";
+"new_task_view.qBittorrent_form.title.rootFolder" = "Creates root folder";
+"new_task_view.qBittorrent_form.title.sequentialDownload" = "Enables sequential download";
+"new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "Prioritizes download first last piece";
+"new_task_view.qBittorrent_form.title.upLimit" = "Upload rate limit (KB/s)";
+"new_task_view.qBittorrent_form.prompt.upLimit" = "0";
+"new_task_view.qBittorrent_form.title.dlLimit" = "Download rate limit (KB/s)";
+"new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
+"new_task_view.qBittorrent_form.title.ratioLimit" = "Share ratio limit";
+"new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
+"new_task_view.qBittorrent_form.title.seedingTimeLimit" = "Seeding time limit (mins)";
+"new_task_view.qBittorrent_form.prompt.seedingTimeLimit" = "0";
+"new_task_view.torrent_picker.button.select_files" = "Select files";
+"new_task_view.torrent_picker.button.reselect_files" = "Reselect files";
+"new_task_view.category_picker.title.category" = "Category";
+"new_task_view.category_picker.title.custom_category" = "Custom category";
+"new_task_view.category_picker.prompt.custom_category" = "Category1";
+
+// MARK: PagePicker
+"page_picker.title.page" = "Page (%d / %d)";
+"page_picker.title.upper_bound" = "/ %d";
+
+// MARK: Placeholder
+"placeholder.no_client_selected" = "No client selected.";
+"placeholder.no_clients_found" = "No clients found.";
+"placeholder.no_tasks_found" = "No tasks found.";
+
+// MARK: Sidebar
+"sidebar.button.edit_client.new" = "New Client";
+"sidebar.button.edit_client.edit" = "Edit";
+"sidebar.button.delete_client" = "Delete";
+
+// MARK: SortKeysPicker
+"sort_keys_picker.title.sort_keys" = "Sort keys";
+
+// MARK: Status
+"task.status.name.all" = "All";
+"task.status.name.none" = "None";
+"task.status.name.downloading" = "Downloading";
+"task.status.name.uploading" = "Uploading";
+"task.status.name.checking" = "Checking";
+"task.status.name.moving" = "Moving";
+"task.status.name.completed" = "Completed";
+"task.status.name.paused" = "Paused";
+"task.status.name.stalled" = "Stalled";
+"task.status.name.error" = "Error";
+"task.status.name.unknown" = "Unknown";
+
+// MARK: SummaryTableColumn
+"summary_table_column.title.uploadedSize" = "UP %@";
+"summary_table_column.title.downloadedSize" = "DL %@";
+"summary_table_column.title.ratio" = "Ratio %@";
+
+// MARK: Tag
+"tag.display_name.all" = "All";
+"tag.display_name.none" = "None";
+
+// MARK: TaskSortPicker
+"task_sort_picker.title.sort" = "Sort";
+
+// MARK: TasksView
+"tasks_view.button.resume" = "Resume";
+"tasks_view.button.pause" = "Pause";
+"tasks_view.button.delete" = "Delete";
+"tasks_view.table_column_title.name" = "Name";
+"tasks_view.table_column_title.size" = "Size";
+"tasks_view.table_column_title.progress" = "Progress";
+"tasks_view.table_column_title.status" = "Status";
+"tasks_view.table_column_title.downloadSpeed" = "DL Speed";
+"tasks_view.table_column_title.uploadSpeed" = "UP Speed";
+"tasks_view.table_column_title.eta" = "ETA";
+"tasks_view.table_column_title.seeds" = "Seeds";
+"tasks_view.table_column_title.leechs" = "Leechs";
