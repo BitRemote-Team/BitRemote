@@ -1,0 +1,29 @@
+name: Sync Files
+on:
+  push:
+    branches:
+      - main  
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[skip sync]') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Generate GitHub App installation token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          repository: tatsuz0u/BitRemoteDev
+          app_id: ${{ secrets.AUTHORIZATION_APP_ID }}
+          private_key: ${{ secrets.AUTHORIZATION_APP_PRIVATE_KEY }}
+      - name: Run GitHub File Sync
+        uses: BetaHuhn/repo-file-sync-action@v1
+        with:
+          COMMIT_PREFIX: ''
+          REVIEWERS: 'tatsuz0u'
+          GIT_USERNAME: 'たつぞう'
+          COMMIT_EACH_FILE: false
+          GIT_EMAIL: 'kendellcarol@gmail.com'
+          CONFIG_PATH: '.github/repo_file_sync_action_config.yml'
+          GH_INSTALLATION_TOKEN: ${{ steps.generate_token.outputs.token }}

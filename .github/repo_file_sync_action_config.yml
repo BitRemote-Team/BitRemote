@@ -1,0 +1,5 @@
+tatsuz0u/BitRemoteDev:
+  - source: READMEs/
+    dest: READMEs/
+    deleteOrphaned: true
+  - README.md
