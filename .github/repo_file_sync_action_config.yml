@@ -1,5 +1,8 @@
 tatsuz0u/BitRemoteDev:
+  - README.md
   - source: READMEs/
     dest: READMEs/
     deleteOrphaned: true
-  - README.md
+  - source: Strings/
+    dest: BitRemotePackage/Sources/Resourses/Strings/
+    deleteOrphaned: true

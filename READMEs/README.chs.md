@@ -19,6 +19,8 @@
 ## 📢 募集翻译 📢
 如果你想帮助翻译这个应用程序，请提交一个 Pull Request。
 
+App Strings: [{lang}.lproj](/Strings)
+
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 支持的下载器

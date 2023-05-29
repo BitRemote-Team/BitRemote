@@ -19,6 +19,8 @@
 ## 📢 Translations Wanted 📢
 Please submit a pull request if you want to help with translation.
 
+App Strings: [{lang}.lproj](/Strings)
+
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## Supported Downloaders

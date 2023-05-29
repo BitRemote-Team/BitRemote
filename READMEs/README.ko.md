@@ -19,6 +19,8 @@
 ## 📢 번역 수요 📢
 번역을 돕고 싶으면 Pull Request를 제출해주세요.
 
+App Strings: [{lang}.lproj](/Strings)
+
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## Supported Downloaders
