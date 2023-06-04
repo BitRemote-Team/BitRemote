@@ -32,10 +32,7 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## 系统要求
 请确保你的设备系统为 iOS / iPadOS 16.0、macOS 13.0 或以上。
 
-## 公开测试
-[TestFlight](https://testflight.apple.com/join/yOuPRI3A)
-
-## 提问、反馈
+## 提问、反馈和 TestFlight
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EMGZVap4)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
