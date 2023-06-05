@@ -80,6 +80,8 @@
 "new_task_view.model.torrent_format.file" = "文件";
 "new_task_view.section.title.torrents" = "种子";
 "new_task_view.section.title.options" = "选项";
+"new_task_view.section.title.default_savepath" = "默认保存位置: %@";
+"new_task_view.section.title.default_savepath_placeholder" = "(读取中...)";
 "new_task_view.title.savepath" = "文件保存位置";
 "new_task_view.prompt.savepath" = "/下载";
 "new_task_view.title.cookies" = "Cookies";
