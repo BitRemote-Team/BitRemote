@@ -78,6 +78,8 @@
 "new_task_view.title.processing_requests" = "Processing requests... (%@/%@)";
 "new_task_view.section.title.torrents" = "Torrents";
 "new_task_view.section.title.options" = "Options";
+"new_task_view.section.title.default_savepath" = "Default download folder: %@";
+"new_task_view.section.title.default_savepath_placeholder" = "(loading...)";
 "new_task_view.title.savepath" = "Download folder";
 "new_task_view.prompt.savepath" = "/download";
 "new_task_view.title.cookies" = "Cookies";

@@ -80,6 +80,8 @@
 "new_task_view.model.torrent_format.file" = "檔案";
 "new_task_view.section.title.torrents" = "種子";
 "new_task_view.section.title.options" = "選項";
+"new_task_view.section.title.default_savepath" = "預設儲存位置: %@";
+"new_task_view.section.title.default_savepath_placeholder" = "(載入中...)";
 "new_task_view.title.savepath" = "檔案儲存位置";
 "new_task_view.prompt.savepath" = "/下載";
 "new_task_view.title.cookies" = "Cookies";

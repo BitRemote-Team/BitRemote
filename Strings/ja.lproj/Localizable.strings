@@ -80,6 +80,8 @@
 "new_task_view.model.torrent_format.file" = "ファイル";
 "new_task_view.section.title.torrents" = "トレント";
 "new_task_view.section.title.options" = "オプション";
+"new_task_view.section.title.default_savepath" = "既定の保存場所: %@";
+"new_task_view.section.title.default_savepath_placeholder" = "(読み込み中...)";
 "new_task_view.title.savepath" = "ファイルの保存場所";
 "new_task_view.prompt.savepath" = "/ダウンロード";
 "new_task_view.title.cookies" = "クッキー";
