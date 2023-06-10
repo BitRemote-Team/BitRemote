@@ -24,6 +24,6 @@ jobs:
           REVIEWERS: 'tatsuz0u'
           GIT_USERNAME: 'たつぞう'
           COMMIT_EACH_FILE: false
-          GIT_EMAIL: 'kendellcarol@gmail.com'
+          GIT_EMAIL: 'tatsuzoaraki@gmail.com'
           CONFIG_PATH: '.github/repo_file_sync_action_config.yml'
           GH_INSTALLATION_TOKEN: ${{ steps.generate_token.outputs.token }}
