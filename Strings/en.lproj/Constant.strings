@@ -27,6 +27,8 @@
 "app.contact.text.discord" = "Discord";
 "app.contact.text.telegram" = "Telegram";
 
+// Acknowledgements links
+"app.acknowledgement.link.bencode" = "https://github.com/danieltmbr/Bencode";
 "app.acknowledgement.link.swift_gen" = "https://github.com/SwiftGen/SwiftGen";
 "app.acknowledgement.link.alamofire" = "https://github.com/Alamofire/Alamofire";
 "app.acknowledgement.link.swifty_beaver" = "https://github.com/SwiftyBeaver/SwiftyBeaver";
@@ -36,6 +38,7 @@
 "app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
 
 // Acknowledgements texts
+"app.acknowledgement.text.bencode" = "Bencode";
 "app.acknowledgement.text.swift_gen" = "SwiftGen";
 "app.acknowledgement.text.alamofire" = "Alamofire";
 "app.acknowledgement.text.swifty_beaver" = "SwiftyBeaver";
