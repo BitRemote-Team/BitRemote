@@ -20,8 +20,10 @@
 "error_view.title.not_found" = "这里似乎什么也没有";
 "error_view.title.internal_error.missingAPI" = "所调用的 API 不可用。";
 "error_view.title.internal_error.missing_parameters" = "无法找到调用 API 所需的参数。";
-"error_view.title.API_error.authorization_failed" = "API 调用因鉴权问题失败。";
+"error_view.title.API_error.authentication_failed" = "API 调用因鉴权问题失败。";
+"error_view.title.API_error.login_two_factor_authentication_failed" = "因在双重认证过程中发生问题，登录失败。";
 "error_view.title.API_error.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
+"error_view.title.API_error.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
 "error_view.title.database_corrupted" = "数据库已损毁。\n请到 GitHub 提起 Issue 反馈。";
 
 // MARK: AppMenu
@@ -37,6 +39,9 @@
 "common.title.select" = "选择";
 "common.title.cancel" = "取消";
 "common.title.website" = "官方网站";
+"common.title.username" = "用户名";
+"common.title.password" = "密码";
+"common.title.optional" = "选填";
 "common.title.version" = "版本 %@ (%@)";
 
 // MARK: Dialog
@@ -47,16 +52,17 @@
 "dialog.title.delete_tasks" = "你确定要删除选中的 %d 个任务吗？";
 "dialog.button.delete_tasks_and_files" = "删除任务和文件";
 "dialog.button.delete_tasks" = "删除任务";
+"dialog.button.enter_one_time_password" = "输入一次性密码";
 
 // MARK: EditClientView
 "edit_client_view.title" = "添加客户端";
 "edit_client_view.title.type" = "类型";
 "edit_client_view.title.name" = "名称";
 "edit_client_view.title.host" = "主机";
-"edit_client_view.title.username" = "用户名";
-"edit_client_view.title.password" = "密码";
+"edit_client_view.title.one_time_password" = "一次性密码";
 "edit_client_view.button.done" = "完成";
 "edit_client_view.button.cancel" = "取消";
+"edit_client_view.section.description.one_time_password" = "某些安全功能例如双重认证，可能要求一次性密码。该字段将在成功登入后自动重置为空。";
 "edit_client_view.section.description.http_not_secure_message" = "请注意，HTTP 并不是一种安全的数据传输方式。为确保您信息和隐私的安全，我们强烈建议您使用 HTTPS。";
 
 // MARK: FiltersView
@@ -80,7 +86,7 @@
 "new_task_view.model.torrent_format.file" = "文件";
 "new_task_view.section.title.torrents" = "种子";
 "new_task_view.section.title.options" = "选项";
-"new_task_view.section.title.default_savepath" = "默认保存位置: %@";
+"new_task_view.section.title.default_savepath" = "如果您不指定保存位置，将自动使用默认位置 **\"%@\"**。";
 "new_task_view.section.title.default_savepath_placeholder" = "(读取中...)";
 "new_task_view.title.savepath" = "文件保存位置";
 "new_task_view.prompt.savepath" = "/下载";
@@ -118,6 +124,10 @@
 "new_task_view.transmission_form.prompt.peer_limit" = "0";
 "new_task_view.transmission_form.title.bandwidth_priority" = "带宽优先度";
 "new_task_view.transmission_form.prompt.bandwidth_priority" = "0";
+"new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 鉴权";
+"new_task_view.synology_download_station_form.prompt.username" = "FTP 用户名";
+"new_task_view.synology_download_station_form.prompt.password" = "FTP 密码";
+"new_task_view.synology_download_station_form.prompt.savepath" = "共享文件夹/下载";
 "new_task_view.torrent_picker.button.select_files" = "选择文件";
 "new_task_view.torrent_picker.button.reselect_files" = "重新选择文件";
 "new_task_view.category_picker.title.category" = "分类";

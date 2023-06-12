@@ -20,8 +20,10 @@
 "error_view.title.not_found" = "There seems to be nothing here.";
 "error_view.title.internal_error.missingAPI" = "The API is currently unavailable.";
 "error_view.title.internal_error.missing_parameters" = "Missing required parameters on API call.";
-"error_view.title.API_error.authorization_failed" = "The API call failed due to authorization issues.";
+"error_view.title.API_error.authentication_failed" = "The API call failed due to authentication issues.";
+"error_view.title.API_error.login_two_factor_authentication_failed" = "The login attempt failed due to two-factor authentication issues.";
 "error_view.title.API_error.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
+"error_view.title.API_error.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
 "error_view.title.database_corrupted" = "The database is corrupted.\nPlease submit an issue on GitHub.";
 
 // MARK: AppMenu
@@ -37,6 +39,9 @@
 "common.title.select" = "Select";
 "common.title.cancel" = "Cancel";
 "common.title.website" = "Website";
+"common.title.username" = "Username";
+"common.title.password" = "Password";
+"common.title.optional" = "Optional";
 "common.title.version" = "Version %@ (%@)";
 
 // MARK: Dialog
@@ -47,16 +52,17 @@
 "dialog.title.delete_tasks" = "Are you sure you want to delete the selected %d tasks?";
 "dialog.button.delete_tasks_and_files" = "Delete tasks and files";
 "dialog.button.delete_tasks" = "Delete tasks";
+"dialog.button.enter_one_time_password" = "Enter one-time password";
 
 // MARK: EditClientView
 "edit_client_view.title" = "New Client";
 "edit_client_view.title.type" = "Type";
 "edit_client_view.title.name" = "Name";
 "edit_client_view.title.host" = "Host";
-"edit_client_view.title.username" = "Username";
-"edit_client_view.title.password" = "Password";
+"edit_client_view.title.one_time_password" = "One-time password";
 "edit_client_view.button.done" = "Done";
 "edit_client_view.button.cancel" = "Cancel";
+"edit_client_view.section.description.one_time_password" = "A one-time password may be utilized as part of some security features, such as two-factor authentication. After a successful login attempt, this field will be automatically reset to empty.";
 "edit_client_view.section.description.http_not_secure_message" = "Please be aware that using HTTP is not a secure way to transmit data. It's highly recommended to use HTTPS to ensure the safety of your information and protect your privacy.";
 
 // MARK: FiltersView
@@ -78,7 +84,7 @@
 "new_task_view.title.processing_requests" = "Processing requests... (%@/%@)";
 "new_task_view.section.title.torrents" = "Torrents";
 "new_task_view.section.title.options" = "Options";
-"new_task_view.section.title.default_savepath" = "Default download folder: %@";
+"new_task_view.section.title.default_savepath" = "If you don't specify a folder, the default download location **\"%@\"** will be used automatically.";
 "new_task_view.section.title.default_savepath_placeholder" = "(loading...)";
 "new_task_view.title.savepath" = "Download folder";
 "new_task_view.prompt.savepath" = "/download";
@@ -118,6 +124,10 @@
 "new_task_view.transmission_form.prompt.peer_limit" = "0";
 "new_task_view.transmission_form.title.bandwidth_priority" = "Bandwidth priority";
 "new_task_view.transmission_form.prompt.bandwidth_priority" = "0";
+"new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP authentication";
+"new_task_view.synology_download_station_form.prompt.username" = "FTP username";
+"new_task_view.synology_download_station_form.prompt.password" = "FTP password";
+"new_task_view.synology_download_station_form.prompt.savepath" = "SharedFolder/Download";
 "new_task_view.torrent_picker.button.select_files" = "Select files";
 "new_task_view.torrent_picker.button.reselect_files" = "Reselect files";
 "new_task_view.category_picker.title.category" = "Category";

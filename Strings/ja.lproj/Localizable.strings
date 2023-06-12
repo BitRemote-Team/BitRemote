@@ -20,8 +20,10 @@
 "error_view.title.not_found" = "ここには何もないようです";
 "error_view.title.internal_error.missingAPI" = "API は現在利用できません。";
 "error_view.title.internal_error.missing_parameters" = "API 呼び出しに必要な引数が見つかりません。";
-"error_view.title.API_error.authorization_failed" = "API 呼び出しの認証に失敗しました。";
+"error_view.title.API_error.authentication_failed" = "API 呼び出しの認証に失敗しました。";
+"error_view.title.API_error.login_two_factor_authentication_failed" = "二要素認証中に問題が発生したため、ログインが失敗しました。";
 "error_view.title.API_error.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
+"error_view.title.API_error.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
 "error_view.title.database_corrupted" = "データベースが破損しています。\nGitHub で Issue を作成していただくようお願いいたします。";
 
 // MARK: AppMenu
@@ -37,6 +39,9 @@
 "common.title.select" = "選択";
 "common.title.cancel" = "キャンセル";
 "common.title.website" = "ウェブサイト";
+"common.title.username" = "ユーザ名";
+"common.title.password" = "パスワード";
+"common.title.optional" = "任意";
 "common.title.version" = "バージョン %@ (%@)";
 
 // MARK: Dialog
@@ -47,16 +52,17 @@
 "dialog.title.delete_tasks" = "選択された %d 個のタスクを削除してもよろしいですか？";
 "dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
 "dialog.button.delete_tasks" = "タスクを削除";
+"dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新規クライアント";
 "edit_client_view.title.type" = "種類";
 "edit_client_view.title.name" = "名前";
 "edit_client_view.title.host" = "ホスト";
-"edit_client_view.title.username" = "ユーザ名";
-"edit_client_view.title.password" = "パスワード";
+"edit_client_view.title.one_time_password" = "ワンタイムパスワード";
 "edit_client_view.button.done" = "完了";
 "edit_client_view.button.cancel" = "キャンセル";
+"edit_client_view.section.description.one_time_password" = "ワンタイムパスワードは、二要素認証などのセキュリティ機能の一部として利用される場合があります。ログインが成功した後、このフィールドは自動的にリセットされます。";
 "edit_client_view.section.description.http_not_secure_message" = "HTTP は、データを安全に伝送する方法ではありません。お客様の情報の安全性を確保し、プライバシーを保護するために、HTTPS を使用することを強くお勧めします。";
 
 // MARK: FiltersView
@@ -80,9 +86,9 @@
 "new_task_view.model.torrent_format.file" = "ファイル";
 "new_task_view.section.title.torrents" = "トレント";
 "new_task_view.section.title.options" = "オプション";
-"new_task_view.section.title.default_savepath" = "既定の保存場所: %@";
+"new_task_view.section.title.default_savepath" = "保存先を指定しない場合、既定値 **\"%@\"** が自動的に使用されます。";
 "new_task_view.section.title.default_savepath_placeholder" = "(読み込み中...)";
-"new_task_view.title.savepath" = "ファイルの保存場所";
+"new_task_view.title.savepath" = "ファイルの保存先";
 "new_task_view.prompt.savepath" = "/ダウンロード";
 "new_task_view.title.cookies" = "クッキー";
 "new_task_view.prompt.cookies" = "キー1=値1; キー2=値2;";
@@ -118,6 +124,10 @@
 "new_task_view.transmission_form.prompt.peer_limit" = "0";
 "new_task_view.transmission_form.title.bandwidth_priority" = "帯域幅の優先順位";
 "new_task_view.transmission_form.prompt.bandwidth_priority" = "0";
+"new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 認証";
+"new_task_view.synology_download_station_form.prompt.username" = "FTP ユーザ名";
+"new_task_view.synology_download_station_form.prompt.password" = "FTP パスワード";
+"new_task_view.synology_download_station_form.prompt.savepath" = "共有フォルダ/ダウンロード";
 "new_task_view.torrent_picker.button.select_files" = "ファイルを選択";
 "new_task_view.torrent_picker.button.reselect_files" = "ファイルを再選択";
 "new_task_view.category_picker.title.category" = "カテゴリ";
