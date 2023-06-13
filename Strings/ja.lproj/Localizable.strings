@@ -150,6 +150,9 @@
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "ソートキー";
+"sort_keys_picker.title.enabled" = "有効";
+"sort_keys_picker.title.disabled" = "無効";
+"sort_keys_picker.button.reset_sort_keys" = "初期状態に戻す";
 
 // MARK: Status
 "task.status.name.all" = "すべて";

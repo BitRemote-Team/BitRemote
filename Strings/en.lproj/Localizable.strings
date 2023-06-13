@@ -150,6 +150,9 @@
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "Sort keys";
+"sort_keys_picker.title.enabled" = "Enabled";
+"sort_keys_picker.title.disabled" = "Disabled";
+"sort_keys_picker.button.reset_sort_keys" = "Reset sort keys";
 
 // MARK: Status
 "task.status.name.all" = "All";

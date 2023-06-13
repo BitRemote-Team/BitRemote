@@ -150,6 +150,9 @@
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "排序鍵值";
+"sort_keys_picker.title.enabled" = "已啟用";
+"sort_keys_picker.title.disabled" = "已禁用";
+"sort_keys_picker.button.reset_sort_keys" = "重置排序鍵值";
 
 // MARK: Status
 "task.status.name.all" = "全部";
