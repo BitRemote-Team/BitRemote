@@ -33,8 +33,9 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 This app requires iOS / iPadOS 16.0, macOS 13.0 or later.
 
 ## Questions, Feedback & TestFlight
+[![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EMGZVap4)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
+[![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## App Icon
 Copyright © 2023 荒木辰造. All rights reserved.
