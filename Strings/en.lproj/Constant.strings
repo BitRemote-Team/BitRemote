@@ -48,5 +48,6 @@
 "app.acknowledgement.text.tca" = "The Composable Architecture";
 
 // MARK: API Availability
+"API_availability.qBittorrent.tags" = "v4.3.2";
 "API_availability.qBittorrent.content_layout" = "v4.3.2";
 "API_availability.qBittorrent.stop_condition" = "v4.5.0";
