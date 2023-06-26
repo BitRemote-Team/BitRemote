@@ -53,6 +53,10 @@
 "dialog.button.delete_tasks_and_files" = "刪除任務和檔案";
 "dialog.button.delete_tasks" = "刪除任務";
 "dialog.button.enter_one_time_password" = "輸入一次性密碼";
+"dialog.button.view_error_detail" = "查看錯誤資訊";
+"dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
+"dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
+"dialog.button.retry_login" = "重新嘗試登入";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新增用戶端";

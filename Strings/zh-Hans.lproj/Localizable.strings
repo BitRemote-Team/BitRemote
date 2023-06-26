@@ -53,6 +53,10 @@
 "dialog.button.delete_tasks_and_files" = "删除任务和文件";
 "dialog.button.delete_tasks" = "删除任务";
 "dialog.button.enter_one_time_password" = "输入一次性密码";
+"dialog.button.view_error_detail" = "查看错误信息";
+"dialog.title.sync_failed" = "在同步过程中似乎出现了问题。";
+"dialog.title.login_failed" = "在登录过程中似乎出现了问题。";
+"dialog.button.retry_login" = "重新尝试登录";
 
 // MARK: EditClientView
 "edit_client_view.title" = "添加客户端";
