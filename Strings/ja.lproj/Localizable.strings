@@ -53,6 +53,10 @@
 "dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
 "dialog.button.delete_tasks" = "タスクを削除";
 "dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
+"dialog.button.view_error_detail" = "エラー情報を確認";
+"dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
+"dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
+"dialog.button.retry_login" = "ログインを再試行";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新規クライアント";
