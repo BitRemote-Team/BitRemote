@@ -14,17 +14,21 @@
 "loading_view.title.preparing_database" = "Preparing the database...";
 "error_view.button.retry" = "Retry";
 "error_view.button.drop_database" = "Drop the database";
-"error_view.title.try_later" = "Please try again later.";
-"error_view.title.network" = "A network error occurred.";
-"error_view.title.unknown" = "An unknown error occurred.";
-"error_view.title.not_found" = "There seems to be nothing here.";
-"error_view.title.internal_error.missingAPI" = "The API is currently unavailable.";
-"error_view.title.internal_error.missing_parameters" = "Missing required parameters on API call.";
-"error_view.title.API_error.authentication_failed" = "The API call failed due to authentication issues.";
-"error_view.title.API_error.login_two_factor_authentication_failed" = "The login attempt failed due to two-factor authentication issues.";
-"error_view.title.API_error.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
-"error_view.title.API_error.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
-"error_view.title.database_corrupted" = "The database is corrupted.\nPlease submit an issue on GitHub.";
+
+// MARK: AppError
+"app_error.description.unknown" = "An unknown error occurred.";
+"app_error.description.not_found" = "The content you are looking for cannot be found.";
+"app_error.description.networking_failed" = "A network error occurred.";
+"app_error.description.database_corrupted" = "The database is corrupted.";
+"app_error.internal_error.description.missingAPI" = "The API is currently unavailable.";
+"app_error.internal_error.description.missing_parameters" = "Missing required parameters on API call.";
+"app_error.API_error.description.authentication_failed" = "The API call failed due to authentication issues.";
+"app_error.API_error.description.login_two_factor_authentication_failed" = "The login attempt failed due to two-factor authentication issues.";
+"app_error.API_error.description.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
+"app_error.API_error.description.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
+
+"app_error.recovery_suggestion.try_later" = "Please try again later.";
+"app_error.recovery_suggestion.submit_issue" = "Please submit an issue on GitHub.";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "About %@";
