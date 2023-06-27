@@ -27,8 +27,8 @@
 "app_error.API_error.description.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
 "app_error.API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
 
-"app_error.recovery_suggestion.try_later" = "请稍后再试。";
-"app_error.recovery_suggestion.submit_issue" = "请到 GitHub 提起 Issue 反馈。";
+"app_error.suggestion.try_later" = "请稍后再试。";
+"app_error.suggestion.submit_issue" = "请到 GitHub 提起 Issue 反馈。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "关于 %@";
@@ -57,7 +57,7 @@
 "dialog.button.delete_tasks_and_files" = "删除任务和文件";
 "dialog.button.delete_tasks" = "删除任务";
 "dialog.button.enter_one_time_password" = "输入一次性密码";
-"dialog.button.view_error_detail" = "查看错误信息";
+"dialog.button.view_error_info" = "查看错误信息";
 "dialog.title.sync_failed" = "在同步过程中似乎出现了问题。";
 "dialog.title.login_failed" = "在登录过程中似乎出现了问题。";
 "dialog.button.retry_login" = "重新尝试登录";
@@ -72,6 +72,9 @@
 "edit_client_view.button.cancel" = "取消";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如双重认证，可能要求一次性密码。该字段将在成功登入后自动重置为空。";
 "edit_client_view.section.description.http_not_secure_message" = "请注意，HTTP 并不是一种安全的数据传输方式。为确保您信息和隐私的安全，我们强烈建议您使用 HTTPS。";
+
+// MARK: ErrorInfoView
+"error_info_view.title" = "错误信息";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "筛选";

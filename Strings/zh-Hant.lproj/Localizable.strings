@@ -27,8 +27,8 @@
 "app_error.API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
 "app_error.API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
 
-"app_error.recovery_suggestion.try_later" = "請稍後再試。";
-"app_error.recovery_suggestion.submit_issue" = "請提交 issue 至 GitHub。";
+"app_error.suggestion.try_later" = "請稍後再試。";
+"app_error.suggestion.submit_issue" = "請提交 issue 至 GitHub。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "關於 %@";
@@ -57,7 +57,7 @@
 "dialog.button.delete_tasks_and_files" = "刪除任務和檔案";
 "dialog.button.delete_tasks" = "刪除任務";
 "dialog.button.enter_one_time_password" = "輸入一次性密碼";
-"dialog.button.view_error_detail" = "查看錯誤資訊";
+"dialog.button.view_error_info" = "查看錯誤資訊";
 "dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
 "dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
 "dialog.button.retry_login" = "重新嘗試登入";
@@ -72,6 +72,9 @@
 "edit_client_view.button.cancel" = "取消";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如雙重認證，可能要求一次性密碼。該欄位將在成功登入後自動重置為空。";
 "edit_client_view.section.description.http_not_secure_message" = "請注意，HTTP 並不是一種安全的資料傳輸方式。為確保您個資和隱私的安全，我們強烈建議您使用 HTTPS。";
+
+// MARK: ErrorInfoView
+"error_info_view.title" = "錯誤資訊";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "篩選";

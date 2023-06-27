@@ -27,8 +27,8 @@
 "app_error.API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
 "app_error.API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
 
-"app_error.recovery_suggestion.try_later" = "しばらくしてからもう一度お試しください。";
-"app_error.recovery_suggestion.submit_issue" = "GitHub で Issue を作成していただくようお願いいたします。";
+"app_error.suggestion.try_later" = "しばらくしてからもう一度お試しください。";
+"app_error.suggestion.submit_issue" = "GitHub で Issue を作成していただくようお願いいたします。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "%@ について";
@@ -57,7 +57,7 @@
 "dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
 "dialog.button.delete_tasks" = "タスクを削除";
 "dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
-"dialog.button.view_error_detail" = "エラー情報を確認";
+"dialog.button.view_error_info" = "エラー情報を確認";
 "dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
 "dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
 "dialog.button.retry_login" = "ログインを再試行";
@@ -72,6 +72,9 @@
 "edit_client_view.button.cancel" = "キャンセル";
 "edit_client_view.section.description.one_time_password" = "ワンタイムパスワードは、二要素認証などのセキュリティ機能の一部として利用される場合があります。ログインが成功した後、このフィールドは自動的にリセットされます。";
 "edit_client_view.section.description.http_not_secure_message" = "HTTP は、データを安全に伝送する方法ではありません。お客様の情報の安全性を確保し、プライバシーを保護するために、HTTPS を使用することを強くお勧めします。";
+
+// MARK: ErrorInfoView
+"error_info_view.title" = "エラー情報";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "フィルター";

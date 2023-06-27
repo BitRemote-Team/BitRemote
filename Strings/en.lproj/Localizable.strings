@@ -27,8 +27,8 @@
 "app_error.API_error.description.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
 "app_error.API_error.description.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
 
-"app_error.recovery_suggestion.try_later" = "Please try again later.";
-"app_error.recovery_suggestion.submit_issue" = "Please submit an issue on GitHub.";
+"app_error.suggestion.try_later" = "Please try again later.";
+"app_error.suggestion.submit_issue" = "Please submit an issue on GitHub.";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "About %@";
@@ -57,7 +57,7 @@
 "dialog.button.delete_tasks_and_files" = "Delete tasks and files";
 "dialog.button.delete_tasks" = "Delete tasks";
 "dialog.button.enter_one_time_password" = "Enter one-time password";
-"dialog.button.view_error_detail" = "View error detail";
+"dialog.button.view_error_info" = "View error info";
 "dialog.title.sync_failed" = "It appears that there might have been an issue during the syncing process.";
 "dialog.title.login_failed" = "It appears that there might have been an issue during the login process.";
 "dialog.button.retry_login" = "Retry login";
@@ -72,6 +72,9 @@
 "edit_client_view.button.cancel" = "Cancel";
 "edit_client_view.section.description.one_time_password" = "A one-time password may be utilized as part of some security features, such as two-factor authentication. After a successful login attempt, this field will be automatically reset to empty.";
 "edit_client_view.section.description.http_not_secure_message" = "Please be aware that using HTTP is not a secure way to transmit data. It's highly recommended to use HTTPS to ensure the safety of your information and protect your privacy.";
+
+// MARK: ErrorInfoView
+"error_info_view.title" = "Error info";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "Filters";
