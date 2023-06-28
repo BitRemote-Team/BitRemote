@@ -28,9 +28,9 @@
 "app_error.API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
 
 "app_error.solution.try_later" = "しばらくしてからもう一度お試しください。";
+"app_error.solution.review_entered_information" = "入力された情報を確認し、もう一度お試しください。";
 "app_error.API_error.solution.authentication_failed" = "クライアント編集画面で認証情報を確認し、もう一度お試しください。";
 "app_error.API_error.solution.loginTwoFactor_authentication_failed" = "クライアント編集画面でワンタイムパスワードを入力し、もう一度お試しください。";
-"app_error.API_error.solution.unknown_reason_failed" = "入力された情報を確認し、もう一度お試しください。";
 "app_error.solution.database_corrupted" = "アプリをダウングレードしている場合は、元のバージョンに戻してください。\n\nアプリをアップグレード後にこの問題に遭遇した場合は、GitHub で問題を報告してください。問題を解決し、データを復旧できる可能性があります。\n\n代わりに、アプリの機能をすぐに回復させる場合は、データベースを削除することもできます。";
 
 // MARK: AppMenu
@@ -50,6 +50,7 @@
 "common.title.password" = "パスワード";
 "common.title.optional" = "任意";
 "common.title.version" = "バージョン %@ (%@)";
+"common.title.view_error_info" = "エラー情報を確認";
 
 // MARK: Dialog
 "dialog.title.drop_database" = "本アプリでのすべてのデータを失うことになります。\n本当にデータベースを削除してもよろしいですか？";
@@ -60,7 +61,6 @@
 "dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
 "dialog.button.delete_tasks" = "タスクを削除";
 "dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
-"dialog.button.view_error_info" = "エラー情報を確認";
 "dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
 "dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
 "dialog.button.retry_login" = "ログインを再試行";

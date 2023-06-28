@@ -28,9 +28,9 @@
 "app_error.API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
 
 "app_error.solution.try_later" = "请稍后再试。";
+"app_error.solution.review_entered_information" = "请检查输入的信息是否准确无误，并稍后再试。";
 "app_error.API_error.solution.authentication_failed" = "请在客户端编辑页面检查其凭证信息是否准确无误，并稍后再试。";
 "app_error.API_error.solution.loginTwoFactor_authentication_failed" = "请在客户端编辑页面输入一次性密码，并稍后再试。";
-"app_error.API_error.solution.unknown_reason_failed" = "请检查输入的信息是否准确无误，并稍后再试。";
 "app_error.solution.database_corrupted" = "如果您目前正在从较高版本降级 App，请将其恢复到您原先的版本。\n\n如果您在升级 App 后遇到此问题，请在 GitHub 上提交问题报告。我们将尽力解决问题并有可能恢复您的数据。\n\n或者，如果您希望立即恢复 App 功能，您也可以选择删除数据库。";
 
 // MARK: AppMenu
@@ -50,6 +50,7 @@
 "common.title.password" = "密码";
 "common.title.optional" = "选填";
 "common.title.version" = "版本 %@ (%@)";
+"common.title.view_error_info" = "查看错误信息";
 
 // MARK: Dialog
 "dialog.title.drop_database" = "你将失去这个 App 中所有的数据。\n确定要丢弃数据库吗？";
@@ -60,7 +61,6 @@
 "dialog.button.delete_tasks_and_files" = "删除任务和文件";
 "dialog.button.delete_tasks" = "删除任务";
 "dialog.button.enter_one_time_password" = "输入一次性密码";
-"dialog.button.view_error_info" = "查看错误信息";
 "dialog.title.sync_failed" = "在同步过程中似乎出现了问题。";
 "dialog.title.login_failed" = "在登录过程中似乎出现了问题。";
 "dialog.button.retry_login" = "重新尝试登录";
