@@ -27,8 +27,11 @@
 "app_error.API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
 "app_error.API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
 
-"app_error.suggestion.try_later" = "請稍後再試。";
-"app_error.suggestion.submit_issue" = "請提交 issue 至 GitHub。";
+"app_error.solution.try_later" = "請稍後再試。";
+"app_error.API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否準確無誤，並稍後再試。";
+"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "請在用戶端編輯頁面輸入一次性密碼，並稍後再試。";
+"app_error.API_error.solution.unknown_reason_failed" = "請檢查輸入的資訊是否準確無誤，並稍後再試。";
+"app_error.solution.database_corrupted" = "如果您目前正在從較高版本降級應用程式，請將其回復到您原來的版本。\n\n如果您在升級應用程式後遇到此問題，請在 GitHub 上提交問題報告。我們將盡力解決問題並有可能回復您的數據。\n\n或者，如果您希望立即恢復應用程式功能，您也可以選擇刪除資料庫。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "關於 %@";
@@ -75,6 +78,16 @@
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "錯誤資訊";
+"error_info_view.title.app_version" = "應用程式版本";
+"error_info_view.title.os_version" = "作業系統版本";
+"error_info_view.title.device_name" = "裝置名稱";
+"error_info_view.section_title.description" = "說明";
+"error_info_view.section_title.solution" = "解決方法";
+"error_info_view.section_title.context" = "上下文資訊";
+"error_info_view.section_title.extra_information" = "額外資訊";
+"error_info_view.footer.solution" = "如果建議的解決方法對您無效，或者您認為應用程式的功能異常，請在 GitHub 上提交問題報告。";
+"error_info_view.placeholder.solution" = "目前對於這個錯誤，我們沒有任何建議的解決方法。";
+"error_info_view.placeholder.context" = "這個錯誤中沒有包含任何上下文資訊。";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "篩選";

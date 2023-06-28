@@ -27,8 +27,11 @@
 "app_error.API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
 "app_error.API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
 
-"app_error.suggestion.try_later" = "しばらくしてからもう一度お試しください。";
-"app_error.suggestion.submit_issue" = "GitHub で Issue を作成していただくようお願いいたします。";
+"app_error.solution.try_later" = "しばらくしてからもう一度お試しください。";
+"app_error.API_error.solution.authentication_failed" = "クライアント編集画面で認証情報を確認し、もう一度お試しください。";
+"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "クライアント編集画面でワンタイムパスワードを入力し、もう一度お試しください。";
+"app_error.API_error.solution.unknown_reason_failed" = "入力された情報を確認し、もう一度お試しください。";
+"app_error.solution.database_corrupted" = "アプリをダウングレードしている場合は、元のバージョンに戻してください。\n\nアプリをアップグレード後にこの問題に遭遇した場合は、GitHub で問題を報告してください。問題を解決し、データを復旧できる可能性があります。\n\n代わりに、アプリの機能をすぐに回復させる場合は、データベースを削除することもできます。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "%@ について";
@@ -75,6 +78,16 @@
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "エラー情報";
+"error_info_view.title.app_version" = "アプリバージョン";
+"error_info_view.title.os_version" = "OS バージョン";
+"error_info_view.title.device_name" = "デバイス名";
+"error_info_view.section_title.description" = "要約";
+"error_info_view.section_title.solution" = "解決策";
+"error_info_view.section_title.context" = "背景情報";
+"error_info_view.section_title.extra_information" = "追加情報";
+"error_info_view.footer.solution" = "提案された解決策が機能しない場合や、アプリが予期せず動作していると思われる場合は、GitHub で問題を報告してください。";
+"error_info_view.placeholder.solution" = "このエラーを解決するための提案はありません。";
+"error_info_view.placeholder.context" = "このエラーには背景情報が含まれていません。";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "フィルター";
