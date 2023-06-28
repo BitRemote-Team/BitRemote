@@ -27,8 +27,11 @@
 "app_error.API_error.description.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
 "app_error.API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
 
-"app_error.suggestion.try_later" = "请稍后再试。";
-"app_error.suggestion.submit_issue" = "请到 GitHub 提起 Issue 反馈。";
+"app_error.solution.try_later" = "请稍后再试。";
+"app_error.API_error.solution.authentication_failed" = "请在客户端编辑页面检查其凭证信息是否准确无误，并稍后再试。";
+"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "请在客户端编辑页面输入一次性密码，并稍后再试。";
+"app_error.API_error.solution.unknown_reason_failed" = "请检查输入的信息是否准确无误，并稍后再试。";
+"app_error.solution.database_corrupted" = "如果您目前正在从较高版本降级 App，请将其恢复到您原先的版本。\n\n如果您在升级 App 后遇到此问题，请在 GitHub 上提交问题报告。我们将尽力解决问题并有可能恢复您的数据。\n\n或者，如果您希望立即恢复 App 功能，您也可以选择删除数据库。";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "关于 %@";
@@ -75,6 +78,16 @@
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "错误信息";
+"error_info_view.title.app_version" = "App 版本";
+"error_info_view.title.os_version" = "操作系统版本";
+"error_info_view.title.device_name" = "设备名称";
+"error_info_view.section_title.description" = "说明";
+"error_info_view.section_title.solution" = "解决方案";
+"error_info_view.section_title.context" = "上下文信息";
+"error_info_view.section_title.extra_information" = "额外信息";
+"error_info_view.footer.solution" = "如果建议的解决方案对您无效，或者您认为 App 的功能异常，请在 GitHub 上提交问题报告。";
+"error_info_view.placeholder.solution" = "目前对于这个错误，我们没有任何建议的解决方案。";
+"error_info_view.placeholder.context" = "这个错误中没有包含任何上下文信息。";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "筛选";

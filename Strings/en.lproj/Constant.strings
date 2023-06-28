@@ -17,6 +17,7 @@
 "app.name" = "BitRemote";
 "app.website" = "https://bitremote.app";
 "app.copyright" = "Copyright © 2023 荒木辰造. All rights reserved.";
+"app.short_version" = "%@ (%@)";
 
 // Contact
 "app.contact.link.website" = "https://bitremote.app";

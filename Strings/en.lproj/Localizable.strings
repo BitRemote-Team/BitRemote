@@ -27,8 +27,11 @@
 "app_error.API_error.description.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
 "app_error.API_error.description.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
 
-"app_error.suggestion.try_later" = "Please try again later.";
-"app_error.suggestion.submit_issue" = "Please submit an issue on GitHub.";
+"app_error.solution.try_later" = "Please try again later.";
+"app_error.API_error.solution.authentication_failed" = "Please check the client credentials on the client editing page and try again.";
+"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "Please enter the one-time password on the client editing page and try again.";
+"app_error.API_error.solution.unknown_reason_failed" = "Please review the entered information and try again.";
+"app_error.solution.database_corrupted" = "Please install the version from which you downgraded if you are currently downgrading the app.\n\nIf you encounter this issue after upgrading the app, please submit an issue on GitHub. We will do our best to address the issue and potentially recover your data.\n\nAlternatively, if immediate restoration of app functionality is preferred, you can choose to drop the database.";
 
 // MARK: AppMenu
 "app_menu.title.about_app" = "About %@";
@@ -75,6 +78,16 @@
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "Error info";
+"error_info_view.title.app_version" = "App version";
+"error_info_view.title.os_version" = "OS version";
+"error_info_view.title.device_name" = "Device name";
+"error_info_view.section_title.description" = "Description";
+"error_info_view.section_title.solution" = "Solution";
+"error_info_view.section_title.context" = "Context";
+"error_info_view.section_title.extra_information" = "Extra information";
+"error_info_view.footer.solution" = "If the suggested solution doesn't work for you or if you believe the app is functioning unexpectedly, please submit an issue on GitHub.";
+"error_info_view.placeholder.solution" = "We currently don't have any suggestions for this error.";
+"error_info_view.placeholder.context" = "There is no context included in this error.";
 
 // MARK: FiltersView
 "filters_view.title.filters" = "Filters";
