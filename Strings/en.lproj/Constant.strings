@@ -8,6 +8,8 @@
 
 "null" = "(null)";
 
+"markdown.link" = "[%@](%@)";
+
 "presentation_mode_mark" = "*****";
 
 "prompt.client_host.default" = "https://domain:port";

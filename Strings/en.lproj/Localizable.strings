@@ -28,9 +28,9 @@
 "app_error.API_error.description.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
 
 "app_error.solution.try_later" = "Please try again later.";
+"app_error.solution.review_entered_information" = "Please review the entered information and try again.";
 "app_error.API_error.solution.authentication_failed" = "Please check the client credentials on the client editing page and try again.";
 "app_error.API_error.solution.loginTwoFactor_authentication_failed" = "Please enter the one-time password on the client editing page and try again.";
-"app_error.API_error.solution.unknown_reason_failed" = "Please review the entered information and try again.";
 "app_error.solution.database_corrupted" = "Please install the version from which you downgraded if you are currently downgrading the app.\n\nIf you encounter this issue after upgrading the app, please submit an issue on GitHub. We will do our best to address the issue and potentially recover your data.\n\nAlternatively, if immediate restoration of app functionality is preferred, you can choose to drop the database.";
 
 // MARK: AppMenu
@@ -50,6 +50,7 @@
 "common.title.password" = "Password";
 "common.title.optional" = "Optional";
 "common.title.version" = "Version %@ (%@)";
+"common.title.view_error_info" = "View error info";
 
 // MARK: Dialog
 "dialog.title.drop_database" = "You will lose all your data in this app.\nAre you sure to drop the database?";
@@ -60,7 +61,6 @@
 "dialog.button.delete_tasks_and_files" = "Delete tasks and files";
 "dialog.button.delete_tasks" = "Delete tasks";
 "dialog.button.enter_one_time_password" = "Enter one-time password";
-"dialog.button.view_error_info" = "View error info";
 "dialog.title.sync_failed" = "It appears that there might have been an issue during the syncing process.";
 "dialog.title.login_failed" = "It appears that there might have been an issue during the login process.";
 "dialog.button.retry_login" = "Retry login";
