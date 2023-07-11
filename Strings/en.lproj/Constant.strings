@@ -24,9 +24,13 @@
 // Contact
 "app.contact.link.website" = "https://bitremote.app";
 "app.contact.link.git_hub" = "https://github.com/tatsuz0u/BitRemote";
+"app.contact.link.twitter" = "https://twitter.com/bitremote";
+"app.contact.link.threads" = "https://threads.net/@bitremote";
 "app.contact.link.discord" = "https://discord.gg/x5TP2z6cFj";
 "app.contact.link.telegram" = "https://t.me/bitremote";
 "app.contact.text.git_hub" = "GitHub";
+"app.contact.text.twitter" = "Twitter";
+"app.contact.text.threads" = "Threads";
 "app.contact.text.discord" = "Discord";
 "app.contact.text.telegram" = "Telegram";
 
@@ -34,6 +38,7 @@
 "app.acknowledgement.link.bencode" = "https://github.com/danieltmbr/Bencode";
 "app.acknowledgement.link.swift_gen" = "https://github.com/SwiftGen/SwiftGen";
 "app.acknowledgement.link.alamofire" = "https://github.com/Alamofire/Alamofire";
+"app.acknowledgement.link.xml_coder" = "https://github.com/CoreOffice/XMLCoder";
 "app.acknowledgement.link.swifty_beaver" = "https://github.com/SwiftyBeaver/SwiftyBeaver";
 "app.acknowledgement.link.sf_safe_symbols" = "https://github.com/SFSafeSymbols/SFSafeSymbols";
 "app.acknowledgement.link.snapshot_testing" = "https://github.com/pointfreeco/swift-snapshot-testing";
@@ -44,6 +49,7 @@
 "app.acknowledgement.text.bencode" = "Bencode";
 "app.acknowledgement.text.swift_gen" = "SwiftGen";
 "app.acknowledgement.text.alamofire" = "Alamofire";
+"app.acknowledgement.text.xml_coder" = "XMLCoder";
 "app.acknowledgement.text.swifty_beaver" = "SwiftyBeaver";
 "app.acknowledgement.text.sf_safe_symbols" = "SFSafeSymbols";
 "app.acknowledgement.text.snapshot_testing" = "SnapshotTesting";
