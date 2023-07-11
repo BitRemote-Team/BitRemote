@@ -24,9 +24,13 @@
 // Contact
 "app.contact.link.website" = "https://bitremote.app";
 "app.contact.link.git_hub" = "https://github.com/tatsuz0u/BitRemote";
+"app.contact.link.twitter" = "https://twitter.com/bitremote";
+"app.contact.link.threads" = "https://threads.net/@bitremote";
 "app.contact.link.discord" = "https://discord.gg/x5TP2z6cFj";
 "app.contact.link.telegram" = "https://t.me/bitremote";
 "app.contact.text.git_hub" = "GitHub";
+"app.contact.text.twitter" = "Twitter";
+"app.contact.text.threads" = "Threads";
 "app.contact.text.discord" = "Discord";
 "app.contact.text.telegram" = "Telegram";
 
