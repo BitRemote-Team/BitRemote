@@ -12,6 +12,8 @@
 
 "presentation_mode_mark" = "*****";
 
+"magnet.prefix" = "magnet:?xt=urn:btih:";
+
 "prompt.client_host.default" = "https://domain:port";
 "prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
 
