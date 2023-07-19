@@ -114,6 +114,7 @@
 "new_task_view.section.title.default_savepath_placeholder" = "(読み込み中...)";
 "new_task_view.title.savepath" = "ファイルの保存先";
 "new_task_view.prompt.savepath" = "/ダウンロード";
+"new_task_view.prompt.nas_savepath" = "共有フォルダ/ダウンロード";
 "new_task_view.title.cookies" = "クッキー";
 "new_task_view.prompt.cookies" = "キー1=値1; キー2=値2;";
 "new_task_view.title.paused" = "一時停止中として追加";
@@ -134,9 +135,9 @@
 "new_task_view.qBittorrent_form.title.rootFolder" = "ルートフォルダの作成";
 "new_task_view.qBittorrent_form.title.sequentialDownload" = "読み取り順にダウンロード";
 "new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "先頭と最後のピースを先にダウンロード";
-"new_task_view.qBittorrent_form.title.upLimit" = "上り速度制限 (KB/s)";
+"new_task_view.qBittorrent_form.title.upLimit" = "上り速度制限 (B/s)";
 "new_task_view.qBittorrent_form.prompt.upLimit" = "0";
-"new_task_view.qBittorrent_form.title.dlLimit" = "下り速度制限 (KB/s)";
+"new_task_view.qBittorrent_form.title.dlLimit" = "下り速度制限 (B/s)";
 "new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
 "new_task_view.qBittorrent_form.title.ratioLimit" = "共有比上限";
 "new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
@@ -151,7 +152,7 @@
 "new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 認証";
 "new_task_view.synology_download_station_form.prompt.username" = "FTP ユーザ名";
 "new_task_view.synology_download_station_form.prompt.password" = "FTP パスワード";
-"new_task_view.synology_download_station_form.prompt.savepath" = "共有フォルダ/ダウンロード";
+"new_task_view.QNAP_download_station_form.title.temp_savepath" = "ファイルの一時保存先";
 "new_task_view.torrent_picker.button.select_files" = "ファイルを選択";
 "new_task_view.torrent_picker.button.reselect_files" = "ファイルを再選択";
 "new_task_view.category_picker.title.category" = "カテゴリ";
