@@ -112,6 +112,7 @@
 "new_task_view.section.title.default_savepath_placeholder" = "(loading...)";
 "new_task_view.title.savepath" = "Download folder";
 "new_task_view.prompt.savepath" = "/download";
+"new_task_view.prompt.nas_savepath" = "SharedFolder/Download";
 "new_task_view.title.cookies" = "Cookies";
 "new_task_view.prompt.cookies" = "key1=value1; key2=value2;";
 "new_task_view.title.paused" = "Adds as paused";
@@ -134,9 +135,9 @@
 "new_task_view.qBittorrent_form.title.rootFolder" = "Creates root folder";
 "new_task_view.qBittorrent_form.title.sequentialDownload" = "Enables sequential download";
 "new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "Prioritizes download first last piece";
-"new_task_view.qBittorrent_form.title.upLimit" = "Upload rate limit (KB/s)";
+"new_task_view.qBittorrent_form.title.upLimit" = "Upload rate limit (B/s)";
 "new_task_view.qBittorrent_form.prompt.upLimit" = "0";
-"new_task_view.qBittorrent_form.title.dlLimit" = "Download rate limit (KB/s)";
+"new_task_view.qBittorrent_form.title.dlLimit" = "Download rate limit (B/s)";
 "new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
 "new_task_view.qBittorrent_form.title.ratioLimit" = "Share ratio limit";
 "new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
@@ -151,7 +152,7 @@
 "new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP authentication";
 "new_task_view.synology_download_station_form.prompt.username" = "FTP username";
 "new_task_view.synology_download_station_form.prompt.password" = "FTP password";
-"new_task_view.synology_download_station_form.prompt.savepath" = "SharedFolder/Download";
+"new_task_view.QNAP_download_station_form.title.temp_savepath" = "Temporary folder";
 "new_task_view.torrent_picker.button.select_files" = "Select files";
 "new_task_view.torrent_picker.button.reselect_files" = "Reselect files";
 "new_task_view.category_picker.title.category" = "Category";

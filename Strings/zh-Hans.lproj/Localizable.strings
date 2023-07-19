@@ -114,6 +114,7 @@
 "new_task_view.section.title.default_savepath_placeholder" = "(读取中...)";
 "new_task_view.title.savepath" = "文件保存位置";
 "new_task_view.prompt.savepath" = "/下载";
+"new_task_view.prompt.nas_savepath" = "共享文件夹/下载";
 "new_task_view.title.cookies" = "Cookies";
 "new_task_view.prompt.cookies" = "键1=值1; 键2=值2;";
 "new_task_view.title.paused" = "以暂停状态添加";
@@ -134,9 +135,9 @@
 "new_task_view.qBittorrent_form.title.rootFolder" = "创建根目录";
 "new_task_view.qBittorrent_form.title.sequentialDownload" = "启用顺序下载";
 "new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "优先下载首尾文件块";
-"new_task_view.qBittorrent_form.title.upLimit" = "限制上传速率 (KB/s)";
+"new_task_view.qBittorrent_form.title.upLimit" = "限制上传速率 (B/s)";
 "new_task_view.qBittorrent_form.prompt.upLimit" = "0";
-"new_task_view.qBittorrent_form.title.dlLimit" = "限制下载速率 (KB/s)";
+"new_task_view.qBittorrent_form.title.dlLimit" = "限制下载速率 (B/s)";
 "new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
 "new_task_view.qBittorrent_form.title.ratioLimit" = "分享率上限";
 "new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
@@ -151,7 +152,7 @@
 "new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 鉴权";
 "new_task_view.synology_download_station_form.prompt.username" = "FTP 用户名";
 "new_task_view.synology_download_station_form.prompt.password" = "FTP 密码";
-"new_task_view.synology_download_station_form.prompt.savepath" = "共享文件夹/下载";
+"new_task_view.QNAP_download_station_form.title.temp_savepath" = "文件临时保存位置";
 "new_task_view.torrent_picker.button.select_files" = "选择文件";
 "new_task_view.torrent_picker.button.reselect_files" = "重新选择文件";
 "new_task_view.category_picker.title.category" = "分类";
