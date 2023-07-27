@@ -24,10 +24,11 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 対応ダウンローダー
+- [開発中] aria2
 - qBittorrent
 - Transmission
 - Synology Download Station
-- [開発中] QNAP Download Station
+- QNAP Download Station
 
 ## 必要システム構成
 デバイスのシステムが iOS・iPadOS 16.0、macOS 13.0 以上であることが必要です。

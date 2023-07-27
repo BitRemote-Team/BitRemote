@@ -24,10 +24,11 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## Supported Downloaders
+- [WIP] aria2
 - qBittorrent
 - Transmission
 - Synology Download Station
-- [WIP] QNAP Download Station
+- QNAP Download Station
 
 ## Systemanforderungen
 Diese App erfordert iOS / iPadOS 16.0, macOS 13.0 oder neuer.
