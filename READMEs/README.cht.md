@@ -24,10 +24,11 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 支援的下載軟體
+- [開發中] aria2
 - qBittorrent
 - Transmission
 - Synology Download Station
-- [開發中] QNAP Download Station
+- QNAP Download Station
 
 ## 系統需求
 須使用 iOS / iPadOS 16.0、macOS 13.0 或以上版本。
