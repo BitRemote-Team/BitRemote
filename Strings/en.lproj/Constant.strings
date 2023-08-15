@@ -17,6 +17,23 @@
 "prompt.client_host.default" = "https://domain:port";
 "prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
 
+"trial.jwt.public_key" = "
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt90AiuR3QUjm91oYL2pe
+hoOkJcgTo5w+Ftt0X08Qpf/s8DRXEdiYafRqQ2DhJ6PWn9CdKnKZFoFbUZ2K+WFi
+JrCQjODL+ver17oCdTTxCqInwXATk/Zpe8T+kyjnjbUwbVUV74ecPRJjBZTkC5Lm
+0WRP2Pcc//Zh9d66ZDzcLOKS/8mtRikeDK/uQ7+znoK+8irUjszQT53Wbqjguv+l
+mS1XGF+OjBpV+K0q6YyPhlQRYyp10FxAa85VRKTM8K8QnVBtEfhiywfWzpcEaFkF
+jqvpxPyB+coCtiVSCSj343HVYTalN1uxBdx3BUhUzF4/a6zlkrKWP6NbBrd3l1yd
+XUDMHw9xxU0AjQClIjtNCMFnzMG2W3TOfyI2Vx5he9UkHkNCq/MjKJto+psl3iUI
+vVo6oLFmyt2Hr9zj/NekwA/3k/YMixoiQz6C+z2EZX93PIk2Fur5imFFx7v+CnZg
+1oiftK9KF+q9r8me4ko+jD8WN1huHsT+m2hkF2i5IqYiqPdxA3SYP5XAQOJPlF17
+Pn/fI6s5pN/mWWh8Kg1PlBMbXNG3oj/hdPtPxRpPU7YGIwqPDWbxevADPtKTiTeC
+s1EyOmSOI2VhfolmKqwJQenVexRNGxFYp7gAtkAGvcdgHCOAeufZaO1MZqbAiz8h
+PTlC39V/Fz2Rg6vrm6WgTR8CAwEAAQ==
+-----END PUBLIC KEY-----
+";
+
 // MARK: App
 "app.name" = "BitRemote";
 "app.website" = "https://bitremote.app";
