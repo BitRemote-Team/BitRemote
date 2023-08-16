@@ -63,7 +63,9 @@
 "dialog.button.enter_one_time_password" = "输入一次性密码";
 "dialog.title.sync_failed" = "在同步过程中似乎出现了问题。";
 "dialog.title.login_failed" = "在登录过程中似乎出现了问题。";
+"dialog.title.request_beta_trial_failed" = "在请求 Beta 试用功能解锁过程中似乎出现了问题。";
 "dialog.button.retry_login" = "重新尝试登录";
+"dialog.button.retry_request_beta_trial" = "重新尝试请求";
 
 // MARK: EditClientView
 "edit_client_view.title" = "添加客户端";

@@ -63,7 +63,9 @@
 "dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
 "dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
 "dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
+"dialog.title.request_beta_trial_failed" = "ベータトライアルのリクエスト中に問題が発生したようです。";
 "dialog.button.retry_login" = "ログインを再試行";
+"dialog.button.retry_request_beta_trial" = "リクエストを再試行";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新規クライアント";
