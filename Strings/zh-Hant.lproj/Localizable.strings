@@ -63,7 +63,9 @@
 "dialog.button.enter_one_time_password" = "輸入一次性密碼";
 "dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
 "dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
+"dialog.title.request_beta_trial_failed" = "在請求 Beta 試用功能解鎖过程中似乎出现了问题。";
 "dialog.button.retry_login" = "重新嘗試登入";
+"dialog.button.retry_request_beta_trial" = "重新嘗試請求";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新增用戶端";
