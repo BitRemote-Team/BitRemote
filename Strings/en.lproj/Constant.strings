@@ -15,6 +15,7 @@
 "magnet.prefix" = "magnet:?xt=urn:btih:";
 
 "prompt.client_host.default" = "https://domain:port";
+"prompt.client_host.aria2" = "https://domain:port/jsonrpc";
 "prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
 
 "trial.jwt.public_key" = "
