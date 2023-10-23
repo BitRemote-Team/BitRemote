@@ -39,4 +39,4 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## 應用程式圖示
-Copyright © 2023 荒木辰造. All rights reserved.
+Copyright © 2023 Ark Studios LLC.

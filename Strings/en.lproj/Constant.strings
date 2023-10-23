@@ -38,7 +38,7 @@ PTlC39V/Fz2Rg6vrm6WgTR8CAwEAAQ==
 // MARK: App
 "app.name" = "BitRemote";
 "app.website" = "https://bitremote.app";
-"app.copyright" = "Copyright © 2023 荒木辰造. All rights reserved.";
+"app.copyright" = "Copyright © 2023 Ark Studios LLC.";
 "app.short_version" = "%@ (%@)";
 
 // Contact
