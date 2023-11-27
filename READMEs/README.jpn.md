@@ -24,7 +24,7 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 対応ダウンローダー
-- [開発中] aria2
+- aria2
 - qBittorrent
 - Transmission
 - Synology Download Station

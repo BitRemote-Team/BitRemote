@@ -24,7 +24,7 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## Supported Downloaders
-- [WIP] aria2
+- aria2
 - qBittorrent
 - Transmission
 - Synology Download Station

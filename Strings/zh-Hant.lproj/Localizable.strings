@@ -20,7 +20,7 @@
 "app_error.description.not_found" = "無法找到您正在尋找的內容。";
 "app_error.description.networking_failed" = "網路發生故障。";
 "app_error.description.database_corrupted" = "數據庫已經損壞。";
-"app_error.internal_error.description.missingAPI" = "所呼叫的 API 不可用。";
+"app_error.internal_error.description.missing_API" = "所呼叫的 API 不可用。";
 "app_error.internal_error.description.missing_parameters" = "無法找到呼叫 API 所需的參數。";
 "app_error.API_error.description.authentication_failed" = "API 呼叫因驗證問題失敗。";
 "app_error.API_error.description.login_two_factor_authentication_failed" = "因在雙重認證過程中發生問題，登入失敗。";
@@ -108,8 +108,8 @@
 "new_task_view.title.relevant_torrents" = "相關種子:";
 "new_task_view.title.relevant_torrent_line" = "- %@";
 "new_task_view.title.processing_requests" = "正在處理請求... (%@/%@)";
-"new_task_view.model.torrent_format.link" = "連結";
-"new_task_view.model.torrent_format.file" = "檔案";
+"new_task_view.model.source_format.link" = "連結";
+"new_task_view.model.source_format.file" = "檔案";
 "new_task_view.section.title.torrents" = "種子";
 "new_task_view.section.title.options" = "選項";
 "new_task_view.section.title.default_savepath" = "如果您不指定儲存位置，將自動使用預設位置 **\"%@\"**。";
@@ -118,42 +118,66 @@
 "new_task_view.prompt.savepath" = "/下載";
 "new_task_view.prompt.nas_savepath" = "共用資料夾/下載";
 "new_task_view.title.cookies" = "Cookies";
-"new_task_view.prompt.cookies" = "鍵1=值1; 鍵2=值2;";
 "new_task_view.title.paused" = "以暫停狀態新增";
+"new_task_view.model.aria2.download_piece_selection_algorithm.default" = "預設";
+"new_task_view.model.aria2.download_piece_selection_algorithm.inorder" = "順序";
+"new_task_view.model.aria2.download_piece_selection_algorithm.random" = "隨機";
+"new_task_view.model.aria2.download_piece_selection_algorithm.geom" = "幾何";
+"new_task_view.model.aria2.options_type.global" = "全局";
 "new_task_view.model.qBittorrent.torrent_stop_condition.none" = "無";
 "new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "已接收詮釋資料";
 "new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "已檢查檔案";
 "new_task_view.model.qBittorrent.torrent_content_layout.original" = "原始";
 "new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "建立子資料夾";
 "new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "不建立子資料夾";
-"new_task_view.qBittorrent_form.title.autoTMM" = "種子自動管理";
+"new_task_view.aria2_form.title.allows_overwrite" = "允許覆蓋";
+"new_task_view.aria2_form.title.max_download_limit" = "最大下載速度 (B/s)";
+"new_task_view.aria2_form.title.conditional_download" = "條件下載";
+"new_task_view.aria2_form.title.file_allocation_method" = "檔案分配方法";
+"new_task_view.aria2_form.title.parameterized_URI" = "啟用參數化 URI 支援";
+"new_task_view.aria2_form.title.force_save" = "強制儲存";
+"new_task_view.aria2_form.title.filename" = "檔案名稱";
+"new_task_view.aria2_form.prompt.filename" = "檔案.txt";
+"new_task_view.aria2_form.title.split_count" = "單工作連線數";
+"new_task_view.aria2_form.title.min_split_size" = "最小檔案分段大小 (B/s)";
+"new_task_view.aria2_form.title.max_connection_per_server" = "單伺服器最大連線數";
+"new_task_view.aria2_form.title.lowest_speed_limit" = "最小下載速度 (B/s)";
+"new_task_view.aria2_form.title.piece_selection_algorithm" = "分段選擇演算法";
+"new_task_view.aria2_form.title.http_default_username" = "HTTP 預設使用者名稱";
+"new_task_view.aria2_form.title.http_default_password" = "HTTP 預設密碼";
+"new_task_view.aria2_form.title.proxy_server" = "代理伺服器";
+"new_task_view.aria2_form.title.proxy_username" = "代理伺服器使用者名稱";
+"new_task_view.aria2_form.title.proxy_password" = "代理伺服器密碼";
+"new_task_view.aria2_form.title.referer" = "請求來源";
+"new_task_view.aria2_form.title.custom_header" = "自訂標頭";
+"new_task_view.aria2_form.title.max_upload_limit" = "最大上傳速度 (B/s)";
+"new_task_view.aria2_form.title.max_peers" = "最大連線節點數";
+"new_task_view.aria2_form.title.preferred_download_speed" = "期望下載速度 (B/s)";
+"new_task_view.aria2_form.title.remove_unselected_file" = "刪除未選擇的檔案";
+"new_task_view.aria2_form.title.stop_timeout" = "無速度時自動停止時間 (秒鐘)";
+"new_task_view.aria2_form.title.bt_tracker" = "BT 伺服器位址";
+"new_task_view.aria2_form.title.min_share_ratio" = "最小分享率";
+"new_task_view.aria2_form.title.min_seed_time" = "最小做種時間 (分鐘)";
+"new_task_view.qBittorrent_form.title.auto_TMM" = "種子自動管理";
 "new_task_view.qBittorrent_form.title.rename" = "重新命名種子";
 "new_task_view.qBittorrent_form.prompt.rename" = "新的種子名稱";
 "new_task_view.qBittorrent_form.title.tags" = "標籤";
 "new_task_view.qBittorrent_form.prompt.tags" = "標籤1, 標籤2";
 "new_task_view.qBittorrent_form.title.stop_condition" = "停止條件";
-"new_task_view.qBittorrent_form.title.skipChecking" = "跳過雜湊值檢查";
+"new_task_view.qBittorrent_form.title.skip_checking" = "跳過雜湊值檢查";
 "new_task_view.qBittorrent_form.title.content_layout" = "內容佈局";
-"new_task_view.qBittorrent_form.title.rootFolder" = "建立根目錄";
-"new_task_view.qBittorrent_form.title.sequentialDownload" = "依順序下載";
-"new_task_view.qBittorrent_form.title.firstLastPiecePrio" = "優先下載首尾檔案塊";
-"new_task_view.qBittorrent_form.title.upLimit" = "限制上傳速率（B/s）";
-"new_task_view.qBittorrent_form.prompt.upLimit" = "0";
-"new_task_view.qBittorrent_form.title.dlLimit" = "限制下載速率（B/s）";
-"new_task_view.qBittorrent_form.prompt.dlLimit" = "0";
-"new_task_view.qBittorrent_form.title.ratioLimit" = "分享率上限";
-"new_task_view.qBittorrent_form.prompt.ratioLimit" = "0.00";
-"new_task_view.qBittorrent_form.title.seedingTimeLimit" = "限制做種時間（分鐘）";
-"new_task_view.qBittorrent_form.prompt.seedingTimeLimit" = "0";
+"new_task_view.qBittorrent_form.title.root_folder" = "建立根目錄";
+"new_task_view.qBittorrent_form.title.sequential_download" = "依順序下載";
+"new_task_view.qBittorrent_form.title.first_last_piece_prio" = "優先下載首尾檔案塊";
+"new_task_view.qBittorrent_form.title.up_limit" = "限制上傳速率 (B/s)";
+"new_task_view.qBittorrent_form.title.dl_limit" = "限制下載速率 (B/s)";
+"new_task_view.qBittorrent_form.title.ratio_limit" = "分享率上限";
+"new_task_view.qBittorrent_form.title.seeding_time_limit" = "限制做種時間 (分鐘)";
 "new_task_view.transmission_form.title.labels" = "標籤";
 "new_task_view.transmission_form.prompt.labels" = "標籤1, 標籤2";
 "new_task_view.transmission_form.title.peer_limit" = "用戶連接上限";
-"new_task_view.transmission_form.prompt.peer_limit" = "0";
 "new_task_view.transmission_form.title.bandwidth_priority" = "頻寬優先度";
-"new_task_view.transmission_form.prompt.bandwidth_priority" = "0";
 "new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 驗證";
-"new_task_view.synology_download_station_form.prompt.username" = "FTP 使用者名稱";
-"new_task_view.synology_download_station_form.prompt.password" = "FTP 密碼";
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "檔案臨時儲存位置";
 "new_task_view.torrent_picker.button.select_files" = "選擇檔案";
 "new_task_view.torrent_picker.button.reselect_files" = "重新選擇檔案";
@@ -162,7 +186,7 @@
 "new_task_view.category_picker.prompt.custom_category" = "分類1";
 
 // MARK: PagePicker
-"page_picker.title.page" = "頁碼（%d / %d）";
+"page_picker.title.page" = "頁碼 (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
 
 // MARK: Placeholder
@@ -195,8 +219,8 @@
 "task.status.name.unknown" = "未知";
 
 // MARK: SummaryTableColumn
-"summary_table_column.title.uploadedSize" = "已上傳 %@";
-"summary_table_column.title.downloadedSize" = "已下載 %@";
+"summary_table_column.title.uploaded_size" = "已上傳 %@";
+"summary_table_column.title.downloaded_size" = "已下載 %@";
 "summary_table_column.title.ratio" = "分享率 %@";
 
 // MARK: Tag
@@ -214,8 +238,8 @@
 "tasks_view.table_column_title.size" = "大小";
 "tasks_view.table_column_title.progress" = "進度";
 "tasks_view.table_column_title.status" = "狀態";
-"tasks_view.table_column_title.downloadSpeed" = "下載速度";
-"tasks_view.table_column_title.uploadSpeed" = "上傳速度";
+"tasks_view.table_column_title.download_speed" = "下載速度";
+"tasks_view.table_column_title.upload_speed" = "上傳速度";
 "tasks_view.table_column_title.eta" = "預計剩餘時間";
 "tasks_view.table_column_title.seeds" = "種子";
 "tasks_view.table_column_title.leechs" = "用戶";
