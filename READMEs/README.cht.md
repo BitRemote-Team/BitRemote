@@ -24,7 +24,7 @@ App Strings: [{lang}.lproj](/Strings)
 GitHub Readme: [README.{lang}.md](/READMEs)
 
 ## 支援的下載軟體
-- [開發中] aria2
+- aria2
 - qBittorrent
 - Transmission
 - Synology Download Station
