@@ -9,14 +9,15 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '[skip sync]') }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Generate GitHub App installation token
+        uses: actions/create-github-app-token@v1
         id: generate_token
-        uses: tibdex/github-app-token@v1
         with:
-          repository: BitRemote-Team/BitRemoteDev
-          app_id: ${{ secrets.AUTHORIZATION_APP_ID }}
-          private_key: ${{ secrets.AUTHORIZATION_APP_PRIVATE_KEY }}
+          owner: BitRemote-Team
+          repositories: BitRemoteDev
+          app-id: ${{ secrets.AUTHORIZATION_APP_ID }}
+          private-key: ${{ secrets.AUTHORIZATION_APP_PRIVATE_KEY }}
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
