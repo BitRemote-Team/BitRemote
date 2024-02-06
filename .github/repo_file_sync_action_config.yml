@@ -1,8 +1,0 @@
-BitRemote-Team/BitRemoteDev:
-  - README.md
-  - source: READMEs/
-    dest: READMEs/
-    deleteOrphaned: true
-  - source: Strings/
-    dest: BitRemotePackage/Sources/Resourses/Strings/
-    deleteOrphaned: true
