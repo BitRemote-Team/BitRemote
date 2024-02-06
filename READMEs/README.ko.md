@@ -39,4 +39,4 @@ iOS / iPadOS 16.0, macOS 13.0 이상인지 확인해주세요.
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## 앱 아이콘
-Copyright © 2023 Ark Studios LLC.
+Copyright © 2024 Ark Studios LLC.

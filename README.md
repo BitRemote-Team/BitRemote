@@ -39,4 +39,4 @@ This app requires iOS / iPadOS 16.0, macOS 13.0 or later.
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## App Icon
-Copyright © 2023 Ark Studios LLC.
+Copyright © 2024 Ark Studios LLC.

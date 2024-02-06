@@ -9,7 +9,7 @@
 // MARK: App
 "app.name" = "BitRemote";
 "app.website" = "https://bitremote.app";
-"app.copyright" = "Copyright © 2023 Ark Studios LLC.";
+"app.copyright" = "Copyright © 2024 Ark Studios LLC.";
 "app.short_version" = "%@ (%@)";
 
 // Contact
@@ -33,7 +33,8 @@
 "app.acknowledgement.link.swifty_beaver" = "https://github.com/SwiftyBeaver/SwiftyBeaver";
 "app.acknowledgement.link.sf_safe_symbols" = "https://github.com/SFSafeSymbols/SFSafeSymbols";
 "app.acknowledgement.link.snapshot_testing" = "https://github.com/pointfreeco/swift-snapshot-testing";
-"app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation"; "https://github.com/EhTagTranslation/Database";
+"app.acknowledgement.link.swiftUI_introspect" = "https://github.com/siteline/swiftui-introspect";
+"app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation";
 "app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
 
 // Acknowledgements texts
@@ -44,6 +45,7 @@
 "app.acknowledgement.text.swifty_beaver" = "SwiftyBeaver";
 "app.acknowledgement.text.sf_safe_symbols" = "SFSafeSymbols";
 "app.acknowledgement.text.snapshot_testing" = "SnapshotTesting";
+"app.acknowledgement.text.swiftUI_introspect" = "SwiftUI Introspect";
 "app.acknowledgement.text.swiftUI_navigation" = "SwiftUI Navigation";
 "app.acknowledgement.text.tca" = "The Composable Architecture";
 
