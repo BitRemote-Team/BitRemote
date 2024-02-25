@@ -19,7 +19,7 @@
 "app_error.description.unknown" = "發生不明錯誤。";
 "app_error.description.not_found" = "無法找到您正在尋找的內容。";
 "app_error.description.networking_failed" = "網路發生故障。";
-"app_error.description.database_corrupted" = "數據庫已經損壞。";
+"app_error.description.database_corrupted" = "資料庫已經損壞。";
 "app_error.internal_error.description.missing_API" = "所呼叫的 API 不可用。";
 "app_error.internal_error.description.missing_parameters" = "無法找到呼叫 API 所需的參數。";
 "app_error.API_error.description.authentication_failed" = "API 呼叫因驗證問題失敗。";
@@ -28,8 +28,8 @@
 "app_error.API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
 
 "app_error.solution.try_later" = "請稍後再試。";
-"app_error.solution.review_entered_information" = "請檢查輸入的資訊是否準確無誤，並稍後再試。";
-"app_error.API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否準確無誤，並稍後再試。";
+"app_error.solution.review_entered_information" = "請檢查輸入的資訊是否正確無誤，並稍後再試。";
+"app_error.API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否正確無誤，並稍後再試。";
 "app_error.API_error.solution.loginTwoFactor_authentication_failed" = "請在用戶端編輯頁面輸入一次性密碼，並稍後再試。";
 "app_error.solution.database_corrupted" = "如果您目前正在從較高版本降級應用程式，請將其回復到您原來的版本。\n\n如果您在升級應用程式後遇到此問題，請在 GitHub 上提交問題報告。我們將盡力解決問題並有可能回復您的數據。\n\n或者，如果您希望立即恢復應用程式功能，您也可以選擇刪除資料庫。";
 
@@ -56,14 +56,14 @@
 "dialog.title.drop_database" = "繼續此操作將會清除 APP 中的所有資料。\n確定要刪除資料庫？";
 "dialog.button.drop_database" = "刪除資料庫";
 "dialog.title.delete_client" = "你確定要刪除 \"%@\" 嗎？";
-"dialog.button.delete_client" = "刪除客戶端";
+"dialog.button.delete_client" = "刪除用戶端";
 "dialog.title.delete_tasks" = "你確定要刪除選中的 %d 個任務嗎？";
 "dialog.button.delete_tasks_and_files" = "刪除任務和檔案";
 "dialog.button.delete_tasks" = "刪除任務";
 "dialog.button.enter_one_time_password" = "輸入一次性密碼";
 "dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
 "dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
-"dialog.title.request_beta_trial_failed" = "在請求 Beta 試用功能解鎖过程中似乎出现了问题。";
+"dialog.title.request_beta_trial_failed" = "在請求 Beta 試用功能解鎖過程中似乎出現了問题。";
 "dialog.button.retry_login" = "重新嘗試登入";
 "dialog.button.retry_request_beta_trial" = "重新嘗試請求";
 
@@ -123,7 +123,7 @@
 "new_task_view.model.aria2.download_piece_selection_algorithm.inorder" = "順序";
 "new_task_view.model.aria2.download_piece_selection_algorithm.random" = "隨機";
 "new_task_view.model.aria2.download_piece_selection_algorithm.geom" = "幾何";
-"new_task_view.model.aria2.options_type.global" = "全局";
+"new_task_view.model.aria2.options_type.global" = "全域";
 "new_task_view.model.qBittorrent.torrent_stop_condition.none" = "無";
 "new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "已接收詮釋資料";
 "new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "已檢查檔案";
@@ -152,7 +152,7 @@
 "new_task_view.aria2_form.title.custom_header" = "自訂標頭";
 "new_task_view.aria2_form.title.max_upload_limit" = "最大上傳速度 (B/s)";
 "new_task_view.aria2_form.title.max_peers" = "最大連線節點數";
-"new_task_view.aria2_form.title.preferred_download_speed" = "期望下載速度 (B/s)";
+"new_task_view.aria2_form.title.preferred_download_speed" = "偏好下載速度 (B/s)";
 "new_task_view.aria2_form.title.remove_unselected_file" = "刪除未選擇的檔案";
 "new_task_view.aria2_form.title.stop_timeout" = "無速度時自動停止時間 (秒鐘)";
 "new_task_view.aria2_form.title.bt_tracker" = "BT 伺服器位址";
