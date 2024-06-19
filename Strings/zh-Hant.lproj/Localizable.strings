@@ -216,6 +216,7 @@
 "app_icon_view.title" = "App 圖案";
 // AboutView
 "about_view.section.title.acknowledgements" = "致謝";
+"about_view.section.title.translation_contributors" = "翻譯貢獻者";
 
 // MARK: SettingModels
 // AppColorScheme

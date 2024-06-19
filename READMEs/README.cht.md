@@ -26,8 +26,8 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ### 貢獻者
 | | |
 | - | - |
-| 🇹🇼 正體中文 | [@otteryc](https://github.com/otteryc) |
-| 🇷🇺 Русский | [@Sharkboy-j](https://github.com/Sharkboy-j) |
+| 🇹🇼 正體中文 | [Y.C. Otter](https://github.com/otteryc) |
+| 🇷🇺 Русский | [Sharkboy](https://github.com/Sharkboy-j) |
 
 ## 支援的下載軟體
 - aria2

@@ -26,8 +26,8 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ### 貢献者
 | | |
 | - | - |
-| 🇹🇼 正體中文 | [@otteryc](https://github.com/otteryc) |
-| 🇷🇺 Русский | [@Sharkboy-j](https://github.com/Sharkboy-j) |
+| 🇹🇼 正體中文 | [Y.C. Otter](https://github.com/otteryc) |
+| 🇷🇺 Русский | [Sharkboy](https://github.com/Sharkboy-j) |
 
 ## 対応ダウンローダー
 - aria2

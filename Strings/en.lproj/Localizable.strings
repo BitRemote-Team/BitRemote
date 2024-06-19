@@ -216,6 +216,7 @@
 "app_icon_view.title" = "App icon";
 // AboutView
 "about_view.section.title.acknowledgements" = "Acknowledgements";
+"about_view.section.title.translation_contributors" = "Translation contributors";
 
 // MARK: SettingModels
 // AppColorScheme

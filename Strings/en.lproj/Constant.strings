@@ -13,18 +13,32 @@
 "app.short_version" = "%@ (%@)";
 "app.plus_mark" = "+";
 
-// Contact
+// Contact links
 "app.contact.link.website" = "https://bitremote.app";
 "app.contact.link.git_hub" = "https://github.com/tatsuz0u/BitRemote";
 "app.contact.link.twitter" = "https://twitter.com/bitremote";
 "app.contact.link.threads" = "https://threads.net/@bitremote";
 "app.contact.link.discord" = "https://discord.gg/x5TP2z6cFj";
 "app.contact.link.telegram" = "https://t.me/bitremote";
-"app.contact.text.git_hub" = "GitHub";
-"app.contact.text.twitter" = "Twitter";
-"app.contact.text.threads" = "Threads";
-"app.contact.text.discord" = "Discord";
-"app.contact.text.telegram" = "Telegram";
+
+// Contact titles
+"app.contact.title.git_hub" = "GitHub";
+"app.contact.title.twitter" = "Twitter";
+"app.contact.title.threads" = "Threads";
+"app.contact.title.discord" = "Discord";
+"app.contact.title.telegram" = "Telegram";
+
+// Translation contributor links
+"app.translation_contributor.link.otteryc" = "https://github.com/otteryc";
+"app.translation_contributor.link.Sharkboy-j" = "https://github.com/Sharkboy-j";
+
+// Translation contributor titles
+"app.translation_contributor.title.otteryc" = "Y.C. Otter";
+"app.translation_contributor.title.Sharkboy-j" = "Sharkboy";
+
+// Translation subtitle
+"app.translation_contributor.subtitle.traditional_chinese_taiwan" = "🇹🇼 正體中文";
+"app.translation_contributor.subtitle.russian" = "🇷🇺 Русский";
 
 // Acknowledgements links
 "app.acknowledgement.link.bencode" = "https://github.com/danieltmbr/Bencode";
@@ -38,17 +52,17 @@
 "app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation";
 "app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
 
-// Acknowledgements texts
-"app.acknowledgement.text.bencode" = "Bencode";
-"app.acknowledgement.text.swift_gen" = "SwiftGen";
-"app.acknowledgement.text.alamofire" = "Alamofire";
-"app.acknowledgement.text.xml_coder" = "XMLCoder";
-"app.acknowledgement.text.admob_swiftUI" = "AdmobSwiftUI";
-"app.acknowledgement.text.sf_safe_symbols" = "SFSafeSymbols";
-"app.acknowledgement.text.snapshot_testing" = "SnapshotTesting";
-"app.acknowledgement.text.swiftUI_introspect" = "SwiftUI Introspect";
-"app.acknowledgement.text.swiftUI_navigation" = "SwiftUI Navigation";
-"app.acknowledgement.text.tca" = "The Composable Architecture";
+// Acknowledgements titles
+"app.acknowledgement.title.bencode" = "Bencode";
+"app.acknowledgement.title.swift_gen" = "SwiftGen";
+"app.acknowledgement.title.alamofire" = "Alamofire";
+"app.acknowledgement.title.xml_coder" = "XMLCoder";
+"app.acknowledgement.title.admob_swiftUI" = "AdmobSwiftUI";
+"app.acknowledgement.title.sf_safe_symbols" = "SFSafeSymbols";
+"app.acknowledgement.title.snapshot_testing" = "SnapshotTesting";
+"app.acknowledgement.title.swiftUI_introspect" = "SwiftUI Introspect";
+"app.acknowledgement.title.swiftUI_navigation" = "SwiftUI Navigation";
+"app.acknowledgement.title.tca" = "The Composable Architecture";
 
 // MARK: API Availability
 "API_availability.qBittorrent.tags" = "v4.3.2";
