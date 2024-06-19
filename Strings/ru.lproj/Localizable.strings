@@ -1,0 +1,245 @@
+/*
+  Localizable.strings
+  Localizable
+
+  Created by 荒木辰造 on R 4/06/20.
+
+*/
+
+// MARK: AboutView
+"about_view.section.title.acknowledgements" = "Благодарности";
+
+// MARK: AlertView
+"loading_view.title.loading" = "Загрузка...";
+"loading_view.title.preparing_database" = "Подготовка базы данных...";
+"error_view.button.retry" = "Повторить";
+"error_view.button.drop_database" = "Удалить базу данных";
+
+// MARK: AppError
+"app_error.description.unknown" = "Произошла неизвестная ошибка.";
+"app_error.description.not_found" = "Контент, который вы ищете, не найден.";
+"app_error.description.networking_failed" = "Произошла сетевая ошибка.";
+"app_error.description.database_corrupted" = "База данных повреждена.";
+"app_error.internal_error.description.missing_API" = "API в настоящее время недоступно.";
+"app_error.internal_error.description.missing_parameters" = "Отсутствуют необходимые параметры при вызове API.";
+"app_error.API_error.description.authentication_failed" = "Вызов API не удался из-за проблем с аутентификацией.";
+"app_error.API_error.description.login_two_factor_authentication_failed" = "Попытка входа не удалась из-за проблем с двухфакторной аутентификацией.";
+"app_error.API_error.description.unknown_reason_failed" = "Произошла ошибка при обработке вашего запроса, возможно, из-за передачи недействительных параметров в API.";
+"app_error.API_error.description.untracked_response" = "Приложение получило неотслеживаемый ответ от API, что может привести к проблеме с целостностью данных.";
+
+"app_error.solution.try_later" = "Пожалуйста, попробуйте позже.";
+"app_error.solution.review_entered_information" = "Пожалуйста, проверьте введенную информацию и попробуйте снова.";
+"app_error.API_error.solution.authentication_failed" = "Пожалуйста, проверьте учетные данные клиента на странице редактирования клиента и попробуйте снова.";
+"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "Пожалуйста, введите одноразовый пароль на странице редактирования клиента и попробуйте снова.";
+"app_error.solution.database_corrupted" = "Пожалуйста, установите версию, с которой вы понизили версию, если вы в настоящее время понижаете версию приложения.\n\nЕсли вы столкнулись с этой проблемой после обновления приложения, пожалуйста, отправьте проблему на GitHub. Мы сделаем все возможное, чтобы решить проблему и, возможно, восстановить ваши данные.\n\nВ качестве альтернативы, если предпочтительно немедленное восстановление функциональности приложения, вы можете выбрать удаление базы данных.";
+
+// MARK: AppMenu
+"app_menu.title.about_app" = "О приложении %@";
+
+// MARK: Category
+"category.display_name.all" = "Все";
+"category.display_name.none" = "Нет";
+"category.display_name.custom" = "Пользовательский";
+
+// MARK: Common
+"common.title.done" = "Готово";
+"common.title.select" = "Выбрать";
+"common.title.cancel" = "Отмена";
+"common.title.website" = "Веб-сайт";
+"common.title.username" = "Имя пользователя";
+"common.title.password" = "Пароль";
+"common.title.optional" = "Необязательно";
+"common.title.version" = "Версия %@ (%@)";
+"common.title.view_error_info" = "Просмотреть информацию об ошибке";
+
+// MARK: Dialog
+"dialog.title.drop_database" = "Вы потеряете все свои данные в этом приложении.\nВы уверены, что хотите удалить базу данных?";
+"dialog.button.drop_database" = "Удалить базу данных";
+"dialog.title.delete_client" = "Вы уверены, что хотите удалить \"%@\"?";
+"dialog.button.delete_client" = "Удалить клиента";
+"dialog.title.delete_tasks" = "Вы уверены, что хотите удалить выбранные %d задачи?";
+"dialog.button.delete_tasks_and_files" = "Удалить задачи и файлы";
+"dialog.button.delete_tasks" = "Удалить задачи";
+"dialog.button.enter_one_time_password" = "Введите одноразовый пароль";
+"dialog.title.sync_failed" = "Похоже, что во время процесса синхронизации возникла проблема.";
+"dialog.title.login_failed" = "Похоже, что во время процесса входа возникла проблема.";
+"dialog.title.request_beta_trial_failed" = "Похоже, что во время запроса на бета-версию возникла проблема.";
+"dialog.button.retry_login" = "Повторить вход";
+"dialog.button.retry_request_beta_trial" = "Повторить запрос";
+
+// MARK: EditClientView
+"edit_client_view.title" = "Новый клиент";
+"edit_client_view.title.type" = "Тип";
+"edit_client_view.title.name" = "Имя";
+"edit_client_view.title.host" = "Хост";
+"edit_client_view.title.one_time_password" = "Одноразовый пароль";
+"edit_client_view.button.done" = "Готово";
+"edit_client_view.button.cancel" = "Отмена";
+"edit_client_view.section.description.one_time_password" = "Одноразовый пароль может использоваться в рамках некоторых функций безопасности, таких как двухфакторная аутентификация. После успешной попытки входа это поле будет автоматически сброшено.";
+"edit_client_view.section.description.http_not_secure_message" = "Имейте в виду, что использование HTTP не является безопасным способом передачи данных. Настоятельно рекомендуется использовать HTTPS для обеспечения безопасности вашей информации и защиты вашей конфиденциальности.";
+
+// MARK: ErrorInfoView
+"error_info_view.title" = "Информация об ошибке";
+"error_info_view.title.app_version" = "Версия приложения";
+"error_info_view.title.os_version" = "Версия ОС";
+"error_info_view.title.device_name" = "Имя устройства";
+"error_info_view.section_title.description" = "Описание";
+"error_info_view.section_title.solution" = "Решение";
+"error_info_view.section_title.context" = "Контекст";
+"error_info_view.section_title.extra_information" = "Дополнительная информация";
+"error_info_view.footer.solution" = "Если предложенное решение не работает для вас или если вы считаете, что приложение работает неожиданно, пожалуйста, отправьте проблему на GitHub.";
+"error_info_view.placeholder.solution" = "В настоящее время у нас нет предложений для этой ошибки.";
+"error_info_view.placeholder.context" = "В этом ошибке нет контекста.";
+
+// MARK: FiltersView
+"filters_view.title.filters" = "Фильтры";
+"filters_view.section_title.status" = "Статус";
+"filters_view.section_title.category" = "Категория";
+"filters_view.section_title.tag" = "Тег";
+
+// MARK: MenuBarExtra
+"menu_bar_extra.button.show_app" = "Показать BitRemote";
+"menu_bar_extra.button.quit" = "Выйти";
+
+// MARK: NewTaskView
+"new_task_view.title" = "Новая задача";
+"new_task_view.title.api_available" = "Доступно с %@";
+"new_task_view.title.api_unavailable" = "Недоступно с %@";
+"new_task_view.title.relevant_torrents" = "Соответствующие торренты:";
+"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.processing_requests" = "Обработка запросов... (%@/%@)";
+"new_task_view.section.title.torrents" = "Торренты";
+"new_task_view.section.title.options" = "Опции";
+"new_task_view.section.title.default_savepath" = "Если вы не укажете папку, по умолчанию будет использоваться место загрузки **\"%@\"**.";
+"new_task_view.section.title.default_savepath_placeholder" = "(загрузка...)";
+"new_task_view.title.savepath" = "Папка загрузки";
+"new_task_view.prompt.savepath" = "/download";
+"new_task_view.prompt.nas_savepath" = "SharedFolder/Download";
+"new_task_view.title.cookies" = "Cookies";
+"new_task_view.title.paused" = "Добавить как приостановленное";
+"new_task_view.model.source_format.link" = "Ссылка";
+"new_task_view.model.source_format.file" = "Файл";
+"new_task_view.model.aria2.options_type.global" = "Глобальный";
+"new_task_view.model.aria2.download_piece_selection_algorithm.default" = "По умолчанию";
+"new_task_view.model.aria2.download_piece_selection_algorithm.inorder" = "По порядку";
+"new_task_view.model.aria2.download_piece_selection_algorithm.random" = "Случайный";
+"new_task_view.model.aria2.download_piece_selection_algorithm.geom" = "Геометрический";
+"new_task_view.model.qBittorrent.torrent_stop_condition.none" = "Нет";
+"new_task_view.model.qBittorrent.torrent_stop_condition.metadata_received" = "Метаданные получены";
+"new_task_view.model.qBittorrent.torrent_stop_condition.files_checked" = "Файлы проверены";
+"new_task_view.model.qBittorrent.torrent_content_layout.original" = "Оригинал";
+"new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "Создать подпапку";
+"new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "Не создавать подпапку";
+"new_task_view.aria2_form.title.allows_overwrite" = "Разрешить перезапись";
+"new_task_view.aria2_form.title.max_download_limit" = "Максимальный лимит загрузки (Б/с)";
+"new_task_view.aria2_form.title.conditional_download" = "Условная загрузка";
+"new_task_view.aria2_form.title.file_allocation_method" = "Метод выделения файла";
+"new_task_view.aria2_form.title.parameterized_URI" = "Параметризованный URI";
+"new_task_view.aria2_form.title.force_save" = "Принудительное сохранение";
+"new_task_view.aria2_form.title.filename" = "Имя файла";
+"new_task_view.aria2_form.prompt.filename" = "File.txt";
+"new_task_view.aria2_form.title.split_count" = "Количество частей";
+"new_task_view.aria2_form.title.min_split_size" = "Минимальный размер части (байты)";
+"new_task_view.aria2_form.title.max_connection_per_server" = "Максимальное количество подключений к серверу";
+"new_task_view.aria2_form.title.lowest_speed_limit" = "Минимальный лимит скорости (Б/с)";
+"new_task_view.aria2_form.title.piece_selection_algorithm" = "Алгоритм выбора частей";
+"new_task_view.aria2_form.title.http_default_username" = "Имя пользователя по умолчанию для HTTP";
+"new_task_view.aria2_form.title.http_default_password" = "Пароль по умолчанию для HTTP";
+"new_task_view.aria2_form.title.proxy_server" = "Прокси-сервер";
+"new_task_view.aria2_form.title.proxy_username" = "Имя пользователя прокси";
+"new_task_view.aria2_form.title.proxy_password" = "Пароль прокси";
+"new_task_view.aria2_form.title.referer" = "Референт";
+"new_task_view.aria2_form.title.custom_header" = "Пользовательский заголовок";
+"new_task_view.aria2_form.title.max_upload_limit" = "Максимальный лимит загрузки (Б/с)";
+"new_task_view.aria2_form.title.max_peers" = "Максимальное количество пиров";
+"new_task_view.aria2_form.title.preferred_download_speed" = "Предпочтительная скорость загрузки (Б/с)";
+"new_task_view.aria2_form.title.remove_unselected_file" = "Удалить невыбранный файл";
+"new_task_view.aria2_form.title.stop_timeout" = "Тайм-аут остановки (сек)";
+"new_task_view.aria2_form.title.bt_tracker" = "BT трекер";
+"new_task_view.aria2_form.title.min_share_ratio" = "Минимальное соотношение раздачи";
+"new_task_view.aria2_form.title.min_seed_time" = "Минимальное время раздачи (мин)";
+"new_task_view.qBittorrent_form.title.auto_TMM" = "Автоматическое управление торрентами";
+"new_task_view.qBittorrent_form.title.rename" = "Переименовать торрент";
+"new_task_view.qBittorrent_form.prompt.rename" = "Новое имя торрента";
+"new_task_view.qBittorrent_form.title.tags" = "Теги";
+"new_task_view.qBittorrent_form.prompt.tags" = "Тег1, Тег2";
+"new_task_view.qBittorrent_form.title.stop_condition" = "Условие остановки";
+"new_task_view.qBittorrent_form.title.skip_checking" = "Пропустить проверку хеша";
+"new_task_view.qBittorrent_form.title.content_layout" = "Макет содержимого";
+"new_task_view.qBittorrent_form.title.root_folder" = "Создать корневую папку";
+"new_task_view.qBittorrent_form.title.sequential_download" = "Включить последовательную загрузку";
+"new_task_view.qBittorrent_form.title.first_last_piece_prio" = "Приоритет загрузки первой и последней части";
+"new_task_view.qBittorrent_form.title.up_limit" = "Лимит скорости загрузки (Б/с)";
+"new_task_view.qBittorrent_form.title.dl_limit" = "Лимит скорости скачивания (Б/с)";
+"new_task_view.qBittorrent_form.title.ratio_limit" = "Лимит соотношения раздачи";
+"new_task_view.qBittorrent_form.title.seeding_time_limit" = "Лимит времени раздачи (мин)";
+"new_task_view.transmission_form.title.labels" = "Метки";
+"new_task_view.transmission_form.prompt.labels" = "Метка1, Метка2";
+"new_task_view.transmission_form.title.peer_limit" = "Лимит пиров";
+"new_task_view.transmission_form.title.bandwidth_priority" = "Приоритет пропускной способности";
+"new_task_view.synology_download_station_form.title.FTP_authentication" = "Аутентификация FTP";
+"new_task_view.QNAP_download_station_form.title.temp_savepath" = "Временная папка";
+"new_task_view.torrent_picker.button.select_files" = "Выбрать файлы";
+"new_task_view.torrent_picker.button.reselect_files" = "Выбрать файлы заново";
+"new_task_view.category_picker.title.category" = "Категория";
+"new_task_view.category_picker.title.custom_category" = "Пользовательская категория";
+"new_task_view.category_picker.prompt.custom_category" = "Категория1";
+
+// MARK: PagePicker
+"page_picker.title.page" = "Страница (%d / %d)";
+"page_picker.title.upper_bound" = "/ %d";
+
+// MARK: Placeholder
+"placeholder.no_client_selected" = "Клиент не выбран.";
+"placeholder.no_clients_found" = "Клиенты не найдены.";
+"placeholder.no_tasks_found" = "Задачи не найдены.";
+
+// MARK: Sidebar
+"sidebar.button.edit_client.new" = "Новый клиент";
+"sidebar.button.edit_client.edit" = "Редактировать";
+"sidebar.button.delete_client" = "Удалить";
+
+// MARK: SortKeysPicker
+"sort_keys_picker.title.sort_keys" = "Ключи сортировки";
+"sort_keys_picker.title.enabled" = "Включено";
+"sort_keys_picker.title.disabled" = "Отключено";
+"sort_keys_picker.button.reset_sort_keys" = "Сбросить ключи сортировки";
+
+// MARK: Status
+"task.status.name.all" = "Все";
+"task.status.name.none" = "Нет";
+"task.status.name.downloading" = "Загрузка";
+"task.status.name.uploading" = "Загрузка";
+"task.status.name.checking" = "Проверка";
+"task.status.name.moving" = "Перемещение";
+"task.status.name.completed" = "Завершено";
+"task.status.name.paused" = "Приостановлено";
+"task.status.name.stalled" = "Застопорилось";
+"task.status.name.error" = "Ошибка";
+"task.status.name.unknown" = "Неизвестно";
+
+// MARK: SummaryTableColumn
+"summary_table_column.title.uploaded_size" = "Загрузка %@";
+"summary_table_column.title.downloaded_size" = "Скачано %@";
+"summary_table_column.title.ratio" = "Соотношение %@";
+
+// MARK: Tag
+"tag.display_name.all" = "Все";
+"tag.display_name.none" = "Нет";
+
+// MARK: TaskSortPicker
+"task_sort_picker.title.sort" = "Сортировка";
+
+// MARK: TasksView
+"tasks_view.button.resume" = "Возобновить";
+"tasks_view.button.pause" = "Пауза";
+"tasks_view.button.delete" = "Удалить";
+"tasks_view.table_column_title.name" = "Имя";
+"tasks_view.table_column_title.size" = "Размер";
+"tasks_view.table_column_title.progress" = "Прогресс";
+"tasks_view.table_column_title.status" = "Статус";
+"tasks_view.table_column_title.download_speed" = "Скорость скачивания";
+"tasks_view.table_column_title.upload_speed" = "Скорость загрузки";
+"tasks_view.table_column_title.eta" = "Оставшееся время";
+"tasks_view.table_column_title.seeds" = "Сиды";
+"tasks_view.table_column_title.leechs" = "Личи";
