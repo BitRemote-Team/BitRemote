@@ -1,0 +1,100 @@
+/* 
+  Constants.strings
+  Localizable
+
+  Created by 荒木辰造 on R 5/05/07.
+  
+*/
+
+// MARK: App
+"app.name" = "BitRemote";
+"app.website" = "https://bitremote.app";
+"app.copyright" = "Copyright © 2024 Ark Studios LLC.";
+"app.short_version" = "%@ (%@)";
+
+// Contact
+"app.contact.link.website" = "https://bitremote.app";
+"app.contact.link.git_hub" = "https://github.com/tatsuz0u/BitRemote";
+"app.contact.link.twitter" = "https://twitter.com/bitremote";
+"app.contact.link.threads" = "https://threads.net/@bitremote";
+"app.contact.link.discord" = "https://discord.gg/x5TP2z6cFj";
+"app.contact.link.telegram" = "https://t.me/bitremote";
+"app.contact.text.git_hub" = "GitHub";
+"app.contact.text.twitter" = "Twitter";
+"app.contact.text.threads" = "Threads";
+"app.contact.text.discord" = "Discord";
+"app.contact.text.telegram" = "Telegram";
+
+// Acknowledgements links
+"app.acknowledgement.link.bencode" = "https://github.com/danieltmbr/Bencode";
+"app.acknowledgement.link.swift_gen" = "https://github.com/SwiftGen/SwiftGen";
+"app.acknowledgement.link.alamofire" = "https://github.com/Alamofire/Alamofire";
+"app.acknowledgement.link.xml_coder" = "https://github.com/CoreOffice/XMLCoder";
+"app.acknowledgement.link.swifty_beaver" = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+"app.acknowledgement.link.sf_safe_symbols" = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+"app.acknowledgement.link.snapshot_testing" = "https://github.com/pointfreeco/swift-snapshot-testing";
+"app.acknowledgement.link.swiftUI_introspect" = "https://github.com/siteline/swiftui-introspect";
+"app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation";
+"app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
+
+// Acknowledgements texts
+"app.acknowledgement.text.bencode" = "Bencode";
+"app.acknowledgement.text.swift_gen" = "SwiftGen";
+"app.acknowledgement.text.alamofire" = "Alamofire";
+"app.acknowledgement.text.xml_coder" = "XMLCoder";
+"app.acknowledgement.text.swifty_beaver" = "SwiftyBeaver";
+"app.acknowledgement.text.sf_safe_symbols" = "SFSafeSymbols";
+"app.acknowledgement.text.snapshot_testing" = "SnapshotTesting";
+"app.acknowledgement.text.swiftUI_introspect" = "SwiftUI Introspect";
+"app.acknowledgement.text.swiftUI_navigation" = "SwiftUI Navigation";
+"app.acknowledgement.text.tca" = "The Composable Architecture";
+
+// MARK: API Availability
+"API_availability.qBittorrent.tags" = "v4.3.2";
+"API_availability.qBittorrent.content_layout" = "v4.3.2";
+"API_availability.qBittorrent.stop_condition" = "v4.5.0";
+
+// MARK: Prompt
+"prompt.integer.zero" = "0";
+"prompt.integer.sixty_four" = "64";
+"prompt.double.one_point_zero" = "1.0";
+"prompt.double.zero_point_zero_zero" = "0.00";
+"prompt.string.sixty_four_megabytes" = "64M";
+"prompt.client_host.default" = "https://domain:port";
+"prompt.client_host.aria2" = "https://domain:port/jsonrpc";
+"prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
+"prompt.username" = "Username";
+"prompt.password" = "Password";
+"prompt.referer" = "*";
+"prompt.header" = "Key: value";
+"prompt.proxy_server" = "https://proxy:port";
+"prompt.cookies" = "key1=value1; key2=value2;";
+"prompt.trackers" = "https://tracker1:port, https://tracker2:port";
+
+// MARK: Value
+"bt" = "BT";
+"http" = "HTTP";
+"null" = "(null)";
+
+"markdown.link" = "[%@](%@)";
+
+"presentation_mode_mark" = "*****";
+
+"magnet.prefix" = "magnet:?xt=urn:btih:";
+
+"trial.jwt.public_key" = "
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt90AiuR3QUjm91oYL2pe
+hoOkJcgTo5w+Ftt0X08Qpf/s8DRXEdiYafRqQ2DhJ6PWn9CdKnKZFoFbUZ2K+WFi
+JrCQjODL+ver17oCdTTxCqInwXATk/Zpe8T+kyjnjbUwbVUV74ecPRJjBZTkC5Lm
+0WRP2Pcc//Zh9d66ZDzcLOKS/8mtRikeDK/uQ7+znoK+8irUjszQT53Wbqjguv+l
+mS1XGF+OjBpV+K0q6YyPhlQRYyp10FxAa85VRKTM8K8QnVBtEfhiywfWzpcEaFkF
+jqvpxPyB+coCtiVSCSj343HVYTalN1uxBdx3BUhUzF4/a6zlkrKWP6NbBrd3l1yd
+XUDMHw9xxU0AjQClIjtNCMFnzMG2W3TOfyI2Vx5he9UkHkNCq/MjKJto+psl3iUI
+vVo6oLFmyt2Hr9zj/NekwA/3k/YMixoiQz6C+z2EZX93PIk2Fur5imFFx7v+CnZg
+1oiftK9KF+q9r8me4ko+jD8WN1huHsT+m2hkF2i5IqYiqPdxA3SYP5XAQOJPlF17
+Pn/fI6s5pN/mWWh8Kg1PlBMbXNG3oj/hdPtPxRpPU7YGIwqPDWbxevADPtKTiTeC
+s1EyOmSOI2VhfolmKqwJQenVexRNGxFYp7gAtkAGvcdgHCOAeufZaO1MZqbAiz8h
+PTlC39V/Fz2Rg6vrm6WgTR8CAwEAAQ==
+-----END PUBLIC KEY-----
+";
