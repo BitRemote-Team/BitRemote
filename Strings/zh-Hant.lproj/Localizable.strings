@@ -6,14 +6,12 @@
 
 */
 
-// MARK: AboutView
-"about_view.section.title.acknowledgements" = "致謝";
-
 // MARK: AlertView
 "loading_view.title.loading" = "載入中...";
 "loading_view.title.preparing_database" = "正在準備資料庫...";
 "error_view.button.retry" = "重試";
 "error_view.button.drop_database" = "丟棄資料庫";
+"content_unavailable_view.title.under_development" = "這個頁面正在開發中...";
 
 // MARK: AppError
 "app_error.description.unknown" = "發生不明錯誤。";
@@ -22,15 +20,16 @@
 "app_error.description.database_corrupted" = "資料庫已經損壞。";
 "app_error.internal_error.description.missing_API" = "所呼叫的 API 不可用。";
 "app_error.internal_error.description.missing_parameters" = "無法找到呼叫 API 所需的參數。";
-"app_error.API_error.description.authentication_failed" = "API 呼叫因驗證問題失敗。";
-"app_error.API_error.description.login_two_factor_authentication_failed" = "因在雙重認證過程中發生問題，登入失敗。";
-"app_error.API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
-"app_error.API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
+"app_error.local_API_error.description.operation_failed" = "API 返回的結果顯示操作失敗，可能未能成功執行。";
+"app_error.remote_API_error.description.authentication_failed" = "API 呼叫因驗證問題失敗。";
+"app_error.remote_API_error.description.login_two_factor_authentication_failed" = "因在雙重認證過程中發生問題，登入失敗。";
+"app_error.remote_API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
+"app_error.remote_API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
 
 "app_error.solution.try_later" = "請稍後再試。";
 "app_error.solution.review_entered_information" = "請檢查輸入的資訊是否正確無誤，並稍後再試。";
-"app_error.API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否正確無誤，並稍後再試。";
-"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "請在用戶端編輯頁面輸入一次性密碼，並稍後再試。";
+"app_error.remote_API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否正確無誤，並稍後再試。";
+"app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "請在用戶端編輯頁面輸入一次性密碼，並稍後再試。";
 "app_error.solution.database_corrupted" = "如果您目前正在從較高版本降級應用程式，請將其回復到您原來的版本。\n\n如果您在升級應用程式後遇到此問題，請在 GitHub 上提交問題報告。我們將盡力解決問題並有可能回復您的數據。\n\n或者，如果您希望立即恢復應用程式功能，您也可以選擇刪除資料庫。";
 
 // MARK: AppMenu
@@ -189,10 +188,43 @@
 "page_picker.title.page" = "頁碼 (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
 
+// MARK: PaywallView
+"paywall_view.feature.remove_ads" = "移除廣告";
+"paywall_view.feature.iCloud_syncing" = "iCloud 同步";
+"paywall_view.feature.unlimited_clients" = "不限用戶端數";
+"paywall_view.feature.task_insight_panel" = "任務明細面板";
+"paywall_view.feature.exclusive_client_types" = "專屬用戶端類型";
+
 // MARK: Placeholder
 "placeholder.no_client_selected" = "未選擇用戶端";
 "placeholder.no_clients_found" = "未找到用戶端";
 "placeholder.no_tasks_found" = "未找到任務";
+
+// MARK: SettingView
+"setting_view.title" = "設定";
+"setting_view.title.about_app" = "關於";
+"setting_view.title.system_settings" = "系統設定";
+// GeneralSettingView
+"general_setting_view.title" = "一般";
+"general_setting_view.title.language" = "語言";
+"general_setting_view.title.default_language" = "N/A";
+// AppearanceSettingView
+"appearance_setting_view.title" = "外觀";
+"appearance_setting_view.title.color_scheme" = "配色";
+"appearance_setting_view.title.theme_color" = "主題色";
+// AppIconView
+"app_icon_view.title" = "App 圖案";
+// AboutView
+"about_view.section.title.acknowledgements" = "致謝";
+
+// MARK: SettingModels
+// AppColorScheme
+"app_color_scheme.title.automatic" = "自動";
+"app_color_scheme.title.light" = "淺色";
+"app_color_scheme.title.dark" = "深色";
+// AppIcon
+"app_icon.title.default" = "預設";
+"app_icon.title.dark" = "深色";
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新增用戶端";

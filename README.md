@@ -23,6 +23,12 @@ App Strings: [{lang}.lproj](/Strings)
 
 GitHub Readme: [README.{lang}.md](/READMEs)
 
+### Contributors
+| | |
+| - | - |
+| 🇹🇼 正體中文 | [@otteryc](https://github.com/otteryc) |
+| 🇷🇺 Русский | [@Sharkboy-j](https://github.com/Sharkboy-j) |
+
 ## Supported Downloaders
 - aria2
 - qBittorrent
@@ -31,7 +37,7 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 - QNAP Download Station
 
 ## System Requirements
-This app requires iOS / iPadOS 16.0, macOS 13.0 or later.
+This app requires iOS / iPadOS 17.0, macOS 14.0 or later.
 
 ## Questions, Feedback & TestFlight
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)

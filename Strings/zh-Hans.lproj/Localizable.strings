@@ -6,14 +6,12 @@
 
 */
 
-// MARK: AboutView
-"about_view.section.title.acknowledgements" = "致谢";
-
 // MARK: AlertView
 "loading_view.title.loading" = "加载中...";
 "loading_view.title.preparing_database" = "正在准备数据库...";
 "error_view.button.retry" = "重试";
 "error_view.button.drop_database" = "丢弃数据库";
+"content_unavailable_view.title.under_development" = "这个页面正在开发中...";
 
 // MARK: AppError
 "app_error.description.unknown" = "发生了未知错误。";
@@ -22,15 +20,16 @@
 "app_error.description.database_corrupted" = "数据库已损毁。";
 "app_error.internal_error.description.missing_API" = "所调用的 API 不可用。";
 "app_error.internal_error.description.missing_parameters" = "无法找到调用 API 所需的参数。";
-"app_error.API_error.description.authentication_failed" = "API 调用因鉴权问题失败。";
-"app_error.API_error.description.login_two_factor_authentication_failed" = "因在双重认证过程中发生问题，登录失败。";
-"app_error.API_error.description.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
-"app_error.API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
+"app_error.local_API_error.description.operation_failed" = "API 返回的结果显示操作失败，可能未能成功执行。";
+"app_error.remote_API_error.description.authentication_failed" = "API 调用因鉴权问题失败。";
+"app_error.remote_API_error.description.login_two_factor_authentication_failed" = "因在双重认证过程中发生问题，登录失败。";
+"app_error.remote_API_error.description.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
+"app_error.remote_API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
 
 "app_error.solution.try_later" = "请稍后再试。";
 "app_error.solution.review_entered_information" = "请检查输入的信息是否准确无误，并稍后再试。";
-"app_error.API_error.solution.authentication_failed" = "请在客户端编辑页面检查其凭证信息是否准确无误，并稍后再试。";
-"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "请在客户端编辑页面输入一次性密码，并稍后再试。";
+"app_error.remote_API_error.solution.authentication_failed" = "请在客户端编辑页面检查其凭证信息是否准确无误，并稍后再试。";
+"app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "请在客户端编辑页面输入一次性密码，并稍后再试。";
 "app_error.solution.database_corrupted" = "如果您目前正在从较高版本降级 App，请将其恢复到您原先的版本。\n\n如果您在升级 App 后遇到此问题，请在 GitHub 上提交问题报告。我们将尽力解决问题并有可能恢复您的数据。\n\n或者，如果您希望立即恢复 App 功能，您也可以选择删除数据库。";
 
 // MARK: AppMenu
@@ -189,10 +188,43 @@
 "page_picker.title.page" = "页码 (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
 
+// MARK: PaywallView
+"paywall_view.feature.remove_ads" = "移除广告";
+"paywall_view.feature.iCloud_syncing" = "iCloud 同步";
+"paywall_view.feature.unlimited_clients" = "不限客户端数";
+"paywall_view.feature.task_insight_panel" = "任务详情面板";
+"paywall_view.feature.exclusive_client_types" = "专属客户端类型";
+
 // MARK: Placeholder
 "placeholder.no_client_selected" = "未选择客户端";
 "placeholder.no_clients_found" = "未找到客户端";
 "placeholder.no_tasks_found" = "未找到任务";
+
+// MARK: SettingView
+"setting_view.title" = "设置";
+"setting_view.title.about_app" = "关于";
+"setting_view.title.system_settings" = "系统设置";
+// GeneralSettingView
+"general_setting_view.title" = "一般";
+"general_setting_view.title.language" = "语言";
+"general_setting_view.title.default_language" = "无效";
+// AppearanceSettingView
+"appearance_setting_view.title" = "外观";
+"appearance_setting_view.title.color_scheme" = "配色";
+"appearance_setting_view.title.theme_color" = "主题色";
+// AppIconView
+"app_icon_view.title" = "App 图标";
+// AboutView
+"about_view.section.title.acknowledgements" = "致谢";
+
+// MARK: SettingModels
+// AppColorScheme
+"app_color_scheme.title.automatic" = "自动";
+"app_color_scheme.title.light" = "浅色";
+"app_color_scheme.title.dark" = "深色";
+// AppIcon
+"app_icon.title.default" = "默认";
+"app_icon.title.dark" = "深色";
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "添加客户端";

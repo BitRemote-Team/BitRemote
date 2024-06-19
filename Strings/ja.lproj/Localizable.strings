@@ -6,14 +6,12 @@
 
 */
 
-// MARK: AboutView
-"about_view.section.title.acknowledgements" = "謝辞";
-
 // MARK: AlertView
 "loading_view.title.loading" = "読み込み中...";
 "loading_view.title.preparing_database" = "データベース準備中...";
 "error_view.button.retry" = "リトライ";
 "error_view.button.drop_database" = "データベースを削除";
+"content_unavailable_view.title.under_development" = "この画面は開発中のため、ご利用いただけません。";
 
 // MARK: AppError
 "app_error.description.unknown" = "不明なエラーが発生しました。";
@@ -22,15 +20,16 @@
 "app_error.description.database_corrupted" = "データベースが破損しています。";
 "app_error.internal_error.description.missing_API" = "API は現在利用できません。";
 "app_error.internal_error.description.missing_parameters" = "API 呼び出しに必要な引数が見つかりませんでした。";
-"app_error.API_error.description.authentication_failed" = "API 呼び出しの認証に失敗しました。";
-"app_error.API_error.description.login_two_factor_authentication_failed" = "二要素認証中に問題が発生したため、ログインが失敗しました。";
-"app_error.API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
-"app_error.API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
+"app_error.local_API_error.description.operation_failed" = "API からの応答は失敗を示していて、操作が成功しなかった可能性があります。";
+"app_error.remote_API_error.description.authentication_failed" = "API 呼び出しの認証に失敗しました。";
+"app_error.remote_API_error.description.login_two_factor_authentication_failed" = "二要素認証中に問題が発生したため、ログインが失敗しました。";
+"app_error.remote_API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
+"app_error.remote_API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
 
 "app_error.solution.try_later" = "しばらくしてからもう一度お試しください。";
 "app_error.solution.review_entered_information" = "入力された情報を確認し、もう一度お試しください。";
-"app_error.API_error.solution.authentication_failed" = "クライアント編集画面で認証情報を確認し、もう一度お試しください。";
-"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "クライアント編集画面でワンタイムパスワードを入力し、もう一度お試しください。";
+"app_error.remote_API_error.solution.authentication_failed" = "クライアント編集画面で認証情報を確認し、もう一度お試しください。";
+"app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "クライアント編集画面でワンタイムパスワードを入力し、もう一度お試しください。";
 "app_error.solution.database_corrupted" = "アプリをダウングレードしている場合は、元のバージョンに戻してください。\n\nアプリをアップグレード後にこの問題に遭遇した場合は、GitHub で問題を報告してください。問題を解決し、データを復旧できる可能性があります。\n\n代わりに、アプリの機能をすぐに回復させる場合は、データベースを削除することもできます。";
 
 // MARK: AppMenu
@@ -189,10 +188,43 @@
 "page_picker.title.page" = "ページ (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
 
+// MARK: PaywallView
+"paywall_view.feature.remove_ads" = "広告非表示";
+"paywall_view.feature.iCloud_syncing" = "iCloud 同期";
+"paywall_view.feature.unlimited_clients" = "クライアント数制限なし";
+"paywall_view.feature.task_insight_panel" = "タスクの詳細情報パネル";
+"paywall_view.feature.exclusive_client_types" = "専用クライアントタイプ";
+
 // MARK: Placeholder
 "placeholder.no_client_selected" = "クライアント未選択";
 "placeholder.no_clients_found" = "クライアントが見つかりません";
 "placeholder.no_tasks_found" = "タスクが見つかりません";
+
+// MARK: SettingView
+"setting_view.title" = "設定";
+"setting_view.title.about_app" = "アプリ情報";
+"setting_view.title.system_settings" = "システム設定";
+// GeneralSettingView
+"general_setting_view.title" = "全般";
+"general_setting_view.title.language" = "言語";
+"general_setting_view.title.default_language" = "無効";
+// AppearanceSettingView
+"appearance_setting_view.title" = "外観";
+"appearance_setting_view.title.color_scheme" = "配色";
+"appearance_setting_view.title.theme_color" = "テーマ色";
+// AppIconView
+"app_icon_view.title" = "アプリアイコン";
+// AboutView
+"about_view.section.title.acknowledgements" = "謝辞";
+
+// MARK: SettingModels
+// AppColorScheme
+"app_color_scheme.title.automatic" = "自動";
+"app_color_scheme.title.light" = "ライト";
+"app_color_scheme.title.dark" = "ダーク";
+// AppIcon
+"app_icon.title.default" = "既定";
+"app_icon.title.dark" = "ダーク";
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新規クライアント";

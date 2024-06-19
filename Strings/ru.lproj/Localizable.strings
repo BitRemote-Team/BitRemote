@@ -6,14 +6,12 @@
 
 */
 
-// MARK: AboutView
-"about_view.section.title.acknowledgements" = "Благодарности";
-
 // MARK: AlertView
 "loading_view.title.loading" = "Загрузка...";
 "loading_view.title.preparing_database" = "Подготовка базы данных...";
 "error_view.button.retry" = "Повторить";
 "error_view.button.drop_database" = "Удалить базу данных";
+"content_unavailable_view.title.under_development" = "This page is under development.";
 
 // MARK: AppError
 "app_error.description.unknown" = "Произошла неизвестная ошибка.";
@@ -22,15 +20,16 @@
 "app_error.description.database_corrupted" = "База данных повреждена.";
 "app_error.internal_error.description.missing_API" = "API в настоящее время недоступно.";
 "app_error.internal_error.description.missing_parameters" = "Отсутствуют необходимые параметры при вызове API.";
-"app_error.API_error.description.authentication_failed" = "Вызов API не удался из-за проблем с аутентификацией.";
-"app_error.API_error.description.login_two_factor_authentication_failed" = "Попытка входа не удалась из-за проблем с двухфакторной аутентификацией.";
-"app_error.API_error.description.unknown_reason_failed" = "Произошла ошибка при обработке вашего запроса, возможно, из-за передачи недействительных параметров в API.";
-"app_error.API_error.description.untracked_response" = "Приложение получило неотслеживаемый ответ от API, что может привести к проблеме с целостностью данных.";
+"app_error.local_API_error.description.operation_failed" = "The API returned a failure response, indicating that the operation did not succeed.";
+"app_error.remote_API_error.description.authentication_failed" = "Вызов API не удался из-за проблем с аутентификацией.";
+"app_error.remote_API_error.description.login_two_factor_authentication_failed" = "Попытка входа не удалась из-за проблем с двухфакторной аутентификацией.";
+"app_error.remote_API_error.description.unknown_reason_failed" = "Произошла ошибка при обработке вашего запроса, возможно, из-за передачи недействительных параметров в API.";
+"app_error.remote_API_error.description.untracked_response" = "Приложение получило неотслеживаемый ответ от API, что может привести к проблеме с целостностью данных.";
 
 "app_error.solution.try_later" = "Пожалуйста, попробуйте позже.";
 "app_error.solution.review_entered_information" = "Пожалуйста, проверьте введенную информацию и попробуйте снова.";
-"app_error.API_error.solution.authentication_failed" = "Пожалуйста, проверьте учетные данные клиента на странице редактирования клиента и попробуйте снова.";
-"app_error.API_error.solution.loginTwoFactor_authentication_failed" = "Пожалуйста, введите одноразовый пароль на странице редактирования клиента и попробуйте снова.";
+"app_error.remote_API_error.solution.authentication_failed" = "Пожалуйста, проверьте учетные данные клиента на странице редактирования клиента и попробуйте снова.";
+"app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "Пожалуйста, введите одноразовый пароль на странице редактирования клиента и попробуйте снова.";
 "app_error.solution.database_corrupted" = "Пожалуйста, установите версию, с которой вы понизили версию, если вы в настоящее время понижаете версию приложения.\n\nЕсли вы столкнулись с этой проблемой после обновления приложения, пожалуйста, отправьте проблему на GitHub. Мы сделаем все возможное, чтобы решить проблему и, возможно, восстановить ваши данные.\n\nВ качестве альтернативы, если предпочтительно немедленное восстановление функциональности приложения, вы можете выбрать удаление базы данных.";
 
 // MARK: AppMenu
@@ -189,10 +188,43 @@
 "page_picker.title.page" = "Страница (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
 
+// MARK: PaywallView
+"paywall_view.feature.remove_ads" = "Remove Ads";
+"paywall_view.feature.iCloud_syncing" = "iCloud Syncing";
+"paywall_view.feature.unlimited_clients" = "Unlimited Clients";
+"paywall_view.feature.task_insight_panel" = "Task Insight Panel";
+"paywall_view.feature.exclusive_client_types" = "Exclusive Client Types";
+
 // MARK: Placeholder
 "placeholder.no_client_selected" = "Клиент не выбран.";
 "placeholder.no_clients_found" = "Клиенты не найдены.";
 "placeholder.no_tasks_found" = "Задачи не найдены.";
+
+// MARK: SettingView
+"setting_view.title" = "Setting";
+"setting_view.title.about_app" = "About";
+"setting_view.title.system_settings" = "System settings";
+// GeneralSettingView
+"general_setting_view.title" = "General";
+"general_setting_view.title.language" = "Language";
+"general_setting_view.title.default_language" = "N/A";
+// AppearanceSettingView
+"appearance_setting_view.title" = "Appearance";
+"appearance_setting_view.title.color_scheme" = "Color scheme";
+"appearance_setting_view.title.theme_color" = "Theme color";
+// AppIconView
+"app_icon_view.title" = "App icon";
+// AboutView
+"about_view.section.title.acknowledgements" = "Благодарности";
+
+// MARK: SettingModels
+// AppColorScheme
+"app_color_scheme.title.automatic" = "Automatic";
+"app_color_scheme.title.light" = "Light";
+"app_color_scheme.title.dark" = "Dark";
+// AppIcon
+"app_icon.title.default" = "Default";
+"app_icon.title.dark" = "Dark";
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "Новый клиент";
