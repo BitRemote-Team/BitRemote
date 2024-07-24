@@ -21,6 +21,7 @@
 "app_error.internal_error.description.missing_API" = "API は現在利用できません。";
 "app_error.internal_error.description.missing_parameters" = "API 呼び出しに必要な引数が見つかりませんでした。";
 "app_error.local_API_error.description.operation_failed" = "API からの応答は失敗を示していて、操作が成功しなかった可能性があります。";
+"app_error.local_API_error.description.decoding_failed" = "データのデコード中に問題が発生しました。";
 "app_error.remote_API_error.description.authentication_failed" = "API 呼び出しの認証に失敗しました。";
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "二要素認証中に問題が発生したため、ログインが失敗しました。";
 "app_error.remote_API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
@@ -28,6 +29,7 @@
 
 "app_error.solution.try_later" = "しばらくしてからもう一度お試しください。";
 "app_error.solution.review_entered_information" = "入力された情報を確認し、もう一度お試しください。";
+"app_error.local_API_error.solution.decoding_failed" = "データを提供した場合、コーディングキーが正しく入力されていることを確認してください。";
 "app_error.remote_API_error.solution.authentication_failed" = "クライアント編集画面で認証情報を確認し、もう一度お試しください。";
 "app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "クライアント編集画面でワンタイムパスワードを入力し、もう一度お試しください。";
 "app_error.solution.database_corrupted" = "アプリをダウングレードしている場合は、元のバージョンに戻してください。\n\nアプリをアップグレード後にこの問題に遭遇した場合は、GitHub で問題を報告してください。問題を解決し、データを復旧できる可能性があります。\n\n代わりに、アプリの機能をすぐに回復させる場合は、データベースを削除することもできます。";
@@ -62,9 +64,7 @@
 "dialog.button.enter_one_time_password" = "ワンタイムパスワードを入力";
 "dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
 "dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
-"dialog.title.request_beta_trial_failed" = "ベータトライアルのリクエスト中に問題が発生したようです。";
 "dialog.button.retry_login" = "ログインを再試行";
-"dialog.button.retry_request_beta_trial" = "リクエストを再試行";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新規クライアント";
@@ -74,6 +74,7 @@
 "edit_client_view.title.one_time_password" = "ワンタイムパスワード";
 "edit_client_view.button.done" = "完了";
 "edit_client_view.button.cancel" = "キャンセル";
+"edit_client_view.section.description.exclusive_client_type" = "この専用クライアントタイプを利用するには、BitRemote+ が必要です。";
 "edit_client_view.section.description.one_time_password" = "ワンタイムパスワードは、二要素認証などのセキュリティ機能の一部として利用される場合があります。ログインが成功した後、このフィールドは自動的にリセットされます。";
 "edit_client_view.section.description.http_not_secure_message" = "HTTP は、データを安全に伝送する方法ではありません。お客様の情報の安全性を確保し、プライバシーを保護するために、HTTPS を使用することを強くお勧めします。";
 
@@ -90,6 +91,26 @@
 "error_info_view.placeholder.solution" = "このエラーを解決するための提案はありません。";
 "error_info_view.placeholder.context" = "このエラーには背景情報が含まれていません。";
 
+// MARK: FeaturesShowcaseView
+"features_showcase_view.title" = "%@\n新機能紹介";
+"features_showcase_view.button.continue" = "続ける";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "クライアントのバックアップと復元";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "統一された JSON フォーマットでクライアントをバックアップ・復元し、アプリのバージョン間で円滑に転送できます。";
+"features_showcase_view.version110.title.app_activity_logs" = "アプリ動作記録";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "詳細なログを簡単に閲覧・検索でき、アプリの動作を完全に把握できます。";
+"features_showcase_view.version110.title.new_features_showcase" = "新機能紹介画面";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "このバージョンで追加された新機能や改善点を簡単に確認できます。";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store デビュー";
+"features_showcase_view.version100.subtitle.app_store_debut" = "BitRemote が App Store でダウンロード可能になりました。アプリの初回リリースを体験してみましょう。";
+"features_showcase_view.version100.title.diverse_client_support" = "多様なクライアントサポート";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "aria2、qBit、Trans、Synology、QNAP など、人気ダウンロードツールとシームレスに連携。";
+"features_showcase_view.version100.title.comprehensive_task_management" = "包括的なタスク管理";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "ダウンロードタスクの一時停止、再開、削除、新規追加など、簡単に制御できます。";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "スマートなフィルタリングと並べ替え";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "ステータス、カテゴリ、タグでダウンロードタスクを整理し、多様な条件で効率的に並べ替えができます。";
+
 // MARK: FiltersView
 "filters_view.title.filters" = "フィルター";
 "filters_view.section_title.status" = "状態";
@@ -104,12 +125,11 @@
 "new_task_view.title" = "新規タスク";
 "new_task_view.title.api_available" = "%@ から利用可能";
 "new_task_view.title.api_unavailable" = "%@ から利用不可";
-"new_task_view.title.relevant_torrents" = "該当するトレント:";
-"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.relevant_files" = "該当するファイル:";
+"new_task_view.title.relevant_file_line" = "- %@";
 "new_task_view.title.processing_requests" = "リクエスト処理中... (%@/%@)";
 "new_task_view.model.source_format.link" = "リンク";
 "new_task_view.model.source_format.file" = "ファイル";
-"new_task_view.section.title.torrents" = "トレント";
 "new_task_view.section.title.options" = "オプション";
 "new_task_view.section.title.default_savepath" = "保存先を指定しない場合、既定値 **\"%@\"** が自動的に使用されます。";
 "new_task_view.section.title.default_savepath_placeholder" = "(読み込み中...)";
@@ -184,21 +204,25 @@
 "new_task_view.category_picker.title.custom_category" = "カスタムカテゴリ";
 "new_task_view.category_picker.prompt.custom_category" = "カテゴリ1";
 
+// MARK: Notification
+"notification.title.operation.success" = "操作完了";
+"notification.title.operation.failure" = "操作失敗";
+"notification.title.backup_clients.success" = "バックアップ完了";
+"notification.title.backup_clients.failure" = "バックアップ失敗";
+"notification.title.restore_clients.success" = "バックアップ復元完了";
+"notification.title.restore_clients.failure" = "バックアップ復元失敗";
+"notification.message.client" = "クライアント 1 個";
+"notification.message.clients" = "クライアント %d 個";
+
 // MARK: PagePicker
 "page_picker.title.page" = "ページ (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
-
-// MARK: PaywallView
-"paywall_view.feature.remove_ads" = "広告非表示";
-"paywall_view.feature.iCloud_syncing" = "iCloud 同期";
-"paywall_view.feature.unlimited_clients" = "クライアント数制限なし";
-"paywall_view.feature.task_insight_panel" = "タスクの詳細情報パネル";
-"paywall_view.feature.exclusive_client_types" = "専用クライアントタイプ";
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "クライアント未選択";
 "placeholder.no_clients_found" = "クライアントが見つかりません";
 "placeholder.no_tasks_found" = "タスクが見つかりません";
+"placeholder.no_logs_found" = "ログが見つかりません";
 
 // MARK: SettingView
 "setting_view.title" = "設定";
@@ -208,6 +232,11 @@
 "general_setting_view.title" = "全般";
 "general_setting_view.title.language" = "言語";
 "general_setting_view.title.default_language" = "無効";
+"general_setting_view.section.title.backup" = "バックアップ";
+"general_setting_view.title.backup_clients" = "クライアントのバックアップを作成する";
+"general_setting_view.title.restore_clients" = "バックアップからクライアントを復元する";
+// AppActivityLogsView
+"app_activity_logs_view.title" = "アプリ動作記録";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外観";
 "appearance_setting_view.title.color_scheme" = "配色";
@@ -215,6 +244,9 @@
 // AppIconView
 "app_icon_view.title" = "アプリアイコン";
 // AboutView
+"about_view.section.title.terms" = "条約";
+"about_view.title.privacy_policy" = "個人情報保護方針";
+"about_view.title.eula" = "エンドユーザー使用許諾契約";
 "about_view.section.title.acknowledgements" = "謝辞";
 "about_view.section.title.translation_contributors" = "翻訳貢献者";
 
@@ -250,6 +282,13 @@
 "task.status.name.stalled" = "停滞中";
 "task.status.name.error" = "エラー";
 "task.status.name.unknown" = "不明";
+
+// MARK: SubscriptionCapability
+"subscription_capability.title.remove_ads" = "広告非表示";
+"subscription_capability.title.iCloud_syncing" = "iCloud 同期";
+"subscription_capability.title.unlimited_clients" = "クライアント数制限なし";
+"subscription_capability.title.task_insight_panel" = "タスクの詳細情報パネル";
+"subscription_capability.title.exclusive_client_types" = "専用クライアントタイプ";
 
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "UP %@";

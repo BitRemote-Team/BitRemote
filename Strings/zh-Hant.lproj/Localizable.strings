@@ -21,6 +21,7 @@
 "app_error.internal_error.description.missing_API" = "所呼叫的 API 不可用。";
 "app_error.internal_error.description.missing_parameters" = "無法找到呼叫 API 所需的參數。";
 "app_error.local_API_error.description.operation_failed" = "API 返回的結果顯示操作失敗，可能未能成功執行。";
+"app_error.local_API_error.description.decoding_failed" = "An issue occurred while decoding data.";
 "app_error.remote_API_error.description.authentication_failed" = "API 呼叫因驗證問題失敗。";
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "因在雙重認證過程中發生問題，登入失敗。";
 "app_error.remote_API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
@@ -28,6 +29,7 @@
 
 "app_error.solution.try_later" = "請稍後再試。";
 "app_error.solution.review_entered_information" = "請檢查輸入的資訊是否正確無誤，並稍後再試。";
+"app_error.local_API_error.solution.decoding_failed" = "Please check that the coding keys are entered correctly if you provided the data.";
 "app_error.remote_API_error.solution.authentication_failed" = "請在用戶端編輯頁面檢查其憑證資訊是否正確無誤，並稍後再試。";
 "app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "請在用戶端編輯頁面輸入一次性密碼，並稍後再試。";
 "app_error.solution.database_corrupted" = "如果您目前正在從較高版本降級應用程式，請將其回復到您原來的版本。\n\n如果您在升級應用程式後遇到此問題，請在 GitHub 上提交問題報告。我們將盡力解決問題並有可能回復您的數據。\n\n或者，如果您希望立即恢復應用程式功能，您也可以選擇刪除資料庫。";
@@ -62,9 +64,7 @@
 "dialog.button.enter_one_time_password" = "輸入一次性密碼";
 "dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
 "dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
-"dialog.title.request_beta_trial_failed" = "在請求 Beta 試用功能解鎖過程中似乎出現了問题。";
 "dialog.button.retry_login" = "重新嘗試登入";
-"dialog.button.retry_request_beta_trial" = "重新嘗試請求";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新增用戶端";
@@ -74,6 +74,7 @@
 "edit_client_view.title.one_time_password" = "一次性密碼";
 "edit_client_view.button.done" = "完成";
 "edit_client_view.button.cancel" = "取消";
+"edit_client_view.section.description.exclusive_client_type" = "需要訂閱 BitRemote+ 才能使用該專屬用戶端類型。";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如雙重認證，可能要求一次性密碼。該欄位將在成功登入後自動重置為空。";
 "edit_client_view.section.description.http_not_secure_message" = "請注意，HTTP 並不是一種安全的資料傳輸方式。為確保您個資和隱私的安全，我們強烈建議您使用 HTTPS。";
 
@@ -90,6 +91,26 @@
 "error_info_view.placeholder.solution" = "目前對於這個錯誤，我們沒有任何建議的解決方法。";
 "error_info_view.placeholder.context" = "這個錯誤中沒有包含任何上下文資訊。";
 
+// MARK: FeaturesShowcaseView
+"features_showcase_view.title" = "%@\n探索新功能";
+"features_showcase_view.button.continue" = "繼續";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "用戶端資料備份與回復";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "使用統一的 JSON 格式匯出和匯入用戶端，確保在不同版本間無縫轉移。";
+"features_showcase_view.version110.title.app_activity_logs" = "App 活動記錄";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "輕鬆瀏覽和搜尋詳細記錄，讓您全面了解 App 的運作情況。";
+"features_showcase_view.version110.title.new_features_showcase" = "探索新功能頁面";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "快速概覽此版本新增的功能和改進。";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store 登場";
+"features_showcase_view.version100.subtitle.app_store_debut" = "體驗 BitRemote 的首個版本，現已在 App Store 上可供下載。";
+"features_showcase_view.version100.title.diverse_client_support" = "多元用戶端支援";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "無縫整合常用的下載工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
+"features_showcase_view.version100.title.comprehensive_task_management" = "全面的任務管理";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "輕鬆控制您的下載任務，可隨時暫停、恢復、刪除任務，並添加新任務。";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "智慧過濾和排序";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "按狀態、類別或標籤整理下載任務，並按各種條件排序提高管理效率。";
+
 // MARK: FiltersView
 "filters_view.title.filters" = "篩選";
 "filters_view.section_title.status" = "狀態";
@@ -104,12 +125,11 @@
 "new_task_view.title" = "新增任務";
 "new_task_view.title.api_available" = "自 %@ 起可使用";
 "new_task_view.title.api_unavailable" = "自 %@ 起不可用";
-"new_task_view.title.relevant_torrents" = "相關種子:";
-"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.relevant_files" = "相關檔案:";
+"new_task_view.title.relevant_file_line" = "- %@";
 "new_task_view.title.processing_requests" = "正在處理請求... (%@/%@)";
 "new_task_view.model.source_format.link" = "連結";
 "new_task_view.model.source_format.file" = "檔案";
-"new_task_view.section.title.torrents" = "種子";
 "new_task_view.section.title.options" = "選項";
 "new_task_view.section.title.default_savepath" = "如果您不指定儲存位置，將自動使用預設位置 **\"%@\"**。";
 "new_task_view.section.title.default_savepath_placeholder" = "(載入中...)";
@@ -184,30 +204,39 @@
 "new_task_view.category_picker.title.custom_category" = "自訂分類";
 "new_task_view.category_picker.prompt.custom_category" = "分類1";
 
+// MARK: Notification
+"notification.title.operation.success" = "操作完成";
+"notification.title.operation.failure" = "操作失敗";
+"notification.title.backup_clients.success" = "匯出備份完成";
+"notification.title.backup_clients.failure" = "匯出備份失敗";
+"notification.title.restore_clients.success" = "從備份回復資料完成";
+"notification.title.restore_clients.failure" = "從備份回復資料失敗";
+"notification.message.client" = "1 個用戶端";
+"notification.message.clients" = "%d 個用戶端";
+
 // MARK: PagePicker
 "page_picker.title.page" = "頁碼 (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
-
-// MARK: PaywallView
-"paywall_view.feature.remove_ads" = "移除廣告";
-"paywall_view.feature.iCloud_syncing" = "iCloud 同步";
-"paywall_view.feature.unlimited_clients" = "不限用戶端數";
-"paywall_view.feature.task_insight_panel" = "任務明細面板";
-"paywall_view.feature.exclusive_client_types" = "專屬用戶端類型";
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "未選擇用戶端";
 "placeholder.no_clients_found" = "未找到用戶端";
 "placeholder.no_tasks_found" = "未找到任務";
+"placeholder.no_logs_found" = "未找到記錄";
 
 // MARK: SettingView
 "setting_view.title" = "設定";
 "setting_view.title.about_app" = "關於";
 "setting_view.title.system_settings" = "系統設定";
+// AppActivityLogsView
+"app_activity_logs_view.title" = "App 活動記錄";
 // GeneralSettingView
 "general_setting_view.title" = "一般";
 "general_setting_view.title.language" = "語言";
 "general_setting_view.title.default_language" = "N/A";
+"general_setting_view.section.title.backup" = "備份";
+"general_setting_view.title.backup_clients" = "匯出用戶端備份";
+"general_setting_view.title.restore_clients" = "從備份中回復用戶端資料";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外觀";
 "appearance_setting_view.title.color_scheme" = "配色";
@@ -215,6 +244,9 @@
 // AppIconView
 "app_icon_view.title" = "App 圖案";
 // AboutView
+"about_view.section.title.terms" = "條款";
+"about_view.title.privacy_policy" = "隱私權政策";
+"about_view.title.eula" = "終端使用者授權合約";
 "about_view.section.title.acknowledgements" = "致謝";
 "about_view.section.title.translation_contributors" = "翻譯貢獻者";
 
@@ -250,6 +282,13 @@
 "task.status.name.stalled" = "停滯中";
 "task.status.name.error" = "錯誤";
 "task.status.name.unknown" = "未知";
+
+// MARK: SubscriptionCapability
+"subscription_capability.title.remove_ads" = "移除廣告";
+"subscription_capability.title.iCloud_syncing" = "iCloud 同步";
+"subscription_capability.title.unlimited_clients" = "不限用戶端數";
+"subscription_capability.title.task_insight_panel" = "任務明細面板";
+"subscription_capability.title.exclusive_client_types" = "專屬用戶端類型";
 
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "已上傳 %@";

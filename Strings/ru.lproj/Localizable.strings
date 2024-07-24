@@ -21,6 +21,7 @@
 "app_error.internal_error.description.missing_API" = "API в настоящее время недоступно.";
 "app_error.internal_error.description.missing_parameters" = "Отсутствуют необходимые параметры при вызове API.";
 "app_error.local_API_error.description.operation_failed" = "The API returned a failure response, indicating that the operation did not succeed.";
+"app_error.local_API_error.description.decoding_failed" = "An issue occurred while decoding data.";
 "app_error.remote_API_error.description.authentication_failed" = "Вызов API не удался из-за проблем с аутентификацией.";
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "Попытка входа не удалась из-за проблем с двухфакторной аутентификацией.";
 "app_error.remote_API_error.description.unknown_reason_failed" = "Произошла ошибка при обработке вашего запроса, возможно, из-за передачи недействительных параметров в API.";
@@ -28,6 +29,7 @@
 
 "app_error.solution.try_later" = "Пожалуйста, попробуйте позже.";
 "app_error.solution.review_entered_information" = "Пожалуйста, проверьте введенную информацию и попробуйте снова.";
+"app_error.local_API_error.solution.decoding_failed" = "Please check that the coding keys are entered correctly if you provided the data.";
 "app_error.remote_API_error.solution.authentication_failed" = "Пожалуйста, проверьте учетные данные клиента на странице редактирования клиента и попробуйте снова.";
 "app_error.remote_API_error.solution.loginTwoFactor_authentication_failed" = "Пожалуйста, введите одноразовый пароль на странице редактирования клиента и попробуйте снова.";
 "app_error.solution.database_corrupted" = "Пожалуйста, установите версию, с которой вы понизили версию, если вы в настоящее время понижаете версию приложения.\n\nЕсли вы столкнулись с этой проблемой после обновления приложения, пожалуйста, отправьте проблему на GitHub. Мы сделаем все возможное, чтобы решить проблему и, возможно, восстановить ваши данные.\n\nВ качестве альтернативы, если предпочтительно немедленное восстановление функциональности приложения, вы можете выбрать удаление базы данных.";
@@ -62,9 +64,7 @@
 "dialog.button.enter_one_time_password" = "Введите одноразовый пароль";
 "dialog.title.sync_failed" = "Похоже, что во время процесса синхронизации возникла проблема.";
 "dialog.title.login_failed" = "Похоже, что во время процесса входа возникла проблема.";
-"dialog.title.request_beta_trial_failed" = "Похоже, что во время запроса на бета-версию возникла проблема.";
 "dialog.button.retry_login" = "Повторить вход";
-"dialog.button.retry_request_beta_trial" = "Повторить запрос";
 
 // MARK: EditClientView
 "edit_client_view.title" = "Новый клиент";
@@ -74,6 +74,7 @@
 "edit_client_view.title.one_time_password" = "Одноразовый пароль";
 "edit_client_view.button.done" = "Готово";
 "edit_client_view.button.cancel" = "Отмена";
+"edit_client_view.section.description.exclusive_client_type" = "BitRemote+ membership is required to use this exclusive client type.";
 "edit_client_view.section.description.one_time_password" = "Одноразовый пароль может использоваться в рамках некоторых функций безопасности, таких как двухфакторная аутентификация. После успешной попытки входа это поле будет автоматически сброшено.";
 "edit_client_view.section.description.http_not_secure_message" = "Имейте в виду, что использование HTTP не является безопасным способом передачи данных. Настоятельно рекомендуется использовать HTTPS для обеспечения безопасности вашей информации и защиты вашей конфиденциальности.";
 
@@ -90,6 +91,26 @@
 "error_info_view.placeholder.solution" = "В настоящее время у нас нет предложений для этой ошибки.";
 "error_info_view.placeholder.context" = "В этом ошибке нет контекста.";
 
+// MARK: FeaturesShowcaseView
+"features_showcase_view.title" = "Discover features in\n%@";
+"features_showcase_view.button.continue" = "Continue";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "Clients Backup & Restore";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "Export and import clients with a unified JSON format, ensuring seamless transfers across app versions.";
+"features_showcase_view.version110.title.app_activity_logs" = "App Activity Logs";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "Easily browse and search through detailed logs, giving you full visibility into your app's operations.";
+"features_showcase_view.version110.title.new_features_showcase" = "New Features Showcase";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "Get a quick overview of new features and enhancements introduced in recent versions.";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store Debut";
+"features_showcase_view.version100.subtitle.app_store_debut" = "Experience our app's first release, now available for download on the App Store.";
+"features_showcase_view.version100.title.diverse_client_support" = "Diverse Client Support";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "Seamlessly integrate with popular download tools including aria2, qBit, Trans, Synology, and QNAP.";
+"features_showcase_view.version100.title.comprehensive_task_management" = "Comprehensive Task Management";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "Easily control your downloads with options to pause, resume, delete tasks, and add new ones on the fly.";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "Smart Filtering & Sorting";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "Organize downloads by status, category, or tag, and sort by various criteria for efficiency.";
+
 // MARK: FiltersView
 "filters_view.title.filters" = "Фильтры";
 "filters_view.section_title.status" = "Статус";
@@ -104,10 +125,9 @@
 "new_task_view.title" = "Новая задача";
 "new_task_view.title.api_available" = "Доступно с %@";
 "new_task_view.title.api_unavailable" = "Недоступно с %@";
-"new_task_view.title.relevant_torrents" = "Соответствующие торренты:";
-"new_task_view.title.relevant_torrent_line" = "- %@";
+"new_task_view.title.relevant_files" = "Relevant file(s):";
+"new_task_view.title.relevant_file_line" = "- %@";
 "new_task_view.title.processing_requests" = "Обработка запросов... (%@/%@)";
-"new_task_view.section.title.torrents" = "Торренты";
 "new_task_view.section.title.options" = "Опции";
 "new_task_view.section.title.default_savepath" = "Если вы не укажете папку, по умолчанию будет использоваться место загрузки **\"%@\"**.";
 "new_task_view.section.title.default_savepath_placeholder" = "(загрузка...)";
@@ -184,21 +204,25 @@
 "new_task_view.category_picker.title.custom_category" = "Пользовательская категория";
 "new_task_view.category_picker.prompt.custom_category" = "Категория1";
 
+// MARK: Notification
+"notification.title.operation.success" = "Operation completed";
+"notification.title.operation.failure" = "Operation failed";
+"notification.title.backup_clients.success" = "Export succeeded";
+"notification.title.backup_clients.failure" = "Export failed";
+"notification.title.restore_clients.success" = "Restoration succeeded";
+"notification.title.restore_clients.failure" = "Restoration failed";
+"notification.message.client" = "1 client";
+"notification.message.clients" = "%d clients";
+
 // MARK: PagePicker
 "page_picker.title.page" = "Страница (%d / %d)";
 "page_picker.title.upper_bound" = "/ %d";
-
-// MARK: PaywallView
-"paywall_view.feature.remove_ads" = "Remove Ads";
-"paywall_view.feature.iCloud_syncing" = "iCloud Syncing";
-"paywall_view.feature.unlimited_clients" = "Unlimited Clients";
-"paywall_view.feature.task_insight_panel" = "Task Insight Panel";
-"paywall_view.feature.exclusive_client_types" = "Exclusive Client Types";
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "Клиент не выбран.";
 "placeholder.no_clients_found" = "Клиенты не найдены.";
 "placeholder.no_tasks_found" = "Задачи не найдены.";
+"placeholder.no_logs_found" = "No logs found.";
 
 // MARK: SettingView
 "setting_view.title" = "Setting";
@@ -208,6 +232,11 @@
 "general_setting_view.title" = "General";
 "general_setting_view.title.language" = "Language";
 "general_setting_view.title.default_language" = "N/A";
+"general_setting_view.section.title.backup" = "Backup";
+"general_setting_view.title.backup_clients" = "Export clients backup";
+"general_setting_view.title.restore_clients" = "Restore clients from backup";
+// AppActivityLogsView
+"app_activity_logs_view.title" = "App activity logs";
 // AppearanceSettingView
 "appearance_setting_view.title" = "Appearance";
 "appearance_setting_view.title.color_scheme" = "Color scheme";
@@ -215,6 +244,9 @@
 // AppIconView
 "app_icon_view.title" = "App icon";
 // AboutView
+"about_view.section.title.terms" = "Terms";
+"about_view.title.privacy_policy" = "Privacy Policy";
+"about_view.title.eula" = "End User License Agreement";
 "about_view.section.title.acknowledgements" = "Благодарности";
 "about_view.section.title.translation_contributors" = "Translation contributors";
 
@@ -250,6 +282,13 @@
 "task.status.name.stalled" = "Застопорилось";
 "task.status.name.error" = "Ошибка";
 "task.status.name.unknown" = "Неизвестно";
+
+// MARK: SubscriptionCapability
+"subscription_capability.title.remove_ads" = "Remove Ads";
+"subscription_capability.title.iCloud_syncing" = "iCloud Syncing";
+"subscription_capability.title.unlimited_clients" = "Unlimited Clients";
+"subscription_capability.title.task_insight_panel" = "Task Insight Panel";
+"subscription_capability.title.exclusive_client_types" = "Exclusive Client Types";
 
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "Загрузка %@";
