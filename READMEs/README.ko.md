@@ -16,6 +16,9 @@
   <a href="/READMEs/README.chs.md">简体中文</a>
 </p>
 
+## App Store
+https://apps.apple.com/us/app/bitremote/id6477765303
+
 ## 📢 번역 수요 📢
 번역을 돕고 싶으면 Pull Request를 제출해주세요.
 
@@ -39,7 +42,7 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 ## 시스템 요구 사항
 iOS / iPadOS 17.0, macOS 14.0 이상인지 확인해주세요.
 
-## 문의, 피드백, TestFlight
+## 문의, 피드백
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/x5TP2z6cFj)
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
