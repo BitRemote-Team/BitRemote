@@ -72,11 +72,14 @@
 "edit_client_view.title.name" = "Name";
 "edit_client_view.title.host" = "Host";
 "edit_client_view.title.one_time_password" = "One-time password";
+"edit_client_view.title.disable_certificate_evaluation" = "Disable certificate evaluation";
 "edit_client_view.button.done" = "Done";
 "edit_client_view.button.cancel" = "Cancel";
 "edit_client_view.section.description.exclusive_client_type" = "BitRemote+ membership is required to use this exclusive client type.";
+"edit_client_view.section.description.invalid_host_format" = "The host format is expected to be **\"%@\"**. Please verify the information you’ve entered, as it might be incorrect.";
 "edit_client_view.section.description.one_time_password" = "A one-time password may be utilized as part of some security features, such as two-factor authentication. After a successful login attempt, this field will be automatically reset to empty.";
 "edit_client_view.section.description.http_not_secure_message" = "Please be aware that using HTTP is not a secure way to transmit data. It's highly recommended to use HTTPS to ensure the safety of your information and protect your privacy.";
+"edit_client_view.section.description.disable_certificate_evaluation_message" = "Disabling certificate evaluation can expose you to significant security risks, such as vulnerability to man-in-the-middle attacks and data interception. Proceed only if you fully understand the implications.";
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "Error info";
@@ -135,7 +138,7 @@
 "new_task_view.prompt.savepath" = "/download";
 "new_task_view.prompt.nas_savepath" = "SharedFolder/Download";
 "new_task_view.title.cookies" = "Cookies";
-"new_task_view.title.paused" = "Adds as paused";
+"new_task_view.title.paused" = "Add as paused";
 "new_task_view.model.source_format.link" = "Link";
 "new_task_view.model.source_format.file" = "File";
 "new_task_view.model.aria2.options_type.global" = "Global";
@@ -149,7 +152,7 @@
 "new_task_view.model.qBittorrent.torrent_content_layout.original" = "Original";
 "new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "Creates subfolder";
 "new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "Don't create subfolder";
-"new_task_view.aria2_form.title.allows_overwrite" = "Allows overwrite";
+"new_task_view.aria2_form.title.allow_overwrite" = "Allow overwrite";
 "new_task_view.aria2_form.title.max_download_limit" = "Max download limit (B/s)";
 "new_task_view.aria2_form.title.conditional_download" = "Conditional download";
 "new_task_view.aria2_form.title.file_allocation_method" = "File allocation method";
@@ -183,11 +186,11 @@
 "new_task_view.qBittorrent_form.title.tags" = "Tags";
 "new_task_view.qBittorrent_form.prompt.tags" = "Tag1, Tag2";
 "new_task_view.qBittorrent_form.title.stop_condition" = "Stop condition";
-"new_task_view.qBittorrent_form.title.skip_checking" = "Skips hash checking";
+"new_task_view.qBittorrent_form.title.skip_checking" = "Skip hash checking";
 "new_task_view.qBittorrent_form.title.content_layout" = "Content layout";
-"new_task_view.qBittorrent_form.title.root_folder" = "Creates root folder";
-"new_task_view.qBittorrent_form.title.sequential_download" = "Enables sequential download";
-"new_task_view.qBittorrent_form.title.first_last_piece_prio" = "Prioritizes download first last piece";
+"new_task_view.qBittorrent_form.title.root_folder" = "Create root folder";
+"new_task_view.qBittorrent_form.title.sequential_download" = "Enable sequential download";
+"new_task_view.qBittorrent_form.title.first_last_piece_prio" = "Prioritize download first last piece";
 "new_task_view.qBittorrent_form.title.up_limit" = "Upload rate limit (B/s)";
 "new_task_view.qBittorrent_form.title.dl_limit" = "Download rate limit (B/s)";
 "new_task_view.qBittorrent_form.title.ratio_limit" = "Share ratio limit";
@@ -306,6 +309,8 @@
 "tasks_view.button.resume" = "Resume";
 "tasks_view.button.pause" = "Pause";
 "tasks_view.button.delete" = "Delete";
+"tasks_view.button.select_this_page" = "Select this page";
+"tasks_view.button.unselect_this_page" = "Unselect this page";
 "tasks_view.table_column_title.name" = "Name";
 "tasks_view.table_column_title.size" = "Size";
 "tasks_view.table_column_title.progress" = "Progress";

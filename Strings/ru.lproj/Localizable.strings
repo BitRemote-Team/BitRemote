@@ -72,11 +72,14 @@
 "edit_client_view.title.name" = "Имя";
 "edit_client_view.title.host" = "Хост";
 "edit_client_view.title.one_time_password" = "Одноразовый пароль";
+"edit_client_view.title.disable_certificate_evaluation" = "Disable SSL certificate validation";
 "edit_client_view.button.done" = "Готово";
 "edit_client_view.button.cancel" = "Отмена";
 "edit_client_view.section.description.exclusive_client_type" = "BitRemote+ membership is required to use this exclusive client type.";
+"edit_client_view.section.description.invalid_host_format" = "The host format is expected to be **\"%@\"**. Please verify the information you’ve entered, as it might be incorrect.";
 "edit_client_view.section.description.one_time_password" = "Одноразовый пароль может использоваться в рамках некоторых функций безопасности, таких как двухфакторная аутентификация. После успешной попытки входа это поле будет автоматически сброшено.";
 "edit_client_view.section.description.http_not_secure_message" = "Имейте в виду, что использование HTTP не является безопасным способом передачи данных. Настоятельно рекомендуется использовать HTTPS для обеспечения безопасности вашей информации и защиты вашей конфиденциальности.";
+"edit_client_view.section.description.disable_certificate_evaluation_message" = "Disabling certificate evaluation can expose you to significant security risks, such as vulnerability to man-in-the-middle attacks and data interception. Proceed only if you fully understand the implications.";
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "Информация об ошибке";
@@ -149,7 +152,7 @@
 "new_task_view.model.qBittorrent.torrent_content_layout.original" = "Оригинал";
 "new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "Создать подпапку";
 "new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "Не создавать подпапку";
-"new_task_view.aria2_form.title.allows_overwrite" = "Разрешить перезапись";
+"new_task_view.aria2_form.title.allow_overwrite" = "Разрешить перезапись";
 "new_task_view.aria2_form.title.max_download_limit" = "Максимальный лимит загрузки (Б/с)";
 "new_task_view.aria2_form.title.conditional_download" = "Условная загрузка";
 "new_task_view.aria2_form.title.file_allocation_method" = "Метод выделения файла";
@@ -306,6 +309,8 @@
 "tasks_view.button.resume" = "Возобновить";
 "tasks_view.button.pause" = "Пауза";
 "tasks_view.button.delete" = "Удалить";
+"tasks_view.button.select_this_page" = "Select this page";
+"tasks_view.button.unselect_this_page" = "Unselect this page";
 "tasks_view.table_column_title.name" = "Имя";
 "tasks_view.table_column_title.size" = "Размер";
 "tasks_view.table_column_title.progress" = "Прогресс";

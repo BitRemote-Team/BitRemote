@@ -85,9 +85,9 @@
 "prompt.double.one_point_zero" = "1.0";
 "prompt.double.zero_point_zero_zero" = "0.00";
 "prompt.string.sixty_four_megabytes" = "64M";
-"prompt.client_host.default" = "https://domain:port";
-"prompt.client_host.aria2" = "https://domain:port/jsonrpc";
-"prompt.client_host.transmission" = "https://domain:port/transmission/rpc";
+"prompt.client_host.default" = "scheme://domain:port";
+"prompt.client_host.aria2" = "scheme://domain:port/jsonrpc";
+"prompt.client_host.transmission" = "scheme://domain:port/transmission/rpc";
 "prompt.username" = "Username";
 "prompt.password" = "Password";
 "prompt.referer" = "*";
@@ -95,6 +95,10 @@
 "prompt.proxy_server" = "https://proxy:port";
 "prompt.cookies" = "key1=value1; key2=value2;";
 "prompt.trackers" = "https://tracker1:port, https://tracker2:port";
+
+// MARK: Format
+"format.client_host.suffix.aria2" = "/jsonrpc";
+"format.client_host.suffix.transmission" = "/transmission/rpc";
 
 // MARK: Value
 "bt" = "BT";

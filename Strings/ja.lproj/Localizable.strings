@@ -72,11 +72,14 @@
 "edit_client_view.title.name" = "名前";
 "edit_client_view.title.host" = "ホスト";
 "edit_client_view.title.one_time_password" = "ワンタイムパスワード";
+"edit_client_view.title.disable_certificate_evaluation" = "証明書の検証を無効化";
 "edit_client_view.button.done" = "完了";
 "edit_client_view.button.cancel" = "キャンセル";
 "edit_client_view.section.description.exclusive_client_type" = "この専用クライアントタイプを利用するには、BitRemote+ が必要です。";
+"edit_client_view.section.description.invalid_host_format" = "ホストのフォーマットは **\"%@\"** が想定されています。入力した情報が正しくない可能性があるため、もう一度ご確認ください。";
 "edit_client_view.section.description.one_time_password" = "ワンタイムパスワードは、二要素認証などのセキュリティ機能の一部として利用される場合があります。ログインが成功した後、このフィールドは自動的にリセットされます。";
 "edit_client_view.section.description.http_not_secure_message" = "HTTP は、データを安全に伝送する方法ではありません。お客様の情報の安全性を確保し、プライバシーを保護するために、HTTPS を使用することを強くお勧めします。";
+"edit_client_view.section.description.disable_certificate_evaluation_message" = "証明書の検証を無効にすると、中間者攻撃やデータの傍受など、重大なセキュリティリスクにさらされる可能性があります。この設定は、影響を完全に理解した前提でご利用ください。";
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "エラー情報";
@@ -149,7 +152,7 @@
 "new_task_view.model.qBittorrent.torrent_content_layout.original" = "オリジナル";
 "new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "サブフォルダを作成する";
 "new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "サブフォルダを作成しない";
-"new_task_view.aria2_form.title.allows_overwrite" = "上書きの許可";
+"new_task_view.aria2_form.title.allow_overwrite" = "上書きの許可";
 "new_task_view.aria2_form.title.max_download_limit" = "最大下り速度 (B/s)";
 "new_task_view.aria2_form.title.conditional_download" = "条件付きダウンロード";
 "new_task_view.aria2_form.title.file_allocation_method" = "ファイル割り当て方法";
@@ -306,6 +309,8 @@
 "tasks_view.button.resume" = "再開";
 "tasks_view.button.pause" = "停止";
 "tasks_view.button.delete" = "削除";
+"tasks_view.button.select_this_page" = "本ページを選択";
+"tasks_view.button.unselect_this_page" = "本ページを選択解除";
 "tasks_view.table_column_title.name" = "名前";
 "tasks_view.table_column_title.size" = "サイズ";
 "tasks_view.table_column_title.progress" = "進捗";

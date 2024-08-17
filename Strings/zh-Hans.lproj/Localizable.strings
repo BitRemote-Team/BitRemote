@@ -72,11 +72,14 @@
 "edit_client_view.title.name" = "名称";
 "edit_client_view.title.host" = "主机";
 "edit_client_view.title.one_time_password" = "一次性密码";
+"edit_client_view.title.disable_certificate_evaluation" = "关闭证书验证";
 "edit_client_view.button.done" = "完成";
 "edit_client_view.button.cancel" = "取消";
 "edit_client_view.section.description.exclusive_client_type" = "需要订阅 BitRemote+ 才能使用该专属客户端类型。";
+"edit_client_view.section.description.invalid_host_format" = "主机的预期格式为 **\"%@\"**。请再次确认您输入的信息。";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如双重认证，可能要求一次性密码。该字段将在成功登入后自动重置为空。";
 "edit_client_view.section.description.http_not_secure_message" = "请注意，HTTP 并不是一种安全的数据传输方式。为确保您信息和隐私的安全，我们强烈建议您使用 HTTPS。";
+"edit_client_view.section.description.disable_certificate_evaluation_message" = "关闭证书验证可能会使您暴露于重大的安全风险中，例如遭受中间人攻击和资料拦截。请仅在您完全理解其影响的前提下使用。";
 
 // MARK: ErrorInfoView
 "error_info_view.title" = "错误信息";
@@ -149,7 +152,7 @@
 "new_task_view.model.qBittorrent.torrent_content_layout.original" = "原始";
 "new_task_view.model.qBittorrent.torrent_content_layout.subfolder" = "创建子文件夹";
 "new_task_view.model.qBittorrent.torrent_content_layout.no_subfolder" = "不创建子文件夹";
-"new_task_view.aria2_form.title.allows_overwrite" = "允许覆盖";
+"new_task_view.aria2_form.title.allow_overwrite" = "允许覆盖";
 "new_task_view.aria2_form.title.max_download_limit" = "最大下载速度 (B/s)";
 "new_task_view.aria2_form.title.conditional_download" = "条件下载";
 "new_task_view.aria2_form.title.file_allocation_method" = "文件分配方法";
@@ -306,6 +309,8 @@
 "tasks_view.button.resume" = "继续";
 "tasks_view.button.pause" = "暂停";
 "tasks_view.button.delete" = "删除";
+"tasks_view.button.select_this_page" = "全选此页";
+"tasks_view.button.unselect_this_page" = "取消全选此页";
 "tasks_view.table_column_title.name" = "名称";
 "tasks_view.table_column_title.size" = "大小";
 "tasks_view.table_column_title.progress" = "进度";
