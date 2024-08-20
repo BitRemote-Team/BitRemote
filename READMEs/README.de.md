@@ -17,7 +17,7 @@
 </p>
 
 ## App Store
-https://apps.apple.com/us/app/bitremote/id6477765303
+https://apps.apple.com/app/id6477765303
 
 ## 📢 Übersetzer gesucht 📢
 Stelle eine Pull-Request wenn du bei der Übersetzung mithelfen möchtest.

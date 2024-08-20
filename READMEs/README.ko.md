@@ -17,7 +17,7 @@
 </p>
 
 ## App Store
-https://apps.apple.com/us/app/bitremote/id6477765303
+https://apps.apple.com/app/id6477765303
 
 ## 📢 번역 수요 📢
 번역을 돕고 싶으면 Pull Request를 제출해주세요.
