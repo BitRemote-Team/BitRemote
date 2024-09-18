@@ -3,8 +3,10 @@
 <h4 align="center">Apple プラットフォームのダウンローダー遠隔操作アプリ</h4>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31207151/229284410-56e3b2c0-8aa3-4650-8e8a-05b14ba9f70b.png#gh-light-mode-only" width="512"></img>
-<img src="https://user-images.githubusercontent.com/31207151/229284414-977bb152-2879-44b8-b67a-cb4223751fb5.png#gh-dark-mode-only" width="512"></img>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/06adf4db-363a-4e4c-a277-0328037b0258">
+<img src="https://github.com/user-attachments/assets/b22205ce-0079-468d-8343-a72c7d1bcc16" width="512" alt="BitRemote app icon.">
+</picture>
 </p>
 
 <p align="center">

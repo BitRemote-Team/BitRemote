@@ -46,6 +46,8 @@
 "common.title.done" = "完了";
 "common.title.select" = "選択";
 "common.title.cancel" = "キャンセル";
+"common.title.edit" = "編集";
+"common.title.delete" = "削除";
 "common.title.website" = "ウェブサイト";
 "common.title.username" = "ユーザ名";
 "common.title.password" = "パスワード";
@@ -56,8 +58,10 @@
 // MARK: Dialog
 "dialog.title.drop_database" = "本アプリでのすべてのデータを失うことになります。\n本当にデータベースを削除してもよろしいですか？";
 "dialog.button.drop_database" = "データベースを削除";
-"dialog.title.delete_client" = "\"%@\" を削除してもよろしいですか？";
+"dialog.title.delete" = "\"%@\" を削除してもよろしいですか？";
 "dialog.button.delete_client" = "クライアントを削除";
+"dialog.button.delete_category" = "カテゴリを削除";
+"dialog.button.delete_tag" = "タグを削除";
 "dialog.title.delete_tasks" = "選択された %d 個のタスクを削除してもよろしいですか？";
 "dialog.button.delete_tasks_and_files" = "タスクとファイルを削除";
 "dialog.button.delete_tasks" = "タスクを削除";
@@ -73,8 +77,6 @@
 "edit_client_view.title.host" = "ホスト";
 "edit_client_view.title.one_time_password" = "ワンタイムパスワード";
 "edit_client_view.title.disable_certificate_evaluation" = "証明書の検証を無効化";
-"edit_client_view.button.done" = "完了";
-"edit_client_view.button.cancel" = "キャンセル";
 "edit_client_view.section.description.exclusive_client_type" = "この専用クライアントタイプを利用するには、BitRemote+ が必要です。";
 "edit_client_view.section.description.invalid_host_format" = "ホストのフォーマットは **\"%@\"** が想定されています。入力した情報が正しくない可能性があるため、もう一度ご確認ください。";
 "edit_client_view.section.description.one_time_password" = "ワンタイムパスワードは、二要素認証などのセキュリティ機能の一部として利用される場合があります。ログインが成功した後、このフィールドは自動的にリセットされます。";
@@ -98,6 +100,17 @@
 "features_showcase_view.title" = "%@\n新機能紹介";
 "features_showcase_view.button.continue" = "続ける";
 
+"features_showcase_view.version120.title.category_and_tag_improvement" = "カテゴリとタグの機能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "カテゴリの作成、編集、削除機能、さらにタグの作成と削除機能を追加し、対応クライアントでの管理をより包括的に。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "選択的証明書認証";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "クライアントホストの証明書認証をスキップする新しいオプションが追加され、自己署名証明書を使用するサーバーへの接続が可能になります。";
+"features_showcase_view.version120.title.client_host_format_checking" = "クライアントホストのフォーマットチェック";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "チェッカーが改善され、フォーマットが正しくない可能性がある場合に警告メッセージを表示します。";
+"features_showcase_view.version120.title.other_minor_changes" = "その他の軽微な変更";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "リンク入力用の貼り付けボタン、タスクの一括選択オプション、より滑らかな数字アニメーション、非対応フィルターを非表示にする改良されたインターフェース。";
+"features_showcase_view.version120.title.bugfix" = "不具合修正";
+"features_showcase_view.version120.subtitle.bugfix" = "フィルター適用が正しくない問題を修正し、より正確にタスクを管理できます。";
+
 "features_showcase_view.version110.title.clients_backup_restore" = "クライアントのバックアップと復元";
 "features_showcase_view.version110.subtitle.clients_backup_restore" = "統一された JSON フォーマットでクライアントをバックアップ・復元し、アプリのバージョン間で円滑に転送できます。";
 "features_showcase_view.version110.title.app_activity_logs" = "アプリ動作記録";
@@ -119,6 +132,22 @@
 "filters_view.section_title.status" = "状態";
 "filters_view.section_title.category" = "カテゴリ";
 "filters_view.section_title.tag" = "タグ";
+"filters_view.button.info" = "情報";
+"filters_view.button.new_category" = "新規カテゴリ";
+"filters_view.button.new_tag" = "新規タグ";
+"filters_view.info_view.title.name" = "名前";
+"filters_view.info_view.section.title.setting" = "設定";
+// CategoryInfoView
+"category_info_view.title" = "カテゴリ";
+"category_info_view.title.savepath" = "ファイルの保存先";
+"category_info_view.prompt.name" = "カテゴリ名";
+"category_info_view.prompt.savepath" = "/ダウンロード";
+"category_info_view.placeholder.name" = "新規カテゴリ";
+"category_info_view.placeholder.savepath" = "ファイルの保存先なし";
+// TagInfoView
+"tag_info_view.title" = "タグ";
+"tag_info_view.prompt.name" = "タグ名";
+"tag_info_view.placeholder.name" = "新規タグ";
 
 // MARK: MenuBarExtra
 "menu_bar_extra.button.show_app" = "BitRemote を開く";
@@ -264,8 +293,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新規クライアント";
-"sidebar.button.edit_client.edit" = "編集";
-"sidebar.button.delete_client" = "削除";
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "ソートキー";

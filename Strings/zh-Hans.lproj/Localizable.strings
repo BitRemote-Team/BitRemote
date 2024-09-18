@@ -46,6 +46,8 @@
 "common.title.done" = "完成";
 "common.title.select" = "选择";
 "common.title.cancel" = "取消";
+"common.title.edit" = "编辑";
+"common.title.delete" = "删除";
 "common.title.website" = "官方网站";
 "common.title.username" = "用户名";
 "common.title.password" = "密码";
@@ -56,8 +58,10 @@
 // MARK: Dialog
 "dialog.title.drop_database" = "你将失去这个 App 中所有的数据。\n确定要丢弃数据库吗？";
 "dialog.button.drop_database" = "丢弃数据库";
-"dialog.title.delete_client" = "你确定要删除 \"%@\" 吗？";
+"dialog.title.delete" = "你确定要删除 \"%@\" 吗？";
 "dialog.button.delete_client" = "删除客户端";
+"dialog.button.delete_category" = "删除分类";
+"dialog.button.delete_tag" = "删除标签";
 "dialog.title.delete_tasks" = "你确定要删除选中的 %d 个任务吗？";
 "dialog.button.delete_tasks_and_files" = "删除任务和文件";
 "dialog.button.delete_tasks" = "删除任务";
@@ -73,8 +77,6 @@
 "edit_client_view.title.host" = "主机";
 "edit_client_view.title.one_time_password" = "一次性密码";
 "edit_client_view.title.disable_certificate_evaluation" = "关闭证书验证";
-"edit_client_view.button.done" = "完成";
-"edit_client_view.button.cancel" = "取消";
 "edit_client_view.section.description.exclusive_client_type" = "需要订阅 BitRemote+ 才能使用该专属客户端类型。";
 "edit_client_view.section.description.invalid_host_format" = "主机的预期格式为 **\"%@\"**。请再次确认您输入的信息。";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如双重认证，可能要求一次性密码。该字段将在成功登入后自动重置为空。";
@@ -98,6 +100,17 @@
 "features_showcase_view.title" = "%@\n探索新功能";
 "features_showcase_view.button.continue" = "继续";
 
+"features_showcase_view.version120.title.category_and_tag_improvement" = "分类与标签的功能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分类的新增、编辑和移除，还有标签的新增和移除等功能，让支持的客户端能够进行更全面的管理。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "可选的证书验证";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增选项可跳过客户端主机的证书验证，允许连接到使用自签证书的服务器。";
+"features_showcase_view.version120.title.client_host_format_checking" = "客户端主机格式检查";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "改进的主机格式检查器现在会提供潜在格式错误的警告。";
+"features_showcase_view.version120.title.other_minor_changes" = "其他次要更新";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快输入链接的粘贴按钮、批量选取任务的选项、更顺畅的数字过渡动画，并优化界面以隐藏不支持的筛选器。";
+"features_showcase_view.version120.title.bugfix" = "问题修正";
+"features_showcase_view.version120.subtitle.bugfix" = "修正了导致筛选应用不正确的问题，确保任务管理更加精确。";
+
 "features_showcase_view.version110.title.clients_backup_restore" = "客户端数据备份与恢复";
 "features_showcase_view.version110.subtitle.clients_backup_restore" = "使用统一的 JSON 格式导出和导入客户端，确保在不同版本间无缝转移。";
 "features_showcase_view.version110.title.app_activity_logs" = "App 活动记录";
@@ -119,6 +132,22 @@
 "filters_view.section_title.status" = "状态";
 "filters_view.section_title.category" = "分类";
 "filters_view.section_title.tag" = "标签";
+"filters_view.button.info" = "信息";
+"filters_view.button.new_category" = "添加分类";
+"filters_view.button.new_tag" = "添加标签";
+"filters_view.info_view.title.name" = "名称";
+"filters_view.info_view.section.title.setting" = "设置";
+// CategoryInfoView
+"category_info_view.title" = "分类";
+"category_info_view.title.savepath" = "文件保存位置";
+"category_info_view.prompt.name" = "分类名称";
+"category_info_view.prompt.savepath" = "/下载";
+"category_info_view.placeholder.name" = "新的分类";
+"category_info_view.placeholder.savepath" = "文件保存位置为空";
+// TagInfoView
+"tag_info_view.title" = "标签";
+"tag_info_view.prompt.name" = "标签名称";
+"tag_info_view.placeholder.name" = "新的标签";
 
 // MARK: MenuBarExtra
 "menu_bar_extra.button.show_app" = "打开 BitRemote";
@@ -264,8 +293,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "添加客户端";
-"sidebar.button.edit_client.edit" = "编辑";
-"sidebar.button.delete_client" = "删除";
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "排序键";

@@ -46,6 +46,8 @@
 "common.title.done" = "完成";
 "common.title.select" = "選擇";
 "common.title.cancel" = "取消";
+"common.title.edit" = "編輯";
+"common.title.delete" = "刪除";
 "common.title.website" = "官方網站";
 "common.title.username" = "使用者名稱";
 "common.title.password" = "密碼";
@@ -56,8 +58,10 @@
 // MARK: Dialog
 "dialog.title.drop_database" = "繼續此操作將會清除 APP 中的所有資料。\n確定要刪除資料庫？";
 "dialog.button.drop_database" = "刪除資料庫";
-"dialog.title.delete_client" = "你確定要刪除 \"%@\" 嗎？";
+"dialog.title.delete" = "你確定要刪除 \"%@\" 嗎？";
 "dialog.button.delete_client" = "刪除用戶端";
+"dialog.button.delete_category" = "刪除分類";
+"dialog.button.delete_tag" = "刪除標籤";
 "dialog.title.delete_tasks" = "你確定要刪除選中的 %d 個任務嗎？";
 "dialog.button.delete_tasks_and_files" = "刪除任務和檔案";
 "dialog.button.delete_tasks" = "刪除任務";
@@ -73,8 +77,6 @@
 "edit_client_view.title.host" = "主機";
 "edit_client_view.title.one_time_password" = "一次性密碼";
 "edit_client_view.title.disable_certificate_evaluation" = "關閉憑證驗證";
-"edit_client_view.button.done" = "完成";
-"edit_client_view.button.cancel" = "取消";
 "edit_client_view.section.description.exclusive_client_type" = "需要訂閱 BitRemote+ 才能使用該專屬用戶端類型。";
 "edit_client_view.section.description.invalid_host_format" = "主機的預期格式為 **\"%@\"**。請再次確認您輸入的資訊。";
 "edit_client_view.section.description.one_time_password" = "某些安全功能例如雙重認證，可能要求一次性密碼。該欄位將在成功登入後自動重置為空。";
@@ -98,6 +100,17 @@
 "features_showcase_view.title" = "%@\n探索新功能";
 "features_showcase_view.button.continue" = "繼續";
 
+"features_showcase_view.version120.title.category_and_tag_improvement" = "分類與標籤的功能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分類的新增、編輯和移除，還有標籤的新增和移除等功能，讓支援的用戶端能夠進行更全面的管理。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "可選的憑證驗證";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增選項可跳過用戶端主機的憑證驗證，允許連接到使用自簽憑證的伺服器。";
+"features_showcase_view.version120.title.client_host_format_checking" = "用戶端主機格式檢查";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "改進的主機格式檢查器現在會提供潛在格式錯誤的警告。";
+"features_showcase_view.version120.title.other_minor_changes" = "其他次要變更";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快輸入連結的貼上按鈕、批量選取任務的選項、更順暢的數字過渡動畫，並進行介面最佳化以隱藏不支援的篩選器。";
+"features_showcase_view.version120.title.bugfix" = "問題修正";
+"features_showcase_view.version120.subtitle.bugfix" = "修正了導致篩選應用不正確的問題，確保任務管理更加精確。";
+
 "features_showcase_view.version110.title.clients_backup_restore" = "用戶端資料備份與回復";
 "features_showcase_view.version110.subtitle.clients_backup_restore" = "使用統一的 JSON 格式匯出和匯入用戶端，確保在不同版本間無縫轉移。";
 "features_showcase_view.version110.title.app_activity_logs" = "App 活動記錄";
@@ -119,6 +132,22 @@
 "filters_view.section_title.status" = "狀態";
 "filters_view.section_title.category" = "分類";
 "filters_view.section_title.tag" = "標籤";
+"filters_view.button.info" = "資訊";
+"filters_view.button.new_category" = "新增分類";
+"filters_view.button.new_tag" = "新增標籤";
+"filters_view.info_view.title.name" = "名稱";
+"filters_view.info_view.section.title.setting" = "設定";
+// CategoryInfoView
+"category_info_view.title" = "分類";
+"category_info_view.title.savepath" = "檔案儲存位置";
+"category_info_view.prompt.name" = "分類名稱";
+"category_info_view.prompt.savepath" = "/下載";
+"category_info_view.placeholder.name" = "新的分類";
+"category_info_view.placeholder.savepath" = "檔案儲存位置為空";
+// TagInfoView
+"tag_info_view.title" = "標籤";
+"tag_info_view.prompt.name" = "標籤名稱";
+"tag_info_view.placeholder.name" = "新的標籤";
 
 // MARK: MenuBarExtra
 "menu_bar_extra.button.show_app" = "開啟 BitRemote";
@@ -264,8 +293,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新增用戶端";
-"sidebar.button.edit_client.edit" = "編輯";
-"sidebar.button.delete_client" = "刪除";
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "排序鍵值";

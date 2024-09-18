@@ -46,6 +46,8 @@
 "common.title.done" = "Done";
 "common.title.select" = "Select";
 "common.title.cancel" = "Cancel";
+"common.title.edit" = "Edit";
+"common.title.delete" = "Delete";
 "common.title.website" = "Website";
 "common.title.username" = "Username";
 "common.title.password" = "Password";
@@ -56,8 +58,10 @@
 // MARK: Dialog
 "dialog.title.drop_database" = "You will lose all your data in this app.\nAre you sure to drop the database?";
 "dialog.button.drop_database" = "Drop the database";
-"dialog.title.delete_client" = "Are you sure you want to delete \"%@\"?";
+"dialog.title.delete" = "Are you sure you want to delete \"%@\"?";
 "dialog.button.delete_client" = "Delete client";
+"dialog.button.delete_category" = "Delete category";
+"dialog.button.delete_tag" = "Delete tag";
 "dialog.title.delete_tasks" = "Are you sure you want to delete the selected %d tasks?";
 "dialog.button.delete_tasks_and_files" = "Delete tasks and files";
 "dialog.button.delete_tasks" = "Delete tasks";
@@ -73,8 +77,6 @@
 "edit_client_view.title.host" = "Host";
 "edit_client_view.title.one_time_password" = "One-time password";
 "edit_client_view.title.disable_certificate_evaluation" = "Disable certificate evaluation";
-"edit_client_view.button.done" = "Done";
-"edit_client_view.button.cancel" = "Cancel";
 "edit_client_view.section.description.exclusive_client_type" = "BitRemote+ membership is required to use this exclusive client type.";
 "edit_client_view.section.description.invalid_host_format" = "The host format is expected to be **\"%@\"**. Please verify the information you’ve entered, as it might be incorrect.";
 "edit_client_view.section.description.one_time_password" = "A one-time password may be utilized as part of some security features, such as two-factor authentication. After a successful login attempt, this field will be automatically reset to empty.";
@@ -98,6 +100,17 @@
 "features_showcase_view.title" = "Discover features in\n%@";
 "features_showcase_view.button.continue" = "Continue";
 
+"features_showcase_view.version120.title.category_and_tag_improvement" = "Category & Tag Improvement";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Introducing the ability to create, edit, and delete categories, as well as create and remove tags, for more comprehensive organization across supported clients.";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "Optional Certificate Evaluation";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "New option to bypass certificate evaluation for client hosts, enabling connections to servers with self-signed certificates.";
+"features_showcase_view.version120.title.client_host_format_checking" = "Client Host Format Checking";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "Improved host format checker now provides warning messages for potentially incorrect formats.";
+"features_showcase_view.version120.title.other_minor_changes" = "Other Minor Changes";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "New paste button for quick link input, bulk task selection options, smoother number transition animations, and refined user interface that hides unsupported filters.";
+"features_showcase_view.version120.title.bugfix" = "Bug-fix";
+"features_showcase_view.version120.subtitle.bugfix" = "Resolved an issue that caused incorrect filter applications, ensuring more accurate task management.";
+
 "features_showcase_view.version110.title.clients_backup_restore" = "Clients Backup & Restore";
 "features_showcase_view.version110.subtitle.clients_backup_restore" = "Export and import clients with a unified JSON format, ensuring seamless transfers across app versions.";
 "features_showcase_view.version110.title.app_activity_logs" = "App Activity Logs";
@@ -119,6 +132,22 @@
 "filters_view.section_title.status" = "Status";
 "filters_view.section_title.category" = "Category";
 "filters_view.section_title.tag" = "Tag";
+"filters_view.button.info" = "Info";
+"filters_view.button.new_category" = "New Category";
+"filters_view.button.new_tag" = "New Tag";
+"filters_view.info_view.title.name" = "Name";
+"filters_view.info_view.section.title.setting" = "Setting";
+// CategoryInfoView
+"category_info_view.title" = "Category";
+"category_info_view.title.savepath" = "Savepath";
+"category_info_view.prompt.name" = "Category name";
+"category_info_view.prompt.savepath" = "/download";
+"category_info_view.placeholder.name" = "New category";
+"category_info_view.placeholder.savepath" = "Empty savepath";
+// TagInfoView
+"tag_info_view.title" = "Tag";
+"tag_info_view.prompt.name" = "Tag name";
+"tag_info_view.placeholder.name" = "New tag";
 
 // MARK: MenuBarExtra
 "menu_bar_extra.button.show_app" = "Show BitRemote";
@@ -264,8 +293,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "New Client";
-"sidebar.button.edit_client.edit" = "Edit";
-"sidebar.button.delete_client" = "Delete";
 
 // MARK: SortKeysPicker
 "sort_keys_picker.title.sort_keys" = "Sort keys";
