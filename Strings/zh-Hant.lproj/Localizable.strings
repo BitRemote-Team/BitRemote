@@ -100,6 +100,13 @@
 "features_showcase_view.title" = "%@\n探索新功能";
 "features_showcase_view.button.continue" = "繼續";
 
+"features_showcase_view.version130.title.activity_monitor" = "活動監視器";
+"features_showcase_view.version130.subtitle.activity_monitor" = "實時掌握用戶端的統計資料與傳輸紀錄。";
+"features_showcase_view.version130.title.refined_interface" = "介面最佳化";
+"features_showcase_view.version130.subtitle.refined_interface" = "任務列表將展示更充足的資訊，排序鍵 / 欄位數量也增加到 2 倍。更加完善了無障礙功能，在任何字體大小下都能呈現最佳效果。";
+"features_showcase_view.version130.title.bugfix" = "問題修正";
+"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任務時偶發的崩潰問題，以及特定用戶端無任務時造成的無限載入問題。";
+
 "features_showcase_view.version120.title.category_and_tag_improvement" = "分類與標籤的功能改善";
 "features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分類的新增、編輯和移除，還有標籤的新增和移除等功能，讓支援的用戶端能夠進行更全面的管理。";
 "features_showcase_view.version120.title.optional_certificate_evaluation" = "可選的憑證驗證";
@@ -226,7 +233,7 @@
 "new_task_view.qBittorrent_form.title.seeding_time_limit" = "限制做種時間 (分鐘)";
 "new_task_view.transmission_form.title.labels" = "標籤";
 "new_task_view.transmission_form.prompt.labels" = "標籤1, 標籤2";
-"new_task_view.transmission_form.title.peer_limit" = "用戶連接上限";
+"new_task_view.transmission_form.title.peer_limit" = "使用者連接上限";
 "new_task_view.transmission_form.title.bandwidth_priority" = "頻寬優先度";
 "new_task_view.synology_download_station_form.title.FTP_authentication" = "FTP 驗證";
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "檔案臨時儲存位置";
@@ -265,22 +272,30 @@
 // GeneralSettingView
 "general_setting_view.title" = "一般";
 "general_setting_view.title.language" = "語言";
-"general_setting_view.title.default_language" = "N/A";
 "general_setting_view.section.title.backup" = "備份";
 "general_setting_view.title.backup_clients" = "匯出用戶端備份";
 "general_setting_view.title.restore_clients" = "從備份中回復用戶端資料";
+"general_setting_view.section.title.subscription" = "訂閱";
+"general_setting_view.title.sync_purchases" = "同步已購買項目";
+"general_setting_view.title.restore_purchases" = "回復已購買項目";
+"general_setting_view.subtitle.restore_purchases" = "更新收據並同步已購買項目";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外觀";
 "appearance_setting_view.title.color_scheme" = "配色";
 "appearance_setting_view.title.theme_color" = "主題色";
+"appearance_setting_view.section.title.tasks" = "任務";
+"appearance_setting_view.title.show_client_speed" = "顯示用戶端速度";
+"appearance_setting_view.title.show_free_space" = "顯示可用空間";
 // AppIconView
 "app_icon_view.title" = "App 圖案";
 // AboutView
-"about_view.section.title.terms" = "條款";
+"about_view.title.version_history" = "版本歷史";
 "about_view.title.privacy_policy" = "隱私權政策";
 "about_view.title.eula" = "終端使用者授權合約";
 "about_view.section.title.acknowledgements" = "致謝";
 "about_view.section.title.translation_contributors" = "翻譯貢獻者";
+// VersionHistoryView
+"version_history_view.title" = "版本歷史";
 
 // MARK: SettingModels
 // AppColorScheme
@@ -293,12 +308,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新增用戶端";
-
-// MARK: SortKeysPicker
-"sort_keys_picker.title.sort_keys" = "排序鍵值";
-"sort_keys_picker.title.enabled" = "已啟用";
-"sort_keys_picker.title.disabled" = "已禁用";
-"sort_keys_picker.button.reset_sort_keys" = "重置排序鍵值";
 
 // MARK: Status
 "task.status.name.all" = "全部";
@@ -323,14 +332,12 @@
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "已上傳 %@";
 "summary_table_column.title.downloaded_size" = "已下載 %@";
+"summary_table_column.title.eta" = "剩餘時間 %@";
 "summary_table_column.title.ratio" = "分享率 %@";
 
 // MARK: Tag
 "tag.display_name.all" = "全部";
 "tag.display_name.none" = "無標籤";
-
-// MARK: TaskSortPicker
-"task_sort_picker.title.sort" = "排序";
 
 // MARK: TasksView
 "tasks_view.button.resume" = "繼續";
@@ -339,11 +346,63 @@
 "tasks_view.button.select_this_page" = "全選此頁";
 "tasks_view.button.unselect_this_page" = "取消全選此頁";
 "tasks_view.table_column_title.name" = "名稱";
-"tasks_view.table_column_title.size" = "大小";
+"tasks_view.table_column_title.size" = "容量";
+"tasks_view.table_column_title.total_size" = "總容量";
 "tasks_view.table_column_title.progress" = "進度";
 "tasks_view.table_column_title.status" = "狀態";
-"tasks_view.table_column_title.download_speed" = "下載速度";
-"tasks_view.table_column_title.upload_speed" = "上傳速度";
-"tasks_view.table_column_title.eta" = "預計剩餘時間";
 "tasks_view.table_column_title.seeds" = "種子";
-"tasks_view.table_column_title.leechs" = "用戶";
+"tasks_view.table_column_title.leechs" = "使用者";
+"tasks_view.table_column_title.download_speed" = "下載速度";
+"tasks_view.table_column_title.download_speed_limit" = "下載速度上限";
+"tasks_view.table_column_title.downloaded_size" = "已下載容量";
+"tasks_view.table_column_title.upload_speed" = "上傳速度";
+"tasks_view.table_column_title.upload_speed_limit" = "上傳速度上限";
+"tasks_view.table_column_title.uploaded_size" = "已上傳容量";
+"tasks_view.table_column_title.remaining_size" = "剩餘容量";
+"tasks_view.table_column_title.eta" = "預計剩餘時間";
+"tasks_view.table_column_title.ratio" = "分享率";
+"tasks_view.table_column_title.ratio_limit" = "分享率上限";
+"tasks_view.table_column_title.category" = "分類";
+"tasks_view.table_column_title.tag" = "標籤";
+"tasks_view.table_column_title.added_date" = "添加日期";
+"tasks_view.table_column_title.completed_date" = "完成日期";
+// ActivityMonitor
+"activity_monitor.title" = "活動監視器";
+"activity_monitor.card.title.status" = "狀態";
+"activity_monitor.card.title.free_space" = "可用空間";
+"activity_monitor.card.title.total_space" = "總計空間";
+"activity_monitor.card.title.share_ratio" = "分享率";
+"activity_monitor.card.title.uploaded" = "已上傳";
+"activity_monitor.card.title.downloaded" = "已下載";
+// ClientStatusTray
+"client_status_tray.free_space" = "可用空間";
+// ConnectionStatus
+"connection_status.value.unknown" = "未知";
+"connection_status.value.connected" = "已連線";
+"connection_status.value.disconnected" = "連線中斷";
+"connection_status.value.firewalled" = "防火牆阻絕";
+// StatisticsBoard
+"statistics_board.title" = "統計資料";
+"statistics_board.section.title.general" = "一般";
+"statistics_board.title.dht" = "DHT";
+"statistics_board.value.dht" = "%d 個節點";
+"statistics_board.section.title.user" = "使用者";
+"statistics_board.title.session_waste" = "本次連線丟棄";
+"statistics_board.title.connected_peers" = "已連線的使用者";
+"statistics_board.section.title.cache" = "快取";
+"statistics_board.title.read_cache_hits" = "讀取快取次數";
+"statistics_board.title.total_buffer_size" = "總快取容量";
+"statistics_board.section.title.performance" = "效能";
+"statistics_board.title.write_cache_overload" = "寫入快取超過負荷";
+"statistics_board.title.read_cache_overload" = "讀取快取超過負荷";
+"statistics_board.title.queued_io_jobs" = "佇列的 I/O 任務";
+"statistics_board.title.average_time_in_queue" = "在佇列的平均時間";
+"statistics_board.title.total_queued_size" = "總佇列容量";
+// TaskSortPicker
+"task_sort_picker.title.sort" = "排序";
+// TransferChart
+"transfer_chart.title" = "傳輸紀錄";
+"transfer_chart.transport_type.title.download" = "下載";
+"transfer_chart.transport_type.title.upload" = "上傳";
+"transfer_chart.title.date" = "日期";
+"transfer_chart.title.speed" = "速度";

@@ -100,6 +100,13 @@
 "features_showcase_view.title" = "Discover features in\n%@";
 "features_showcase_view.button.continue" = "Continue";
 
+"features_showcase_view.version130.title.activity_monitor" = "Activity Monitor";
+"features_showcase_view.version130.subtitle.activity_monitor" = "Monitor real-time statistics and transfer history happening on your client.";
+"features_showcase_view.version130.title.refined_interface" = "Refined Interface";
+"features_showcase_view.version130.subtitle.refined_interface" = "A more informative tasks page with twice the available sorting keys / columns. Improved accessibility, so it always feels right at any font size.";
+"features_showcase_view.version130.title.bugfix" = "Bug-fix";
+"features_showcase_view.version130.subtitle.bugfix" = "Resolved issues that sometimes caused app crashes when adding new tasks and infinite loading when certain clients had no tasks.";
+
 "features_showcase_view.version120.title.category_and_tag_improvement" = "Category & Tag Improvement";
 "features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Introducing the ability to create, edit, and delete categories, as well as create and remove tags, for more comprehensive organization across supported clients.";
 "features_showcase_view.version120.title.optional_certificate_evaluation" = "Optional Certificate Evaluation";
@@ -263,24 +270,32 @@
 // GeneralSettingView
 "general_setting_view.title" = "General";
 "general_setting_view.title.language" = "Language";
-"general_setting_view.title.default_language" = "N/A";
 "general_setting_view.section.title.backup" = "Backup";
 "general_setting_view.title.backup_clients" = "Export clients backup";
 "general_setting_view.title.restore_clients" = "Restore clients from backup";
+"general_setting_view.section.title.subscription" = "Subscription";
+"general_setting_view.title.sync_purchases" = "Sync purchases";
+"general_setting_view.title.restore_purchases" = "Restore purchases";
+"general_setting_view.subtitle.restore_purchases" = "Refresh receipt and sync purchases";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "App activity logs";
 // AppearanceSettingView
 "appearance_setting_view.title" = "Appearance";
 "appearance_setting_view.title.color_scheme" = "Color scheme";
 "appearance_setting_view.title.theme_color" = "Theme color";
+"appearance_setting_view.section.title.tasks" = "Tasks";
+"appearance_setting_view.title.show_client_speed" = "Show client speed";
+"appearance_setting_view.title.show_free_space" = "Show free space";
 // AppIconView
 "app_icon_view.title" = "App icon";
 // AboutView
-"about_view.section.title.terms" = "Terms";
+"about_view.title.version_history" = "Version History";
 "about_view.title.privacy_policy" = "Privacy Policy";
 "about_view.title.eula" = "End User License Agreement";
 "about_view.section.title.acknowledgements" = "Благодарности";
 "about_view.section.title.translation_contributors" = "Translation contributors";
+// VersionHistoryView
+"version_history_view.title" = "Version history";
 
 // MARK: SettingModels
 // AppColorScheme
@@ -293,12 +308,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "Новый клиент";
-
-// MARK: SortKeysPicker
-"sort_keys_picker.title.sort_keys" = "Ключи сортировки";
-"sort_keys_picker.title.enabled" = "Включено";
-"sort_keys_picker.title.disabled" = "Отключено";
-"sort_keys_picker.button.reset_sort_keys" = "Сбросить ключи сортировки";
 
 // MARK: Status
 "task.status.name.all" = "Все";
@@ -323,14 +332,12 @@
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "Загрузка %@";
 "summary_table_column.title.downloaded_size" = "Скачано %@";
+"summary_table_column.title.eta" = "ETA %@";
 "summary_table_column.title.ratio" = "Соотношение %@";
 
 // MARK: Tag
 "tag.display_name.all" = "Все";
 "tag.display_name.none" = "Нет";
-
-// MARK: TaskSortPicker
-"task_sort_picker.title.sort" = "Сортировка";
 
 // MARK: TasksView
 "tasks_view.button.resume" = "Возобновить";
@@ -340,10 +347,62 @@
 "tasks_view.button.unselect_this_page" = "Unselect this page";
 "tasks_view.table_column_title.name" = "Имя";
 "tasks_view.table_column_title.size" = "Размер";
+"tasks_view.table_column_title.total_size" = "Total Size";
 "tasks_view.table_column_title.progress" = "Прогресс";
 "tasks_view.table_column_title.status" = "Статус";
-"tasks_view.table_column_title.download_speed" = "Скорость скачивания";
-"tasks_view.table_column_title.upload_speed" = "Скорость загрузки";
-"tasks_view.table_column_title.eta" = "Оставшееся время";
 "tasks_view.table_column_title.seeds" = "Сиды";
 "tasks_view.table_column_title.leechs" = "Личи";
+"tasks_view.table_column_title.download_speed" = "Скорость скачивания";
+"tasks_view.table_column_title.download_speed_limit" = "DL Speed Limit";
+"tasks_view.table_column_title.downloaded_size" = "DL Size";
+"tasks_view.table_column_title.upload_speed" = "Скорость загрузки";
+"tasks_view.table_column_title.upload_speed_limit" = "UP Speed Limit";
+"tasks_view.table_column_title.uploaded_size" = "UP Size";
+"tasks_view.table_column_title.remaining_size" = "Remaining Size";
+"tasks_view.table_column_title.eta" = "Оставшееся время";
+"tasks_view.table_column_title.ratio" = "Ratio";
+"tasks_view.table_column_title.ratio_limit" = "Ratio Limit";
+"tasks_view.table_column_title.category" = "Category";
+"tasks_view.table_column_title.tag" = "Tag";
+"tasks_view.table_column_title.added_date" = "Added Date";
+"tasks_view.table_column_title.completed_date" = "Completed Date";
+// ActivityMonitor
+"activity_monitor.title" = "Activity monitor";
+"activity_monitor.card.title.status" = "Status";
+"activity_monitor.card.title.free_space" = "Free space";
+"activity_monitor.card.title.total_space" = "Total space";
+"activity_monitor.card.title.share_ratio" = "Share ratio";
+"activity_monitor.card.title.uploaded" = "Uploaded";
+"activity_monitor.card.title.downloaded" = "Downloaded";
+// ClientStatusTray
+"client_status_tray.free_space" = "Free space";
+// ConnectionStatus
+"connection_status.value.unknown" = "Unknown";
+"connection_status.value.connected" = "Connected";
+"connection_status.value.disconnected" = "Disconnected";
+"connection_status.value.firewalled" = "Firewalled";
+// StatisticsBoard
+"statistics_board.title" = "Statistics";
+"statistics_board.section.title.general" = "General";
+"statistics_board.title.dht" = "DHT";
+"statistics_board.value.dht" = "%d nodes";
+"statistics_board.section.title.user" = "User";
+"statistics_board.title.session_waste" = "Session waste";
+"statistics_board.title.connected_peers" = "Connected peers";
+"statistics_board.section.title.cache" = "Cache";
+"statistics_board.title.read_cache_hits" = "Read cache hits";
+"statistics_board.title.total_buffer_size" = "Total buffer size";
+"statistics_board.section.title.performance" = "Performance";
+"statistics_board.title.write_cache_overload" = "Write cache overload";
+"statistics_board.title.read_cache_overload" = "Read cache overload";
+"statistics_board.title.queued_io_jobs" = "Queued I/O jobs";
+"statistics_board.title.average_time_in_queue" = "Average time in queue";
+"statistics_board.title.total_queued_size" = "Total queued size";
+// TaskSortPicker
+"task_sort_picker.title.sort" = "Сортировка";
+// TransferChart
+"transfer_chart.title" = "Transfer history";
+"transfer_chart.transport_type.title.download" = "Download";
+"transfer_chart.transport_type.title.upload" = "Upload";
+"transfer_chart.title.date" = "Date";
+"transfer_chart.title.speed" = "Speed";

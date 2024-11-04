@@ -11,6 +11,7 @@
 "app.website" = "https://bitremote.app";
 "app.copyright" = "Copyright © 2024 Ark Studios LLC.";
 "app.short_version" = "%@ (%@)";
+"app.sns" = "SNS";
 "app.plus_mark" = "+";
 
 // Contact links
@@ -52,6 +53,7 @@
 "app.acknowledgement.link.swiftUI_introspect" = "https://github.com/siteline/swiftui-introspect";
 "app.acknowledgement.link.swiftUI_navigation" = "https://github.com/pointfreeco/swiftui-navigation";
 "app.acknowledgement.link.system_notification" = "https://github.com/danielsaidi/SystemNotification";
+"app.acknowledgement.link.swiftUI_any_subviews" = "https://github.com/Lumisilk/SwiftUI-AnySubviews";
 "app.acknowledgement.link.tca" = "https://github.com/pointfreeco/swift-composable-architecture";
 
 // Acknowledgements titles
@@ -66,13 +68,13 @@
 "app.acknowledgement.title.swiftUI_introspect" = "SwiftUI Introspect";
 "app.acknowledgement.title.swiftUI_navigation" = "SwiftUI Navigation";
 "app.acknowledgement.title.system_notification" = "SystemNotification";
+"app.acknowledgement.title.swiftUI_any_subviews" = "SwiftUI-AnySubviews";
 "app.acknowledgement.title.tca" = "The Composable Architecture";
 
 // MARK: Common
 "common.ok" = "OK";
-
-// MARK: PaywallView
-"paywall_view.title.yearly_saving" = "-16%%";
+"common.infinity" = "∞";
+"common.not_available" = "N/A";
 
 // MARK: API Availability
 "API_availability.qBittorrent.tags" = "v4.3.2";

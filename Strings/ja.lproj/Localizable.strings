@@ -100,6 +100,13 @@
 "features_showcase_view.title" = "%@\n新機能紹介";
 "features_showcase_view.button.continue" = "続ける";
 
+"features_showcase_view.version130.title.activity_monitor" = "アクティビティモニタ";
+"features_showcase_view.version130.subtitle.activity_monitor" = "クライアントの統計情報と転送履歴をリアルタイムで確認できます。";
+"features_showcase_view.version130.title.refined_interface" = "洗練されたインターフェース";
+"features_showcase_view.version130.subtitle.refined_interface" = "より情報量の多いタスク一覧画面にソートキー / 列数も 2 倍になりました。アクセシビリティが向上し、どのフォントサイズでも見やすく調整されます。";
+"features_showcase_view.version130.title.bugfix" = "不具合修正";
+"features_showcase_view.version130.subtitle.bugfix" = "新規タスク追加時のクラッシュや、特定のクライアントでタスクがない場合の読み込みが終わらない問題を修正しました。";
+
 "features_showcase_view.version120.title.category_and_tag_improvement" = "カテゴリとタグの機能改善";
 "features_showcase_view.version120.subtitle.category_and_tag_improvement" = "カテゴリの作成、編集、削除機能、さらにタグの作成と削除機能を追加し、対応クライアントでの管理をより包括的に。";
 "features_showcase_view.version120.title.optional_certificate_evaluation" = "選択的証明書認証";
@@ -263,24 +270,32 @@
 // GeneralSettingView
 "general_setting_view.title" = "全般";
 "general_setting_view.title.language" = "言語";
-"general_setting_view.title.default_language" = "無効";
 "general_setting_view.section.title.backup" = "バックアップ";
 "general_setting_view.title.backup_clients" = "クライアントのバックアップを作成する";
 "general_setting_view.title.restore_clients" = "バックアップからクライアントを復元する";
+"general_setting_view.section.title.subscription" = "サブスクリプション";
+"general_setting_view.title.sync_purchases" = "購入履歴を同期する";
+"general_setting_view.title.restore_purchases" = "購入履歴を復元する";
+"general_setting_view.subtitle.restore_purchases" = "レシートを更新して購入履歴を同期する";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "アプリ動作記録";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外観";
 "appearance_setting_view.title.color_scheme" = "配色";
 "appearance_setting_view.title.theme_color" = "テーマ色";
+"appearance_setting_view.section.title.tasks" = "タスク";
+"appearance_setting_view.title.show_client_speed" = "クライアント速度の表示";
+"appearance_setting_view.title.show_free_space" = "空き容量の表示";
 // AppIconView
 "app_icon_view.title" = "アプリアイコン";
 // AboutView
-"about_view.section.title.terms" = "条約";
+"about_view.title.version_history" = "バージョン履歴";
 "about_view.title.privacy_policy" = "個人情報保護方針";
 "about_view.title.eula" = "エンドユーザー使用許諾契約";
 "about_view.section.title.acknowledgements" = "謝辞";
 "about_view.section.title.translation_contributors" = "翻訳貢献者";
+// VersionHistoryView
+"version_history_view.title" = "バージョン履歴";
 
 // MARK: SettingModels
 // AppColorScheme
@@ -293,12 +308,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新規クライアント";
-
-// MARK: SortKeysPicker
-"sort_keys_picker.title.sort_keys" = "ソートキー";
-"sort_keys_picker.title.enabled" = "有効";
-"sort_keys_picker.title.disabled" = "無効";
-"sort_keys_picker.button.reset_sort_keys" = "初期状態に戻す";
 
 // MARK: Status
 "task.status.name.all" = "すべて";
@@ -323,14 +332,12 @@
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "UP %@";
 "summary_table_column.title.downloaded_size" = "DL %@";
+"summary_table_column.title.eta" = "残り時間 %@";
 "summary_table_column.title.ratio" = "共有比 %@";
 
 // MARK: Tag
 "tag.display_name.all" = "すべて";
 "tag.display_name.none" = "タグなし";
-
-// MARK: TaskSortPicker
-"task_sort_picker.title.sort" = "ソート";
 
 // MARK: TasksView
 "tasks_view.button.resume" = "再開";
@@ -340,10 +347,62 @@
 "tasks_view.button.unselect_this_page" = "本ページを選択解除";
 "tasks_view.table_column_title.name" = "名前";
 "tasks_view.table_column_title.size" = "サイズ";
+"tasks_view.table_column_title.total_size" = "全体サイズ";
 "tasks_view.table_column_title.progress" = "進捗";
 "tasks_view.table_column_title.status" = "状態";
-"tasks_view.table_column_title.download_speed" = "下り速度";
-"tasks_view.table_column_title.upload_speed" = "上り速度";
-"tasks_view.table_column_title.eta" = "残り時間";
 "tasks_view.table_column_title.seeds" = "シード";
 "tasks_view.table_column_title.leechs" = "リーチ";
+"tasks_view.table_column_title.download_speed" = "下り速度";
+"tasks_view.table_column_title.download_speed_limit" = "下り速度上限";
+"tasks_view.table_column_title.downloaded_size" = "ダウンロード済みサイズ";
+"tasks_view.table_column_title.upload_speed" = "上り速度";
+"tasks_view.table_column_title.upload_speed_limit" = "上り速度上限";
+"tasks_view.table_column_title.uploaded_size" = "アップロード済みサイズ";
+"tasks_view.table_column_title.remaining_size" = "残りサイズ";
+"tasks_view.table_column_title.eta" = "予想残り時間";
+"tasks_view.table_column_title.ratio" = "共有比";
+"tasks_view.table_column_title.ratio_limit" = "共有比上限";
+"tasks_view.table_column_title.category" = "カテゴリ";
+"tasks_view.table_column_title.tag" = "タグ";
+"tasks_view.table_column_title.added_date" = "追加日時";
+"tasks_view.table_column_title.completed_date" = "完了日時";
+// ActivityMonitor
+"activity_monitor.title" = "アクティビティモニタ";
+"activity_monitor.card.title.status" = "状態";
+"activity_monitor.card.title.free_space" = "空き容量";
+"activity_monitor.card.title.total_space" = "合計容量";
+"activity_monitor.card.title.share_ratio" = "共有比";
+"activity_monitor.card.title.uploaded" = "アップロード済み";
+"activity_monitor.card.title.downloaded" = "ダウンロード済み";
+// ClientStatusTray
+"client_status_tray.free_space" = "空き容量";
+// ConnectionStatus
+"connection_status.value.unknown" = "不明";
+"connection_status.value.connected" = "接続済み";
+"connection_status.value.disconnected" = "接続切れ";
+"connection_status.value.firewalled" = "ファイアウォール";
+// StatisticsBoard
+"statistics_board.title" = "統計情報";
+"statistics_board.section.title.general" = "全般";
+"statistics_board.title.dht" = "DHT";
+"statistics_board.value.dht" = "%d ノード";
+"statistics_board.section.title.user" = "利用者";
+"statistics_board.title.session_waste" = "セッション破棄";
+"statistics_board.title.connected_peers" = "接続ピア数";
+"statistics_board.section.title.cache" = "キャッシュ";
+"statistics_board.title.read_cache_hits" = "読み込みキャッシュヒット";
+"statistics_board.title.total_buffer_size" = "全バッファサイズ";
+"statistics_board.section.title.performance" = "性能";
+"statistics_board.title.write_cache_overload" = "書き込みキャッシュオーバーロード";
+"statistics_board.title.read_cache_overload" = "読み込みキャッシュオーバーロード";
+"statistics_board.title.queued_io_jobs" = "待ち I/O ジョブ数";
+"statistics_board.title.average_time_in_queue" = "平均キュー待ち時間";
+"statistics_board.title.total_queued_size" = "総キューサイズ";
+// TaskSortPicker
+"task_sort_picker.title.sort" = "ソート";
+// TransferChart
+"transfer_chart.title" = "転送履歴";
+"transfer_chart.transport_type.title.download" = "ダウンロード";
+"transfer_chart.transport_type.title.upload" = "アップロード";
+"transfer_chart.title.date" = "日付";
+"transfer_chart.title.speed" = "速度";

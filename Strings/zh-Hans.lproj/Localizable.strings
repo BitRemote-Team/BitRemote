@@ -100,6 +100,13 @@
 "features_showcase_view.title" = "%@\n探索新功能";
 "features_showcase_view.button.continue" = "继续";
 
+"features_showcase_view.version130.title.activity_monitor" = "活动监视器";
+"features_showcase_view.version130.subtitle.activity_monitor" = "实时掌握客户端的统计数据与传输记录。";
+"features_showcase_view.version130.title.refined_interface" = "界面优化";
+"features_showcase_view.version130.subtitle.refined_interface" = "任务列表将展示更充足的信息，排序键 / 栏位数量也增加到 2 倍。更加完善了无障碍功能，在任何字体大小下都能呈现最佳效果。";
+"features_showcase_view.version130.title.bugfix" = "问题修正";
+"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任务时偶发的崩溃问题，以及特定客户端无任务时造成的无限加载问题。";
+
 "features_showcase_view.version120.title.category_and_tag_improvement" = "分类与标签的功能改善";
 "features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分类的新增、编辑和移除，还有标签的新增和移除等功能，让支持的客户端能够进行更全面的管理。";
 "features_showcase_view.version120.title.optional_certificate_evaluation" = "可选的证书验证";
@@ -120,7 +127,7 @@
 
 "features_showcase_view.version100.title.app_store_debut" = "App Store 登场";
 "features_showcase_view.version100.subtitle.app_store_debut" = "体验 BitRemote 的首个版本，现已在 App Store 上可供下载。";
-"features_showcase_view.version100.title.diverse_client_support" = "多元客戶端支持";
+"features_showcase_view.version100.title.diverse_client_support" = "多元客户端支持";
 "features_showcase_view.version100.subtitle.diverse_client_support" = "无缝整合常用的下载工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
 "features_showcase_view.version100.title.comprehensive_task_management" = "全面的任务管理";
 "features_showcase_view.version100.subtitle.comprehensive_task_management" = "轻松控制您的下载任务，可随时暂停、恢复、删除任务，并添加新任务。";
@@ -263,24 +270,32 @@
 // GeneralSettingView
 "general_setting_view.title" = "一般";
 "general_setting_view.title.language" = "语言";
-"general_setting_view.title.default_language" = "无效";
 "general_setting_view.section.title.backup" = "备份";
 "general_setting_view.title.backup_clients" = "导出客户端备份";
 "general_setting_view.title.restore_clients" = "从备份中恢复客户端数据";
+"general_setting_view.section.title.subscription" = "订阅";
+"general_setting_view.title.sync_purchases" = "同步已购买项目";
+"general_setting_view.title.restore_purchases" = "恢复已购买项目";
+"general_setting_view.subtitle.restore_purchases" = "更新收据并同步已购买项目";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "App 活动记录";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外观";
 "appearance_setting_view.title.color_scheme" = "配色";
 "appearance_setting_view.title.theme_color" = "主题色";
+"appearance_setting_view.section.title.tasks" = "任务";
+"appearance_setting_view.title.show_client_speed" = "显示客户端速度";
+"appearance_setting_view.title.show_free_space" = "显示剩余空间";
 // AppIconView
 "app_icon_view.title" = "App 图标";
 // AboutView
-"about_view.section.title.terms" = "条款";
-"about_view.title.privacy_policy" = "隱私權政策";
+"about_view.title.version_history" = "版本历史";
+"about_view.title.privacy_policy" = "隐私权政策";
 "about_view.title.eula" = "最终用户许可协议";
 "about_view.section.title.acknowledgements" = "致谢";
 "about_view.section.title.translation_contributors" = "翻译贡献者";
+// VersionHistoryView
+"version_history_view.title" = "版本历史";
 
 // MARK: SettingModels
 // AppColorScheme
@@ -293,12 +308,6 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "添加客户端";
-
-// MARK: SortKeysPicker
-"sort_keys_picker.title.sort_keys" = "排序键";
-"sort_keys_picker.title.enabled" = "已启用";
-"sort_keys_picker.title.disabled" = "已禁用";
-"sort_keys_picker.button.reset_sort_keys" = "重置排序键";
 
 // MARK: Status
 "task.status.name.all" = "全部";
@@ -323,14 +332,12 @@
 // MARK: SummaryTableColumn
 "summary_table_column.title.uploaded_size" = "已上传 %@";
 "summary_table_column.title.downloaded_size" = "已下载 %@";
+"summary_table_column.title.eta" = "剩余时间 %@";
 "summary_table_column.title.ratio" = "分享率 %@";
 
 // MARK: Tag
 "tag.display_name.all" = "全部";
 "tag.display_name.none" = "无标签";
-
-// MARK: TaskSortPicker
-"task_sort_picker.title.sort" = "排序";
 
 // MARK: TasksView
 "tasks_view.button.resume" = "继续";
@@ -339,11 +346,63 @@
 "tasks_view.button.select_this_page" = "全选此页";
 "tasks_view.button.unselect_this_page" = "取消全选此页";
 "tasks_view.table_column_title.name" = "名称";
-"tasks_view.table_column_title.size" = "大小";
+"tasks_view.table_column_title.size" = "容量";
+"tasks_view.table_column_title.total_size" = "总容量";
 "tasks_view.table_column_title.progress" = "进度";
 "tasks_view.table_column_title.status" = "状态";
-"tasks_view.table_column_title.download_speed" = "下载速度";
-"tasks_view.table_column_title.upload_speed" = "上传速度";
-"tasks_view.table_column_title.eta" = "预估剩余时间";
 "tasks_view.table_column_title.seeds" = "种子";
 "tasks_view.table_column_title.leechs" = "用户";
+"tasks_view.table_column_title.download_speed" = "下载速度";
+"tasks_view.table_column_title.download_speed_limit" = "下载速度上限";
+"tasks_view.table_column_title.downloaded_size" = "已下载容量";
+"tasks_view.table_column_title.upload_speed" = "上传速度";
+"tasks_view.table_column_title.upload_speed_limit" = "上传速度上限";
+"tasks_view.table_column_title.uploaded_size" = "已上传容量";
+"tasks_view.table_column_title.remaining_size" = "剩余容量";
+"tasks_view.table_column_title.eta" = "预估剩余时间";
+"tasks_view.table_column_title.ratio" = "分享率";
+"tasks_view.table_column_title.ratio_limit" = "分享率上限";
+"tasks_view.table_column_title.category" = "分类";
+"tasks_view.table_column_title.tag" = "标签";
+"tasks_view.table_column_title.added_date" = "添加日期";
+"tasks_view.table_column_title.completed_date" = "完成日期";
+// ActivityMonitor
+"activity_monitor.title" = "活动监视器";
+"activity_monitor.card.title.status" = "状态";
+"activity_monitor.card.title.free_space" = "可用空间";
+"activity_monitor.card.title.total_space" = "总计空间";
+"activity_monitor.card.title.share_ratio" = "分享率";
+"activity_monitor.card.title.uploaded" = "已上传";
+"activity_monitor.card.title.downloaded" = "已下载";
+// ClientStatusTray
+"client_status_tray.free_space" = "剩余空间";
+// ConnectionStatus
+"connection_status.value.unknown" = "未知";
+"connection_status.value.connected" = "已连接";
+"connection_status.value.disconnected" = "连接中断";
+"connection_status.value.firewalled" = "防火墙阻断";
+// StatisticsBoard
+"statistics_board.title" = "统计数据";
+"statistics_board.section.title.general" = "一般";
+"statistics_board.title.dht" = "DHT";
+"statistics_board.value.dht" = "%d 个节点";
+"statistics_board.section.title.user" = "使用者";
+"statistics_board.title.session_waste" = "本次对话丢弃";
+"statistics_board.title.connected_peers" = "连接用户";
+"statistics_board.section.title.cache" = "缓存";
+"statistics_board.title.read_cache_hits" = "读缓存次数";
+"statistics_board.title.total_buffer_size" = "总缓存容量";
+"statistics_board.section.title.performance" = "性能";
+"statistics_board.title.write_cache_overload" = "写入缓存超负荷";
+"statistics_board.title.read_cache_overload" = "读取缓存超负荷";
+"statistics_board.title.queued_io_jobs" = "队列的 I/O 任务";
+"statistics_board.title.average_time_in_queue" = "在队列的平均时间";
+"statistics_board.title.total_queued_size" = "总队列容量";
+// TaskSortPicker
+"task_sort_picker.title.sort" = "排序";
+// TransferChart
+"transfer_chart.title" = "传输记录";
+"transfer_chart.transport_type.title.download" = "下载";
+"transfer_chart.transport_type.title.upload" = "上传";
+"transfer_chart.title.date" = "日期";
+"transfer_chart.title.speed" = "速度";
