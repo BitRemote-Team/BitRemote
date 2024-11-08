@@ -151,7 +151,7 @@
 "category_info_view.prompt.savepath" = "/downloads";
 "category_info_view.placeholder.name" = "Новая категория";
 "category_info_view.placeholder.savepath" = "Путь сохранения пуст";
-
+// TagInfoView
 "tag_info_view.title" = "Тег";
 "tag_info_view.prompt.name" = "Имя тега";
 "tag_info_view.placeholder.name" = "Новый тег";
