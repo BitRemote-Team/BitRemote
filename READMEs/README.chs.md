@@ -34,6 +34,13 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 | 🇹🇼 正體中文 | [Y.C. Otter](https://github.com/otteryc) |
 | 🇷🇺 Русский | [Sharkboy](https://github.com/Sharkboy-j) |
 
+### 贡献者奖励
+符合以下所有条件的贡献者，每年可申请最多 3 个 BitRemote+ 年度会员兑换码：
+- 贡献者必须在过去 1 年内至少有 1 次贡献被使用在公开发布的 BitRemote 中
+- 贡献者的总贡献量必须超过 300 行
+
+若兑换码暂时不足，符合条件的贡献者需等待至兑换码补充后再行申请。贡献者在贡献前可询问剩余的可用兑换码数量。
+
 ## 支持的下载器
 - aria2
 - qBittorrent

@@ -148,7 +148,7 @@
 "category_info_view.title" = "Category";
 "category_info_view.title.savepath" = "Savepath";
 "category_info_view.prompt.name" = "Category name";
-"category_info_view.prompt.savepath" = "/download";
+"category_info_view.prompt.savepath" = "/downloads";
 "category_info_view.placeholder.name" = "New category";
 "category_info_view.placeholder.savepath" = "Empty savepath";
 // TagInfoView
@@ -171,8 +171,8 @@
 "new_task_view.section.title.default_savepath" = "If you don't specify a folder, the default download location **\"%@\"** will be used automatically.";
 "new_task_view.section.title.default_savepath_placeholder" = "(loading...)";
 "new_task_view.title.savepath" = "Download folder";
-"new_task_view.prompt.savepath" = "/download";
-"new_task_view.prompt.nas_savepath" = "SharedFolder/Download";
+"new_task_view.prompt.savepath" = "/downloads";
+"new_task_view.prompt.nas_savepath" = "SharedFolder/Downloads";
 "new_task_view.title.cookies" = "Cookies";
 "new_task_view.title.paused" = "Add as paused";
 "new_task_view.model.source_format.link" = "Link";

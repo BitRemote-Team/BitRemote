@@ -172,7 +172,7 @@
 "new_task_view.section.title.default_savepath_placeholder" = "(загрузка...)";
 "new_task_view.title.savepath" = "Папка загрузки";
 "new_task_view.prompt.savepath" = "/downloads";
-"new_task_view.prompt.nas_savepath" = "SharedFolder/Download";
+"new_task_view.prompt.nas_savepath" = "SharedFolder/Downloads";
 "new_task_view.title.cookies" = "Cookies";
 "new_task_view.title.paused" = "Добавить как приостановленное";
 "new_task_view.model.source_format.link" = "Ссылка";
@@ -367,7 +367,6 @@
 "tasks_view.table_column_title.added_date" = "Дата добавления";
 "tasks_view.table_column_title.completed_date" = "Дата завершения";
 // ActivityMonitor
-// ActivityMonitor
 "activity_monitor.title" = "Монитор активности";
 "activity_monitor.card.title.status" = "Статус";
 "activity_monitor.card.title.free_space" = "Свободное место";
@@ -375,16 +374,13 @@
 "activity_monitor.card.title.share_ratio" = "Коэффициент раздачи";
 "activity_monitor.card.title.uploaded" = "Загружено";
 "activity_monitor.card.title.downloaded" = "Скачано";
-
 // ClientStatusTray
 "client_status_tray.free_space" = "Свободное место";
-
 // ConnectionStatus
 "connection_status.value.unknown" = "Неизвестно";
 "connection_status.value.connected" = "Подключено";
 "connection_status.value.disconnected" = "Отключено";
 "connection_status.value.firewalled" = "За фаерволом";
-
 // StatisticsBoard
 "statistics_board.title" = "Статистика";
 "statistics_board.section.title.general" = "Общее";

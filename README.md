@@ -34,6 +34,13 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 | 🇹🇼 正體中文 | [Y.C. Otter](https://github.com/otteryc) |
 | 🇷🇺 Русский | [Sharkboy](https://github.com/Sharkboy-j) |
 
+### Contributor Reward
+Contributors who meet all the following criteria are eligible to request up to 3 redeem codes each year for a BitRemote+ yearly membership:
+- The contributor must have made at least one contribution within the past year that has been included in a BitRemote public release
+- The contributor’s total contributions must exceed 300 lines
+
+If redeem codes are temporarily unavailable, eligible contributors will need to wait until codes are restocked. Contributors can still inquire about the remaining available codes prior to making a contribution.
+
 ## Supported Downloaders
 - aria2
 - qBittorrent
