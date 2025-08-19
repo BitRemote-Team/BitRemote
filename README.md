@@ -49,7 +49,7 @@ If redeem codes are temporarily unavailable, eligible contributors will need to 
 - QNAP Download Station
 
 ## System Requirements
-This app requires iOS / iPadOS 17.0, macOS 14.0 or later.
+This app requires iOS / iPadOS 18.0, macOS 15.0 or later.
 
 ## Questions & Feedback
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
@@ -57,4 +57,4 @@ This app requires iOS / iPadOS 17.0, macOS 14.0 or later.
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## App Icon
-Copyright © 2024 Ark Studios LLC.
+Copyright © 2025 Ark Studios LLC.

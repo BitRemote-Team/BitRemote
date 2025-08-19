@@ -26,6 +26,7 @@
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "因在雙重認證過程中發生問題，登入失敗。";
 "app_error.remote_API_error.description.unknown_reason_failed" = "在處理您的請求時發生問題，可能是由於向 API 傳遞了無效參數。";
 "app_error.remote_API_error.description.untracked_response" = "應用程式從 API 接收到了一個未能被追蹤的回應，這可能會導致資料可靠性問題。";
+"app_error.remote_API_error.description.invalid_response" = "應用程式從 API 接收到了一個無效的回應。";
 
 "app_error.solution.try_later" = "請稍後再試。";
 "app_error.solution.review_entered_information" = "請檢查輸入的資訊是否正確無誤，並稍後再試。";
@@ -53,6 +54,22 @@
 "common.title.password" = "密碼";
 "common.title.optional" = "可留空";
 "common.title.version" = "版本 %@ (%@)";
+"common.title.name" = "名稱";
+"common.title.status" = "狀態";
+"common.title.peers" = "使用者";
+"common.title.seeds" = "做種者";
+"common.title.leeches" = "吸血者";
+"common.title.tag" = "標籤";
+"common.title.category" = "分類";
+"common.title.progress" = "進度";
+"common.title.total_size" = "總容量";
+"common.title.download" = "下載";
+"common.title.download_speed" = "下載速度";
+"common.title.downloaded_size" = "已下載容量";
+"common.title.upload_speed" = "上傳速度";
+"common.title.uploaded_size" = "已上傳容量";
+"common.title.upload" = "上傳";
+"common.title.learn_more" = "更多內容";
 "common.title.view_error_info" = "查看錯誤資訊";
 
 // MARK: Dialog
@@ -69,6 +86,7 @@
 "dialog.title.sync_failed" = "在同步過程中似乎出現了問題。";
 "dialog.title.login_failed" = "在登入過程中似乎出現了問題。";
 "dialog.button.retry_login" = "重新嘗試登入";
+"dialog.button.open_activity_monitor" = "開啟活動監視器";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新增用戶端";
@@ -96,63 +114,21 @@
 "error_info_view.placeholder.solution" = "目前對於這個錯誤，我們沒有任何建議的解決方法。";
 "error_info_view.placeholder.context" = "這個錯誤中沒有包含任何上下文資訊。";
 
-// MARK: FeaturesShowcaseView
-"features_showcase_view.title" = "%@\n探索新功能";
-"features_showcase_view.button.continue" = "繼續";
-
-"features_showcase_view.version130.title.activity_monitor" = "活動監視器";
-"features_showcase_view.version130.subtitle.activity_monitor" = "實時掌握用戶端的統計資料與傳輸紀錄。";
-"features_showcase_view.version130.title.refined_interface" = "介面最佳化";
-"features_showcase_view.version130.subtitle.refined_interface" = "任務列表將展示更充足的資訊，排序鍵 / 欄位數量也增加到 2 倍。更加完善了無障礙功能，在任何字體大小下都能呈現最佳效果。";
-"features_showcase_view.version130.title.bugfix" = "問題修正";
-"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任務時偶發的崩潰問題，以及特定用戶端無任務時造成的無限載入問題。";
-
-"features_showcase_view.version120.title.category_and_tag_improvement" = "分類與標籤的功能改善";
-"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分類的新增、編輯和移除，還有標籤的新增和移除等功能，讓支援的用戶端能夠進行更全面的管理。";
-"features_showcase_view.version120.title.optional_certificate_evaluation" = "可選的憑證驗證";
-"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增選項可跳過用戶端主機的憑證驗證，允許連接到使用自簽憑證的伺服器。";
-"features_showcase_view.version120.title.client_host_format_checking" = "用戶端主機格式檢查";
-"features_showcase_view.version120.subtitle.client_host_format_checking" = "改進的主機格式檢查器現在會提供潛在格式錯誤的警告。";
-"features_showcase_view.version120.title.other_minor_changes" = "其他次要變更";
-"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快輸入連結的貼上按鈕、批量選取任務的選項、更順暢的數字過渡動畫，並進行介面最佳化以隱藏不支援的篩選器。";
-"features_showcase_view.version120.title.bugfix" = "問題修正";
-"features_showcase_view.version120.subtitle.bugfix" = "修正了導致篩選應用不正確的問題，確保任務管理更加精確。";
-
-"features_showcase_view.version110.title.clients_backup_restore" = "用戶端資料備份與回復";
-"features_showcase_view.version110.subtitle.clients_backup_restore" = "使用統一的 JSON 格式匯出和匯入用戶端，確保在不同版本間無縫轉移。";
-"features_showcase_view.version110.title.app_activity_logs" = "App 活動記錄";
-"features_showcase_view.version110.subtitle.app_activity_logs" = "輕鬆瀏覽和搜尋詳細記錄，讓您全面了解 App 的運作情況。";
-"features_showcase_view.version110.title.new_features_showcase" = "探索新功能頁面";
-"features_showcase_view.version110.subtitle.new_features_showcase" = "快速概覽此版本新增的功能和改進。";
-
-"features_showcase_view.version100.title.app_store_debut" = "App Store 登場";
-"features_showcase_view.version100.subtitle.app_store_debut" = "體驗 BitRemote 的首個版本，現已在 App Store 上可供下載。";
-"features_showcase_view.version100.title.diverse_client_support" = "多元用戶端支援";
-"features_showcase_view.version100.subtitle.diverse_client_support" = "無縫整合常用的下載工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
-"features_showcase_view.version100.title.comprehensive_task_management" = "全面的任務管理";
-"features_showcase_view.version100.subtitle.comprehensive_task_management" = "輕鬆控制您的下載任務，可隨時暫停、恢復、刪除任務，並添加新任務。";
-"features_showcase_view.version100.title.smart_filtering_sorting" = "智慧過濾和排序";
-"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "按狀態、類別或標籤整理下載任務，並按各種條件排序提高管理效率。";
-
 // MARK: FiltersView
 "filters_view.title.filters" = "篩選";
 "filters_view.section_title.status" = "狀態";
-"filters_view.section_title.category" = "分類";
-"filters_view.section_title.tag" = "標籤";
 "filters_view.button.info" = "資訊";
 "filters_view.button.new_category" = "新增分類";
 "filters_view.button.new_tag" = "新增標籤";
 "filters_view.info_view.title.name" = "名稱";
 "filters_view.info_view.section.title.setting" = "設定";
 // CategoryInfoView
-"category_info_view.title" = "分類";
 "category_info_view.title.savepath" = "檔案儲存位置";
 "category_info_view.prompt.name" = "分類名稱";
 "category_info_view.prompt.savepath" = "/下載";
 "category_info_view.placeholder.name" = "新的分類";
 "category_info_view.placeholder.savepath" = "檔案儲存位置為空";
 // TagInfoView
-"tag_info_view.title" = "標籤";
 "tag_info_view.prompt.name" = "標籤名稱";
 "tag_info_view.placeholder.name" = "新的標籤";
 
@@ -239,7 +215,6 @@
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "檔案臨時儲存位置";
 "new_task_view.torrent_picker.button.select_files" = "選擇檔案";
 "new_task_view.torrent_picker.button.reselect_files" = "重新選擇檔案";
-"new_task_view.category_picker.title.category" = "分類";
 "new_task_view.category_picker.title.custom_category" = "自訂分類";
 "new_task_view.category_picker.prompt.custom_category" = "分類1";
 
@@ -259,9 +234,12 @@
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "未選擇用戶端";
+"placeholder.no_task_selected" = "未選擇任務";
 "placeholder.no_clients_found" = "未找到用戶端";
 "placeholder.no_tasks_found" = "未找到任務";
 "placeholder.no_logs_found" = "未找到記錄";
+"placeholder.no_trackers_found" = "未找到 Tracker";
+"placeholder.no_peers_found" = "未找到使用者";
 
 // MARK: SettingView
 "setting_view.title" = "設定";
@@ -275,10 +253,20 @@
 "general_setting_view.section.title.backup" = "備份";
 "general_setting_view.title.backup_clients" = "匯出用戶端備份";
 "general_setting_view.title.restore_clients" = "從備份中回復用戶端資料";
-"general_setting_view.section.title.subscription" = "訂閱";
-"general_setting_view.title.sync_purchases" = "同步已購買項目";
-"general_setting_view.title.restore_purchases" = "回復已購買項目";
-"general_setting_view.subtitle.restore_purchases" = "更新收據並同步已購買項目";
+// SubscriptionSettingView
+"subscription_setting_view.title" = "訂閱";
+"subscription_setting_view.title.expires_on" = "%@ 到期";
+"subscription_setting_view.title.expired_on" = "%@ 到期";
+"subscription_setting_view.title.available" = "使用權有效";
+"subscription_setting_view.title.not_available" = "不可用";
+"subscription_setting_view.title.identifier" = "識別碼";
+"subscription_setting_view.section.title.offer" = "優惠";
+"subscription_setting_view.section.title.caution_note" = "我們致力於提供順暢的使用體驗，但仍可能發生您觀看廣告後無法獲得免費使用權的情況。我們對此深感抱歉，但請注意，我們無法對因此造成的任何不便或損失負責。";
+"subscription_setting_view.title.watch_ad" = "觀看廣告獲得今日 BitRemote+ 使用權";
+"subscription_setting_view.section.title.diagnostic" = "診斷";
+"subscription_setting_view.title.sync_purchases" = "同步已購買項目";
+"subscription_setting_view.title.restore_purchases" = "回復已購買項目";
+"subscription_setting_view.subtitle.restore_purchases" = "更新收據並同步已購買項目";
 // AppearanceSettingView
 "appearance_setting_view.title" = "外觀";
 "appearance_setting_view.title.color_scheme" = "配色";
@@ -308,8 +296,10 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新增用戶端";
+"sidebar.button.remove_ads" = "移除廣告";
+"sidebar.button.no_ads_today" = "先移除一天";
 
-// MARK: Status
+// MARK: TaskStatus
 "task.status.name.all" = "全部";
 "task.status.name.none" = "無";
 "task.status.name.downloading" = "下載中";
@@ -321,6 +311,13 @@
 "task.status.name.stalled" = "停滯中";
 "task.status.name.error" = "錯誤";
 "task.status.name.unknown" = "未知";
+
+// MARK: TrackerStatus
+"tracker.status.name.disabled" = "已停用";
+"tracker.status.name.uncontacted" = "尚未連線";
+"tracker.status.name.inactive" = "未運作";
+"tracker.status.name.updating" = "更新中";
+"tracker.status.name.active" = "運作中";
 
 // MARK: SubscriptionCapability
 "subscription_capability.title.remove_ads" = "移除廣告";
@@ -339,33 +336,68 @@
 "tag.display_name.all" = "全部";
 "tag.display_name.none" = "無標籤";
 
+// MARK: Task
+"task.property.title.comment" = "註解";
+"task.property.title.info_hash" = "雜湊值";
+"task.property.title.save_path" = "儲存位置";
+"task.property.title.connections" = "連線數";
+"task.property.title.size" = "容量";
+"task.property.title.wasted_size" = "已丟棄容量";
+"task.property.title.download_speed_limit" = "下載速度上限";
+"task.property.title.upload_speed_limit" = "上傳速度上限";
+"task.property.title.remaining_size" = "剩餘容量";
+"task.property.title.pieces" = "分塊";
+"task.property.title.eta" = "預計剩餘時間";
+"task.property.title.reannounce_in" = "重新發佈倒數";
+"task.property.title.ratio" = "分享率";
+"task.property.title.share_ratio" = "分享率";
+"task.property.title.ratio_limit" = "分享率上限";
+"task.property.title.creation_tool" = "製作工具";
+"task.property.title.active_time" = "活動時間";
+"task.property.title.seeding_time" = "做種時間";
+"task.property.title.added_date" = "添加日期";
+"task.property.title.created_date" = "製作時間";
+"task.property.title.completed_date" = "完成日期";
+"task.property.title.last_activity_date" = "最終活動日期";
+"task.property.title.last_seen_completed_date" = "最終完成確認日期";
+
+// MARK: Tracker
+"tracker.property.title.tier" = "層級";
+"tracker.property.title.downloads" = "下載";
+"tracker.property.title.message" = "訊息";
+
+// MARK: Peer
+"peer.property.title.country" = "國家";
+"peer.property.title.ip_address" = "IP 位址";
+"peer.property.title.port" = "連接埠";
+"peer.property.title.connection" = "連線";
+"peer.property.title.flags" = "旗標";
+"peer.property.title.client" = "用戶端";
+"peer.property.title.relevance" = "關聯性";
+"peer.property.title.files" = "檔案";
+
+// MARK: File
+"file.property.title.want_status" = "檔案期望狀態";
+"file.property.title.priority" = "優先度";
+"file.property.title.availability" = "可用性";
+"file.priority.title.low_priority" = "低優先度";
+"file.priority.title.normal_priority" = "普通優先度";
+"file.priority.title.high_priority" = "高優先度";
+"file.priority.title.max_priority" = "最高優先度";
+"file.priority.title.mixed_priority" = "優先度混合";
+
 // MARK: TasksView
 "tasks_view.button.resume" = "繼續";
 "tasks_view.button.pause" = "暫停";
 "tasks_view.button.delete" = "刪除";
 "tasks_view.button.select_this_page" = "全選此頁";
 "tasks_view.button.unselect_this_page" = "取消全選此頁";
-"tasks_view.table_column_title.name" = "名稱";
-"tasks_view.table_column_title.size" = "容量";
-"tasks_view.table_column_title.total_size" = "總容量";
-"tasks_view.table_column_title.progress" = "進度";
-"tasks_view.table_column_title.status" = "狀態";
-"tasks_view.table_column_title.seeds" = "種子";
-"tasks_view.table_column_title.leechs" = "使用者";
-"tasks_view.table_column_title.download_speed" = "下載速度";
-"tasks_view.table_column_title.download_speed_limit" = "下載速度上限";
-"tasks_view.table_column_title.downloaded_size" = "已下載容量";
-"tasks_view.table_column_title.upload_speed" = "上傳速度";
-"tasks_view.table_column_title.upload_speed_limit" = "上傳速度上限";
-"tasks_view.table_column_title.uploaded_size" = "已上傳容量";
-"tasks_view.table_column_title.remaining_size" = "剩餘容量";
-"tasks_view.table_column_title.eta" = "預計剩餘時間";
-"tasks_view.table_column_title.ratio" = "分享率";
-"tasks_view.table_column_title.ratio_limit" = "分享率上限";
-"tasks_view.table_column_title.category" = "分類";
-"tasks_view.table_column_title.tag" = "標籤";
-"tasks_view.table_column_title.added_date" = "添加日期";
-"tasks_view.table_column_title.completed_date" = "完成日期";
+"tasks_view.button.reset_category" = "重設分類";
+"tasks_view.button.new_category" = "新增分類";
+"tasks_view.button.set_category" = "設定分類";
+"tasks_view.button.reset_tags" = "重設標籤";
+"tasks_view.button.new_tag" = "新增標籤";
+"tasks_view.button.set_tag" = "設定標籤";
 // ActivityMonitor
 "activity_monitor.title" = "活動監視器";
 "activity_monitor.card.title.status" = "狀態";
@@ -374,6 +406,22 @@
 "activity_monitor.card.title.share_ratio" = "分享率";
 "activity_monitor.card.title.uploaded" = "已上傳";
 "activity_monitor.card.title.downloaded" = "已下載";
+"activity_monitor.board.title.statistics" = "統計資料";
+"activity_monitor.board.section.title.general" = "一般";
+"activity_monitor.board.title.dht" = "DHT";
+"activity_monitor.board.value.dht" = "%d 個節點";
+"activity_monitor.board.section.title.user" = "使用者";
+"activity_monitor.board.title.session_waste" = "本次連線丟棄";
+"activity_monitor.board.title.connected_peers" = "已連線的使用者";
+"activity_monitor.board.section.title.cache" = "快取";
+"activity_monitor.board.title.read_cache_hits" = "讀取快取次數";
+"activity_monitor.board.title.total_buffer_size" = "總快取容量";
+"activity_monitor.board.section.title.performance" = "效能";
+"activity_monitor.board.title.write_cache_overload" = "寫入快取超過負荷";
+"activity_monitor.board.title.read_cache_overload" = "讀取快取超過負荷";
+"activity_monitor.board.title.queued_io_jobs" = "佇列的 I/O 任務";
+"activity_monitor.board.title.average_time_in_queue" = "在佇列的平均時間";
+"activity_monitor.board.title.total_queued_size" = "總佇列容量";
 // ClientStatusTray
 "client_status_tray.free_space" = "可用空間";
 // ConnectionStatus
@@ -381,28 +429,85 @@
 "connection_status.value.connected" = "已連線";
 "connection_status.value.disconnected" = "連線中斷";
 "connection_status.value.firewalled" = "防火牆阻絕";
-// StatisticsBoard
-"statistics_board.title" = "統計資料";
-"statistics_board.section.title.general" = "一般";
-"statistics_board.title.dht" = "DHT";
-"statistics_board.value.dht" = "%d 個節點";
-"statistics_board.section.title.user" = "使用者";
-"statistics_board.title.session_waste" = "本次連線丟棄";
-"statistics_board.title.connected_peers" = "已連線的使用者";
-"statistics_board.section.title.cache" = "快取";
-"statistics_board.title.read_cache_hits" = "讀取快取次數";
-"statistics_board.title.total_buffer_size" = "總快取容量";
-"statistics_board.section.title.performance" = "效能";
-"statistics_board.title.write_cache_overload" = "寫入快取超過負荷";
-"statistics_board.title.read_cache_overload" = "讀取快取超過負荷";
-"statistics_board.title.queued_io_jobs" = "佇列的 I/O 任務";
-"statistics_board.title.average_time_in_queue" = "在佇列的平均時間";
-"statistics_board.title.total_queued_size" = "總佇列容量";
-// TaskSortPicker
-"task_sort_picker.title.sort" = "排序";
+// TaskInsightPanel
+"task_insight_panel.title" = "任務詳情";
+"task_insight_panel.title.exclusive_feature" = "專屬功能";
+"task_insight_panel.description.exclusive_feature" = "需要訂閱 BitRemote+ 才能使用該功能。";
+"task_insight_panel.tab.title.general" = "一般";
+"task_insight_panel.group.title.transfer" = "傳輸";
+"task_insight_panel.title.seeded_for" = "已做種 %@";
+"task_insight_panel.title.this_session" = "本次連線中 %@";
+"task_insight_panel.title.average" = "平均 %@";
+"task_insight_panel.title.maximum" = "上限 %@";
+"task_insight_panel.title.total" = "總計 %@";
+"task_insight_panel.title.have" = "已完成 %@";
+"task_insight_panel.group.title.information" = "資訊";
+"task_insight_panel.section.title.content" = "內容";
+"task_insight_panel.section.title.time" = "時間";
+"task_insight_panel.section.title.metadata" = "詮釋資料";
+"task_insight_panel.tab.title.trackers" = "Trackers";
+"task_insight_panel.title.downloads" = "下載";
+"task_insight_panel.tab.title.files" = "檔案";
+// KeySortPicker
+"key_sort_picker.title.sort" = "排序";
+"key_sort_picker.title.sort_tasks" = "排序（任務）";
+"key_sort_picker.title.sort_trackers" = "排序（Trackers）";
+"key_sort_picker.title.sort_peers" = "排序（使用者）";
+"key_sort_picker.title.sort_files" = "排序 (檔案)";
 // TransferChart
 "transfer_chart.title" = "傳輸紀錄";
-"transfer_chart.transport_type.title.download" = "下載";
-"transfer_chart.transport_type.title.upload" = "上傳";
 "transfer_chart.title.date" = "日期";
 "transfer_chart.title.speed" = "速度";
+
+// MARK: WhatsNew
+"whats_new.button.continue" = "繼續";
+
+// OnboardingView
+"onboarding_view.title" = "歡迎使用\n%@";
+"onboarding_view.title.privacy_policy" = "隱私權政策";
+"onboarding_view.title.eula" = "終端使用者授權合約";
+"onboarding_view.title.accept_terms" = "我同意%@與%@。";
+
+// FeaturesShowcaseView
+"features_showcase_view.title" = "%@\n探索新功能";
+
+"features_showcase_view.version140.title.task_insight_panel" = "任務明細面板";
+"features_showcase_view.version140.subtitle.task_insight_panel" = "清楚掌握下載任務的進度與效能狀況，同時也能檢視 trackers、使用者與檔案，全面了解任務狀態。";
+"features_showcase_view.version140.title.expanded_client_support" = "擴充用戶端支援";
+"features_showcase_view.version140.subtitle.expanded_client_support" = "新增支援 qBit 5.x 用戶端。";
+"features_showcase_view.version140.title.bugfix" = "問題修正";
+"features_showcase_view.version140.subtitle.bugfix" = "已修正在 QNAP 用戶端無法登入的問題。";
+
+"features_showcase_view.version130.title.activity_monitor" = "活動監視器";
+"features_showcase_view.version130.subtitle.activity_monitor" = "實時掌握用戶端的統計資料與傳輸紀錄。";
+"features_showcase_view.version130.title.refined_interface" = "介面最佳化";
+"features_showcase_view.version130.subtitle.refined_interface" = "任務列表將展示更充足的資訊，排序鍵 / 欄位數量也增加到 2 倍。更加完善了無障礙功能，在任何字體大小下都能呈現最佳效果。";
+"features_showcase_view.version130.title.bugfix" = "問題修正";
+"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任務時偶發的崩潰問題，以及特定用戶端無任務時造成的無限載入問題。";
+
+"features_showcase_view.version120.title.category_and_tag_improvement" = "分類與標籤的功能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分類的新增、編輯和移除，還有標籤的新增和移除等功能，讓支援的用戶端能夠進行更全面的管理。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "可選的憑證驗證";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增選項可跳過用戶端主機的憑證驗證，允許連接到使用自簽憑證的伺服器。";
+"features_showcase_view.version120.title.client_host_format_checking" = "用戶端主機格式檢查";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "改進的主機格式檢查器現在會提供潛在格式錯誤的警告。";
+"features_showcase_view.version120.title.other_minor_changes" = "其他次要變更";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快輸入連結的貼上按鈕、批量選取任務的選項、更順暢的數字過渡動畫，並進行介面最佳化以隱藏不支援的篩選器。";
+"features_showcase_view.version120.title.bugfix" = "問題修正";
+"features_showcase_view.version120.subtitle.bugfix" = "修正了導致篩選應用不正確的問題，確保任務管理更加精確。";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "用戶端資料備份與回復";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "使用統一的 JSON 格式匯出和匯入用戶端，確保在不同版本間無縫轉移。";
+"features_showcase_view.version110.title.app_activity_logs" = "App 活動記錄";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "輕鬆瀏覽和搜尋詳細記錄，讓您全面了解 App 的運作情況。";
+"features_showcase_view.version110.title.new_features_showcase" = "探索新功能頁面";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "快速概覽此版本新增的功能和改進。";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store 登場";
+"features_showcase_view.version100.subtitle.app_store_debut" = "體驗 BitRemote 的首個版本，現已在 App Store 上可供下載。";
+"features_showcase_view.version100.title.diverse_client_support" = "多元用戶端支援";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "無縫整合常用的下載工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
+"features_showcase_view.version100.title.comprehensive_task_management" = "全面的任務管理";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "輕鬆控制您的下載任務，可隨時暫停、恢復、刪除任務，並添加新任務。";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "智慧過濾和排序";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "按狀態、類別或標籤整理下載任務，並按各種條件排序提高管理效率。";

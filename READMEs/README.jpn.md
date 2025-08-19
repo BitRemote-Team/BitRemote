@@ -49,7 +49,7 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 - QNAP Download Station
 
 ## 必要システム構成
-デバイスのシステムが iOS・iPadOS 17.0、macOS 14.0 以上であることが必要です。
+デバイスのシステムが iOS・iPadOS 18.0、macOS 15.0 以上であることが必要です。
 
 ## 質問とフィードバック
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
@@ -57,4 +57,4 @@ GitHub Readme: [README.{lang}.md](/READMEs)
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## アプリアイコン
-Copyright © 2024 Ark Studios LLC.
+Copyright © 2025 Ark Studios LLC.

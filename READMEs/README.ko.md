@@ -49,7 +49,7 @@ If redeem codes are temporarily unavailable, eligible contributors will need to 
 - QNAP Download Station
 
 ## 시스템 요구 사항
-iOS / iPadOS 17.0, macOS 14.0 이상인지 확인해주세요.
+iOS / iPadOS 18.0, macOS 15.0 이상인지 확인해주세요.
 
 ## 문의, 피드백
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
@@ -57,4 +57,4 @@ iOS / iPadOS 17.0, macOS 14.0 이상인지 확인해주세요.
 [![Telegram](https://img.shields.io/badge/Telegram-858585?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bitremote)
 
 ## 앱 아이콘
-Copyright © 2024 Ark Studios LLC.
+Copyright © 2025 Ark Studios LLC.

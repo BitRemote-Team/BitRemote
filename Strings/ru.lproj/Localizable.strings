@@ -26,6 +26,7 @@
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "Попытка входа не удалась из-за проблем с двухфакторной аутентификацией.";
 "app_error.remote_API_error.description.unknown_reason_failed" = "Произошла ошибка при обработке вашего запроса, возможно, из-за передачи недействительных параметров в API.";
 "app_error.remote_API_error.description.untracked_response" = "Приложение получило неотслеживаемый ответ от API, что может привести к проблеме с целостностью данных.";
+"app_error.remote_API_error.description.invalid_response" = "The app received an invalid response from the API.";
 
 "app_error.solution.try_later" = "Пожалуйста, попробуйте позже.";
 "app_error.solution.review_entered_information" = "Пожалуйста, проверьте введенную информацию и попробуйте снова.";
@@ -53,6 +54,22 @@
 "common.title.password" = "Пароль";
 "common.title.optional" = "Необязательно";
 "common.title.version" = "Версия %@ (%@)";
+"common.title.name" = "Имя";
+"common.title.status" = "Статус";
+"common.title.peers" = "Peers";
+"common.title.seeds" = "Сиды";
+"common.title.leeches" = "Личи";
+"common.title.tag" = "Тег";
+"common.title.category" = "Категория";
+"common.title.progress" = "Прогресс";
+"common.title.total_size" = "Общий размер";
+"common.title.download" = "Загрузка";
+"common.title.download_speed" = "Скорость скачивания";
+"common.title.downloaded_size" = "Загружено";
+"common.title.upload_speed" = "Скорость отдачи";
+"common.title.uploaded_size" = "Отдано";
+"common.title.upload" = "Отдача";
+"common.title.learn_more" = "Learn more";
 "common.title.view_error_info" = "Подробнее";
 
 // MARK: Dialog
@@ -69,6 +86,7 @@
 "dialog.title.sync_failed" = "Похоже, что во время процесса синхронизации возникла проблема.";
 "dialog.title.login_failed" = "Похоже, что во время процесса входа возникла проблема.";
 "dialog.button.retry_login" = "Повторить вход";
+"dialog.button.open_activity_monitor" = "Open Activity Monitor";
 
 // MARK: EditClientView
 "edit_client_view.title" = "Добавить";
@@ -96,63 +114,21 @@
 "error_info_view.placeholder.solution" = "В настоящее время у нас нет готового решения для этой ошибки.";
 "error_info_view.placeholder.context" = "В этой ошибке нет контекста.";
 
-// MARK: FeaturesShowcaseView
-"features_showcase_view.title" = "Открыть в\n%@";
-"features_showcase_view.button.continue" = "Продолжить";
-
-"features_showcase_view.version130.title.activity_monitor" = "Монитор активности";
-"features_showcase_view.version130.subtitle.activity_monitor" = "Отслеживайте статистику в реальном времени и историю передачи на вашем клиенте.";
-"features_showcase_view.version130.title.refined_interface" = "Усовершенствованный интерфейс";
-"features_showcase_view.version130.subtitle.refined_interface" = "Более информативная страница задач с удвоенным количеством ключей/столбцов для сортировки. Улучшена доступность, чтобы интерфейс оставался удобным при любом размере шрифта.";
-"features_showcase_view.version130.title.bugfix" = "Исправление ошибок";
-"features_showcase_view.version130.subtitle.bugfix" = "Исправлены проблемы, которые иногда приводили к сбоям приложения при добавлении новых задач и бесконечной загрузке при отсутствии задач у некоторых клиентов.";
-
-"features_showcase_view.version120.title.category_and_tag_improvement" = "Улучшение категорий и тегов";
-"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Возможность создавать, редактировать и удалять категории, а также добавлять и удалять теги для более полной организации клиентов.";
-"features_showcase_view.version120.title.optional_certificate_evaluation" = "Опциональная проверка сертификатов";
-"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "Новая опция для пропуска проверки сертификатов для хостов клиентов, что позволяет подключения к серверам с самоподписанными сертификатами.";
-"features_showcase_view.version120.title.client_host_format_checking" = "Проверка формата хоста клиента";
-"features_showcase_view.version120.subtitle.client_host_format_checking" = "Улучшенный проверяющий формат хоста теперь предоставляет предупреждающие сообщения для потенциально неверных форматов.";
-"features_showcase_view.version120.title.other_minor_changes" = "Другие мелкие изменения";
-"features_showcase_view.version120.subtitle.other_minor_changes" = "Новая кнопка вставки для быстрого ввода ссылок, опции массового выбора задач, более плавная анимация перехода чисел и улучшенный интерфейс, скрывающий неподдерживаемые фильтры.";
-"features_showcase_view.version120.title.bugfix" = "Исправлены ошибоки";
-"features_showcase_view.version120.subtitle.bugfix" = "Исправлена проблема, приводившая к неверному применению фильтров, для более точного управления задачами.";
-
-"features_showcase_view.version110.title.clients_backup_restore" = "Резервное копирование и восстановление клиентов";
-"features_showcase_view.version110.subtitle.clients_backup_restore" = "Экспорт и импорт клиентов в унифицированном формате JSON, обеспечивая плавную передачу между версиями приложения.";
-"features_showcase_view.version110.title.app_activity_logs" = "Журналы активности приложения";
-"features_showcase_view.version110.subtitle.app_activity_logs" = "Легко просматривайте и ищите подробные логи, обеспечивая полный обзор операций вашего приложения.";
-"features_showcase_view.version110.title.new_features_showcase" = "Новые функции";
-"features_showcase_view.version110.subtitle.new_features_showcase" = "Быстрый обзор новых функций и улучшений, представленных в последних версиях.";
-
-"features_showcase_view.version100.title.app_store_debut" = "Дебют в App Store";
-"features_showcase_view.version100.subtitle.app_store_debut" = "Испытайте первую версию нашего приложения, теперь доступную для загрузки в App Store.";
-"features_showcase_view.version100.title.diverse_client_support" = "Поддержка различных клиентов";
-"features_showcase_view.version100.subtitle.diverse_client_support" = "Легкая интеграция с популярными инструментами загрузки, такими как aria2, qBittorrent, Transmission, Synology Download Station и QNAP Download Station.";
-"features_showcase_view.version100.title.comprehensive_task_management" = "Полное управление задачами";
-"features_showcase_view.version100.subtitle.comprehensive_task_management" = "Удобное управление загрузками с возможностью приостановки, возобновления, удаления задач и добавления новых.";
-"features_showcase_view.version100.title.smart_filtering_sorting" = "Умная фильтрация и сортировка";
-"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "Организация загрузок по статусу, категории или тегу, а также сортировка по различным критериям для удобства.";
-
 // MARK: FiltersView
 "filters_view.title.filters" = "Фильтр";
 "filters_view.section_title.status" = "Статус";
-"filters_view.section_title.category" = "Категория";
-"filters_view.section_title.tag" = "Тег";
 "filters_view.button.info" = "Инфо";
 "filters_view.button.new_category" = "Новая категория";
 "filters_view.button.new_tag" = "Новый таг";
 "filters_view.info_view.title.name" = "Имя";
 "filters_view.info_view.section.title.setting" = "Настройки";
 // CategoryInfoView
-"category_info_view.title" = "Категория";
 "category_info_view.title.savepath" = "Путь сохранения";
 "category_info_view.prompt.name" = "Имя категории";
 "category_info_view.prompt.savepath" = "/downloads";
 "category_info_view.placeholder.name" = "Новая категория";
 "category_info_view.placeholder.savepath" = "Путь сохранения пуст";
 // TagInfoView
-"tag_info_view.title" = "Тег";
 "tag_info_view.prompt.name" = "Имя тега";
 "tag_info_view.placeholder.name" = "Новый тег";
 
@@ -239,7 +215,6 @@
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "Временная папка";
 "new_task_view.torrent_picker.button.select_files" = "Выбрать файлы";
 "new_task_view.torrent_picker.button.reselect_files" = "Выбрать файлы заново";
-"new_task_view.category_picker.title.category" = "Категория";
 "new_task_view.category_picker.title.custom_category" = "Пользовательская категория";
 "new_task_view.category_picker.prompt.custom_category" = "Категория1";
 
@@ -259,9 +234,12 @@
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "Клиент не выбран.";
+"placeholder.no_task_selected" = "No Task Selected";
 "placeholder.no_clients_found" = "Клиенты не найдены.";
 "placeholder.no_tasks_found" = "Задачи не найдены.";
 "placeholder.no_logs_found" = "Логи не найдены.";
+"placeholder.no_trackers_found" = "No Trackers Found";
+"placeholder.no_peers_found" = "No Peers Found";
 
 // MARK: SettingView
 "setting_view.title" = "Настройки";
@@ -273,10 +251,20 @@
 "general_setting_view.section.title.backup" = "Резервное копирование";
 "general_setting_view.title.backup_clients" = "Экспорт резервной копии клиентов";
 "general_setting_view.title.restore_clients" = "Восстановить клиентов из резервной копии";
-"general_setting_view.section.title.subscription" = "Подписка";
-"general_setting_view.title.sync_purchases" = "Синхронизация покупок";
-"general_setting_view.title.restore_purchases" = "Восстановить покупки";
-"general_setting_view.subtitle.restore_purchases" = "Обновить чек и синхронизировать покупки";
+// SubscriptionSettingView
+"subscription_setting_view.title" = "Subscription";
+"subscription_setting_view.title.expires_on" = "Expires on %@";
+"subscription_setting_view.title.expired_on" = "Expired on %@";
+"subscription_setting_view.title.available" = "Available";
+"subscription_setting_view.title.not_available" = "Not available";
+"subscription_setting_view.title.identifier" = "Identifier";
+"subscription_setting_view.section.title.offer" = "Offer";
+"subscription_setting_view.section.title.caution_note" = "While we strive to ensure a smooth experience, there may be instances where you do not receive free access even after watching the promotional video. We sincerely apologize if this occurs, but please note that we cannot be held responsible for any losses or inconveniences caused as a result.";
+"subscription_setting_view.title.watch_ad" = "Gain BitRemote+ access for today by watching a promo video";
+"subscription_setting_view.section.title.diagnostic" = "Diagnostic";
+"subscription_setting_view.title.sync_purchases" = "Синхронизация покупок";
+"subscription_setting_view.title.restore_purchases" = "Восстановить покупки";
+"subscription_setting_view.subtitle.restore_purchases" = "Обновить чек и синхронизировать покупки";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "Журнал активности приложения";
 // AppearanceSettingView
@@ -308,8 +296,10 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "Добавить";
+"sidebar.button.remove_ads" = "Remove ads";
+"sidebar.button.no_ads_today" = "No ads for today";
 
-// MARK: Status
+// MARK: TaskStatus
 "task.status.name.all" = "Все";
 "task.status.name.none" = "Нет";
 "task.status.name.downloading" = "Загрузка";
@@ -321,6 +311,13 @@
 "task.status.name.stalled" = "Зависло";
 "task.status.name.error" = "Ошибка";
 "task.status.name.unknown" = "Неизвестно";
+
+// MARK: TrackerStatus
+"tracker.status.name.disabled" = "Disabled";
+"tracker.status.name.uncontacted" = "Uncontacted";
+"tracker.status.name.inactive" = "Inactive";
+"tracker.status.name.updating" = "Updating";
+"tracker.status.name.active" = "Active";
 
 // MARK: SubscriptionCapability
 "subscription_capability.title.remove_ads" = "Убрать рекламу";
@@ -339,33 +336,68 @@
 "tag.display_name.all" = "Все";
 "tag.display_name.none" = "Нет";
 
+// MARK: Task
+"task.property.title.comment" = "Comment";
+"task.property.title.info_hash" = "Info Hash";
+"task.property.title.save_path" = "Save Path";
+"task.property.title.connections" = "Connections";
+"task.property.title.size" = "Размер";
+"task.property.title.wasted_size" = "Wasted Size";
+"task.property.title.download_speed_limit" = "Ограничение скорости загрузки";
+"task.property.title.upload_speed_limit" = "Ограничение скорости отдачи";
+"task.property.title.remaining_size" = "Осталось";
+"task.property.title.pieces" = "Pieces";
+"task.property.title.eta" = "Оставшееся время";
+"task.property.title.reannounce_in" = "Reannounce In";
+"task.property.title.ratio" = "Ратио";
+"task.property.title.share_ratio" = "Share Ratio";
+"task.property.title.ratio_limit" = "Лимит ратио";
+"task.property.title.creation_tool" = "Creation Tool";
+"task.property.title.active_time" = "Active Time";
+"task.property.title.seeding_time" = "Seeding Time";
+"task.property.title.added_date" = "Дата добавления";
+"task.property.title.created_date" = "Created Date";
+"task.property.title.completed_date" = "Дата завершения";
+"task.property.title.last_activity_date" = "Last Activity Date";
+"task.property.title.last_seen_completed_date" = "Last Seen Completed Date";
+
+// MARK: Tracker
+"tracker.property.title.tier" = "Tier";
+"tracker.property.title.downloads" = "Downloads";
+"tracker.property.title.message" = "Message";
+
+// MARK: Peer
+"peer.property.title.country" = "Country";
+"peer.property.title.ip_address" = "IP";
+"peer.property.title.port" = "Port";
+"peer.property.title.connection" = "Connection";
+"peer.property.title.flags" = "Flags";
+"peer.property.title.client" = "Client";
+"peer.property.title.relevance" = "Relevance";
+"peer.property.title.files" = "Files";
+
+// MARK: File
+"file.property.title.want_status" = "Want Status";
+"file.property.title.priority" = "Priority";
+"file.property.title.availability" = "Availability";
+"file.priority.title.low_priority" = "Low priority";
+"file.priority.title.normal_priority" = "Normal priority";
+"file.priority.title.high_priority" = "High priority";
+"file.priority.title.max_priority" = "Max priority";
+"file.priority.title.mixed_priority" = "Mixed priority";
+
 // MARK: TasksView
 "tasks_view.button.resume" = "Возобновить";
 "tasks_view.button.pause" = "Пауза";
 "tasks_view.button.delete" = "Удалить";
 "tasks_view.button.select_this_page" = "Выбрать эту страницу";
 "tasks_view.button.unselect_this_page" = "Снять выбор с этой страницы";
-"tasks_view.table_column_title.name" = "Имя";
-"tasks_view.table_column_title.size" = "Размер";
-"tasks_view.table_column_title.total_size" = "Общий размер";
-"tasks_view.table_column_title.progress" = "Прогресс";
-"tasks_view.table_column_title.status" = "Статус";
-"tasks_view.table_column_title.seeds" = "Сиды";
-"tasks_view.table_column_title.leechs" = "Личи";
-"tasks_view.table_column_title.download_speed" = "Скорость скачивания";
-"tasks_view.table_column_title.download_speed_limit" = "Ограничение скорости загрузки";
-"tasks_view.table_column_title.downloaded_size" = "Загружено";
-"tasks_view.table_column_title.upload_speed" = "Скорость отдачи";
-"tasks_view.table_column_title.upload_speed_limit" = "Ограничение скорости отдачи";
-"tasks_view.table_column_title.uploaded_size" = "Отдано";
-"tasks_view.table_column_title.remaining_size" = "Осталось";
-"tasks_view.table_column_title.eta" = "Оставшееся время";
-"tasks_view.table_column_title.ratio" = "Ратио";
-"tasks_view.table_column_title.ratio_limit" = "Лимит ратио";
-"tasks_view.table_column_title.category" = "Категория";
-"tasks_view.table_column_title.tag" = "Таг";
-"tasks_view.table_column_title.added_date" = "Дата добавления";
-"tasks_view.table_column_title.completed_date" = "Дата завершения";
+"tasks_view.button.reset_category" = "Reset Category";
+"tasks_view.button.new_category" = "Новая категория";
+"tasks_view.button.set_category" = "Set Category";
+"tasks_view.button.reset_tags" = "Reset Tags";
+"tasks_view.button.new_tag" = "Новый таг";
+"tasks_view.button.set_tag" = "Set Tag";
 // ActivityMonitor
 "activity_monitor.title" = "Монитор активности";
 "activity_monitor.card.title.status" = "Статус";
@@ -374,6 +406,22 @@
 "activity_monitor.card.title.share_ratio" = "Коэффициент раздачи";
 "activity_monitor.card.title.uploaded" = "Загружено";
 "activity_monitor.card.title.downloaded" = "Скачано";
+"activity_monitor.board.title.statistics" = "Статистика";
+"activity_monitor.board.section.title.general" = "Общее";
+"activity_monitor.board.title.dht" = "DHT";
+"activity_monitor.board.value.dht" = "%d узлов";
+"activity_monitor.board.section.title.user" = "Пользователь";
+"activity_monitor.board.title.session_waste" = "Потери сессии";
+"activity_monitor.board.title.connected_peers" = "Подключенные пиры";
+"activity_monitor.board.section.title.cache" = "Кэш";
+"activity_monitor.board.title.read_cache_hits" = "Попадания в кэш чтения";
+"activity_monitor.board.title.total_buffer_size" = "Общий размер буфера";
+"activity_monitor.board.section.title.performance" = "Производительность";
+"activity_monitor.board.title.write_cache_overload" = "Перегрузка кэша записи";
+"activity_monitor.board.title.read_cache_overload" = "Перегрузка кэша чтения";
+"activity_monitor.board.title.queued_io_jobs" = "Ожидающие I/O задачи";
+"activity_monitor.board.title.average_time_in_queue" = "Среднее время в очереди";
+"activity_monitor.board.title.total_queued_size" = "Общий размер в очереди";
 // ClientStatusTray
 "client_status_tray.free_space" = "Свободное место";
 // ConnectionStatus
@@ -381,28 +429,85 @@
 "connection_status.value.connected" = "Подключено";
 "connection_status.value.disconnected" = "Отключено";
 "connection_status.value.firewalled" = "За фаерволом";
-// StatisticsBoard
-"statistics_board.title" = "Статистика";
-"statistics_board.section.title.general" = "Общее";
-"statistics_board.title.dht" = "DHT";
-"statistics_board.value.dht" = "%d узлов";
-"statistics_board.section.title.user" = "Пользователь";
-"statistics_board.title.session_waste" = "Потери сессии";
-"statistics_board.title.connected_peers" = "Подключенные пиры";
-"statistics_board.section.title.cache" = "Кэш";
-"statistics_board.title.read_cache_hits" = "Попадания в кэш чтения";
-"statistics_board.title.total_buffer_size" = "Общий размер буфера";
-"statistics_board.section.title.performance" = "Производительность";
-"statistics_board.title.write_cache_overload" = "Перегрузка кэша записи";
-"statistics_board.title.read_cache_overload" = "Перегрузка кэша чтения";
-"statistics_board.title.queued_io_jobs" = "Ожидающие I/O задачи";
-"statistics_board.title.average_time_in_queue" = "Среднее время в очереди";
-"statistics_board.title.total_queued_size" = "Общий размер в очереди";
-// TaskSortPicker
-"task_sort_picker.title.sort" = "Сортировка";
+// TaskInsightPanel
+"task_insight_panel.title" = "Task insight";
+"task_insight_panel.title.exclusive_feature" = "Exclusive Feature";
+"task_insight_panel.description.exclusive_feature" = "BitRemote+ membership is required to use this feature.";
+"task_insight_panel.tab.title.general" = "General";
+"task_insight_panel.group.title.transfer" = "Transfer";
+"task_insight_panel.title.seeded_for" = "seeded for %@";
+"task_insight_panel.title.this_session" = "%@ this session";
+"task_insight_panel.title.average" = "%@ avg.";
+"task_insight_panel.title.maximum" = "%@ max";
+"task_insight_panel.title.total" = "%@ total";
+"task_insight_panel.title.have" = "have %@";
+"task_insight_panel.group.title.information" = "Information";
+"task_insight_panel.section.title.content" = "Content";
+"task_insight_panel.section.title.time" = "Time";
+"task_insight_panel.section.title.metadata" = "Metadata";
+"task_insight_panel.tab.title.trackers" = "Trackers";
+"task_insight_panel.title.downloads" = "DLs";
+"task_insight_panel.tab.title.files" = "Files";
+// KeySortPicker
+"key_sort_picker.title.sort" = "Сортировка";
+"key_sort_picker.title.sort_tasks" = "Sort (Tasks)";
+"key_sort_picker.title.sort_trackers" = "Sort (Trackers)";
+"key_sort_picker.title.sort_peers" = "Sort (Peers)";
+"key_sort_picker.title.sort_files" = "Sort (Files)";
 // TransferChart
 "transfer_chart.title" = "История передачи";
-"transfer_chart.transport_type.title.download" = "Загрузка";
-"transfer_chart.transport_type.title.upload" = "Отдача";
 "transfer_chart.title.date" = "Дата";
 "transfer_chart.title.speed" = "Скорость";
+
+// MARK: WhatsNew
+"whats_new.button.continue" = "Продолжить";
+
+// OnboardingView
+"onboarding_view.title" = "Welcome to\n%@";
+"onboarding_view.title.privacy_policy" = "Privacy Policy";
+"onboarding_view.title.eula" = "End User License Agreement";
+"onboarding_view.title.accept_terms" = "I accept %@ and %@.";
+
+// FeaturesShowcaseView
+"features_showcase_view.title" = "Открыть в\n%@";
+
+"features_showcase_view.version140.title.task_insight_panel" = "Панель анализа задач";
+"features_showcase_view.version140.subtitle.task_insight_panel" = "Gain clear visibility into your download tasks with real-time progress and performance information. Trackers, peers, and files can also be reviewed for a complete view.";
+"features_showcase_view.version140.title.expanded_client_support" = "Expanded Client Support";
+"features_showcase_view.version140.subtitle.expanded_client_support" = "Added support for qBit 5.x clients.";
+"features_showcase_view.version140.title.bugfix" = "Bug-fix";
+"features_showcase_view.version140.subtitle.bugfix" = "Resolved an issue that prevented QNAP clients from logging in.";
+
+"features_showcase_view.version130.title.activity_monitor" = "Монитор активности";
+"features_showcase_view.version130.subtitle.activity_monitor" = "Отслеживайте статистику в реальном времени и историю передачи на вашем клиенте.";
+"features_showcase_view.version130.title.refined_interface" = "Усовершенствованный интерфейс";
+"features_showcase_view.version130.subtitle.refined_interface" = "Более информативная страница задач с удвоенным количеством ключей/столбцов для сортировки. Улучшена доступность, чтобы интерфейс оставался удобным при любом размере шрифта.";
+"features_showcase_view.version130.title.bugfix" = "Исправление ошибок";
+"features_showcase_view.version130.subtitle.bugfix" = "Исправлены проблемы, которые иногда приводили к сбоям приложения при добавлении новых задач и бесконечной загрузке при отсутствии задач у некоторых клиентов.";
+
+"features_showcase_view.version120.title.category_and_tag_improvement" = "Улучшение категорий и тегов";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Возможность создавать, редактировать и удалять категории, а также добавлять и удалять теги для более полной организации клиентов.";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "Опциональная проверка сертификатов";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "Новая опция для пропуска проверки сертификатов для хостов клиентов, что позволяет подключения к серверам с самоподписанными сертификатами.";
+"features_showcase_view.version120.title.client_host_format_checking" = "Проверка формата хоста клиента";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "Улучшенный проверяющий формат хоста теперь предоставляет предупреждающие сообщения для потенциально неверных форматов.";
+"features_showcase_view.version120.title.other_minor_changes" = "Другие мелкие изменения";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "Новая кнопка вставки для быстрого ввода ссылок, опции массового выбора задач, более плавная анимация перехода чисел и улучшенный интерфейс, скрывающий неподдерживаемые фильтры.";
+"features_showcase_view.version120.title.bugfix" = "Исправлены ошибоки";
+"features_showcase_view.version120.subtitle.bugfix" = "Исправлена проблема, приводившая к неверному применению фильтров, для более точного управления задачами.";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "Резервное копирование и восстановление клиентов";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "Экспорт и импорт клиентов в унифицированном формате JSON, обеспечивая плавную передачу между версиями приложения.";
+"features_showcase_view.version110.title.app_activity_logs" = "Журналы активности приложения";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "Легко просматривайте и ищите подробные логи, обеспечивая полный обзор операций вашего приложения.";
+"features_showcase_view.version110.title.new_features_showcase" = "Новые функции";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "Быстрый обзор новых функций и улучшений, представленных в последних версиях.";
+
+"features_showcase_view.version100.title.app_store_debut" = "Дебют в App Store";
+"features_showcase_view.version100.subtitle.app_store_debut" = "Испытайте первую версию нашего приложения, теперь доступную для загрузки в App Store.";
+"features_showcase_view.version100.title.diverse_client_support" = "Поддержка различных клиентов";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "Легкая интеграция с популярными инструментами загрузки, такими как aria2, qBittorrent, Transmission, Synology Download Station и QNAP Download Station.";
+"features_showcase_view.version100.title.comprehensive_task_management" = "Полное управление задачами";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "Удобное управление загрузками с возможностью приостановки, возобновления, удаления задач и добавления новых.";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "Умная фильтрация и сортировка";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "Организация загрузок по статусу, категории или тегу, а также сортировка по различным критериям для удобства.";

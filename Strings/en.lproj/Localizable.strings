@@ -26,6 +26,7 @@
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "The login attempt failed due to two-factor authentication issues.";
 "app_error.remote_API_error.description.unknown_reason_failed" = "An issue occurred while processing your request, possibly due to passing invalid parameters to the API.";
 "app_error.remote_API_error.description.untracked_response" = "The app received an untracked response from the API, which could lead to a data integrity issue.";
+"app_error.remote_API_error.description.invalid_response" = "The app received an invalid response from the API.";
 
 "app_error.solution.try_later" = "Please try again later.";
 "app_error.solution.review_entered_information" = "Please review the entered information and try again.";
@@ -53,7 +54,23 @@
 "common.title.password" = "Password";
 "common.title.optional" = "Optional";
 "common.title.version" = "Version %@ (%@)";
-"common.title.view_error_info" = "View error info";
+"common.title.name" = "Name";
+"common.title.status" = "Status";
+"common.title.peers" = "Peers";
+"common.title.seeds" = "Seeds";
+"common.title.leeches" = "Leeches";
+"common.title.tag" = "Tag";
+"common.title.category" = "Category";
+"common.title.progress" = "Progress";
+"common.title.total_size" = "Total Size";
+"common.title.download" = "Download";
+"common.title.download_speed" = "DL Speed";
+"common.title.downloaded_size" = "DL Size";
+"common.title.upload_speed" = "UP Speed";
+"common.title.uploaded_size" = "UP Size";
+"common.title.upload" = "Upload";
+"common.title.learn_more" = "Learn more";
+"common.title.view_error_info" = "View Error Info";
 
 // MARK: Dialog
 "dialog.title.drop_database" = "You will lose all your data in this app.\nAre you sure to drop the database?";
@@ -69,6 +86,7 @@
 "dialog.title.sync_failed" = "It appears that there might have been an issue during the syncing process.";
 "dialog.title.login_failed" = "It appears that there might have been an issue during the login process.";
 "dialog.button.retry_login" = "Retry login";
+"dialog.button.open_activity_monitor" = "Open Activity Monitor";
 
 // MARK: EditClientView
 "edit_client_view.title" = "New Client";
@@ -96,63 +114,21 @@
 "error_info_view.placeholder.solution" = "We currently don't have any suggestions for this error.";
 "error_info_view.placeholder.context" = "There is no context included in this error.";
 
-// MARK: FeaturesShowcaseView
-"features_showcase_view.title" = "Discover features in\n%@";
-"features_showcase_view.button.continue" = "Continue";
-
-"features_showcase_view.version130.title.activity_monitor" = "Activity Monitor";
-"features_showcase_view.version130.subtitle.activity_monitor" = "Monitor real-time statistics and transfer history happening on your client.";
-"features_showcase_view.version130.title.refined_interface" = "Refined Interface";
-"features_showcase_view.version130.subtitle.refined_interface" = "A more informative tasks page with twice the available sorting keys / columns. Improved accessibility, so it always feels right at any font size.";
-"features_showcase_view.version130.title.bugfix" = "Bug-fix";
-"features_showcase_view.version130.subtitle.bugfix" = "Resolved issues that sometimes caused app crashes when adding new tasks and infinite loading when certain clients had no tasks.";
-
-"features_showcase_view.version120.title.category_and_tag_improvement" = "Category & Tag Improvement";
-"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Introducing the ability to create, edit, and delete categories, as well as create and remove tags, for more comprehensive organization across supported clients.";
-"features_showcase_view.version120.title.optional_certificate_evaluation" = "Optional Certificate Evaluation";
-"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "New option to bypass certificate evaluation for client hosts, enabling connections to servers with self-signed certificates.";
-"features_showcase_view.version120.title.client_host_format_checking" = "Client Host Format Checking";
-"features_showcase_view.version120.subtitle.client_host_format_checking" = "Improved host format checker now provides warning messages for potentially incorrect formats.";
-"features_showcase_view.version120.title.other_minor_changes" = "Other Minor Changes";
-"features_showcase_view.version120.subtitle.other_minor_changes" = "New paste button for quick link input, bulk task selection options, smoother number transition animations, and refined user interface that hides unsupported filters.";
-"features_showcase_view.version120.title.bugfix" = "Bug-fix";
-"features_showcase_view.version120.subtitle.bugfix" = "Resolved an issue that caused incorrect filter applications, ensuring more accurate task management.";
-
-"features_showcase_view.version110.title.clients_backup_restore" = "Clients Backup & Restore";
-"features_showcase_view.version110.subtitle.clients_backup_restore" = "Export and import clients with a unified JSON format, ensuring seamless transfers across app versions.";
-"features_showcase_view.version110.title.app_activity_logs" = "App Activity Logs";
-"features_showcase_view.version110.subtitle.app_activity_logs" = "Easily browse and search through detailed logs, giving you full visibility into your app's operations.";
-"features_showcase_view.version110.title.new_features_showcase" = "New Features Showcase";
-"features_showcase_view.version110.subtitle.new_features_showcase" = "Get a quick overview of new features and enhancements introduced in recent versions.";
-
-"features_showcase_view.version100.title.app_store_debut" = "App Store Debut";
-"features_showcase_view.version100.subtitle.app_store_debut" = "Experience our app's first release, now available for download on the App Store.";
-"features_showcase_view.version100.title.diverse_client_support" = "Diverse Client Support";
-"features_showcase_view.version100.subtitle.diverse_client_support" = "Seamlessly integrate with popular download tools including aria2, qBit, Trans, Synology, and QNAP.";
-"features_showcase_view.version100.title.comprehensive_task_management" = "Comprehensive Task Management";
-"features_showcase_view.version100.subtitle.comprehensive_task_management" = "Easily control your downloads with options to pause, resume, delete tasks, and add new ones on the fly.";
-"features_showcase_view.version100.title.smart_filtering_sorting" = "Smart Filtering & Sorting";
-"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "Organize downloads by status, category, or tag, and sort by various criteria for efficiency.";
-
 // MARK: FiltersView
 "filters_view.title.filters" = "Filters";
 "filters_view.section_title.status" = "Status";
-"filters_view.section_title.category" = "Category";
-"filters_view.section_title.tag" = "Tag";
 "filters_view.button.info" = "Info";
 "filters_view.button.new_category" = "New Category";
 "filters_view.button.new_tag" = "New Tag";
 "filters_view.info_view.title.name" = "Name";
 "filters_view.info_view.section.title.setting" = "Setting";
 // CategoryInfoView
-"category_info_view.title" = "Category";
 "category_info_view.title.savepath" = "Savepath";
 "category_info_view.prompt.name" = "Category name";
 "category_info_view.prompt.savepath" = "/downloads";
 "category_info_view.placeholder.name" = "New category";
 "category_info_view.placeholder.savepath" = "Empty savepath";
 // TagInfoView
-"tag_info_view.title" = "Tag";
 "tag_info_view.prompt.name" = "Tag name";
 "tag_info_view.placeholder.name" = "New tag";
 
@@ -239,7 +215,6 @@
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "Temporary folder";
 "new_task_view.torrent_picker.button.select_files" = "Select files";
 "new_task_view.torrent_picker.button.reselect_files" = "Reselect files";
-"new_task_view.category_picker.title.category" = "Category";
 "new_task_view.category_picker.title.custom_category" = "Custom category";
 "new_task_view.category_picker.prompt.custom_category" = "Category1";
 
@@ -258,10 +233,13 @@
 "page_picker.title.upper_bound" = "/ %d";
 
 // MARK: Placeholder
-"placeholder.no_client_selected" = "No client selected.";
-"placeholder.no_clients_found" = "No clients found.";
-"placeholder.no_tasks_found" = "No tasks found.";
-"placeholder.no_logs_found" = "No logs found.";
+"placeholder.no_client_selected" = "No Client Selected";
+"placeholder.no_task_selected" = "No Task Selected";
+"placeholder.no_clients_found" = "No Clients Found";
+"placeholder.no_tasks_found" = "No Tasks Found";
+"placeholder.no_logs_found" = "No Logs Found";
+"placeholder.no_trackers_found" = "No Trackers Found";
+"placeholder.no_peers_found" = "No Peers Found";
 
 // MARK: SettingView
 "setting_view.title" = "Setting";
@@ -273,10 +251,6 @@
 "general_setting_view.section.title.backup" = "Backup";
 "general_setting_view.title.backup_clients" = "Export clients backup";
 "general_setting_view.title.restore_clients" = "Restore clients from backup";
-"general_setting_view.section.title.subscription" = "Subscription";
-"general_setting_view.title.sync_purchases" = "Sync purchases";
-"general_setting_view.title.restore_purchases" = "Restore purchases";
-"general_setting_view.subtitle.restore_purchases" = "Refresh receipt and sync purchases";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "App activity logs";
 // AppearanceSettingView
@@ -286,6 +260,20 @@
 "appearance_setting_view.section.title.tasks" = "Tasks";
 "appearance_setting_view.title.show_client_speed" = "Show client speed";
 "appearance_setting_view.title.show_free_space" = "Show free space";
+// SubscriptionSettingView
+"subscription_setting_view.title" = "Subscription";
+"subscription_setting_view.title.expires_on" = "Expires on %@";
+"subscription_setting_view.title.expired_on" = "Expired on %@";
+"subscription_setting_view.title.available" = "Available";
+"subscription_setting_view.title.not_available" = "Not available";
+"subscription_setting_view.title.identifier" = "Identifier";
+"subscription_setting_view.section.title.offer" = "Offer";
+"subscription_setting_view.section.title.caution_note" = "While we strive to ensure a smooth experience, there may be instances where you do not receive free access even after watching the promotional video. We sincerely apologize if this occurs, but please note that we cannot be held responsible for any losses or inconveniences caused as a result.";
+"subscription_setting_view.title.watch_ad" = "Gain BitRemote+ access for today by watching a promo video";
+"subscription_setting_view.section.title.diagnostic" = "Diagnostic";
+"subscription_setting_view.title.sync_purchases" = "Sync purchases";
+"subscription_setting_view.title.restore_purchases" = "Restore purchases";
+"subscription_setting_view.subtitle.restore_purchases" = "Refresh receipt and sync purchases";
 // AppIconView
 "app_icon_view.title" = "App icon";
 // AboutView
@@ -308,8 +296,10 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "New Client";
+"sidebar.button.remove_ads" = "Remove ads";
+"sidebar.button.no_ads_today" = "No ads for today";
 
-// MARK: Status
+// MARK: TaskStatus
 "task.status.name.all" = "All";
 "task.status.name.none" = "None";
 "task.status.name.downloading" = "Downloading";
@@ -321,6 +311,13 @@
 "task.status.name.stalled" = "Stalled";
 "task.status.name.error" = "Error";
 "task.status.name.unknown" = "Unknown";
+
+// MARK: TrackerStatus
+"tracker.status.name.disabled" = "Disabled";
+"tracker.status.name.uncontacted" = "Uncontacted";
+"tracker.status.name.inactive" = "Inactive";
+"tracker.status.name.updating" = "Updating";
+"tracker.status.name.active" = "Active";
 
 // MARK: SubscriptionCapability
 "subscription_capability.title.remove_ads" = "Remove Ads";
@@ -339,33 +336,68 @@
 "tag.display_name.all" = "All";
 "tag.display_name.none" = "None";
 
+// MARK: Task
+"task.property.title.comment" = "Comment";
+"task.property.title.info_hash" = "Info Hash";
+"task.property.title.save_path" = "Save Path";
+"task.property.title.connections" = "Connections";
+"task.property.title.size" = "Size";
+"task.property.title.wasted_size" = "Wasted Size";
+"task.property.title.download_speed_limit" = "DL Speed Limit";
+"task.property.title.upload_speed_limit" = "UP Speed Limit";
+"task.property.title.remaining_size" = "Remaining Size";
+"task.property.title.pieces" = "Pieces";
+"task.property.title.eta" = "ETA";
+"task.property.title.reannounce_in" = "Reannounce In";
+"task.property.title.ratio" = "Ratio";
+"task.property.title.share_ratio" = "Share Ratio";
+"task.property.title.ratio_limit" = "Ratio Limit";
+"task.property.title.creation_tool" = "Creation Tool";
+"task.property.title.active_time" = "Active Time";
+"task.property.title.seeding_time" = "Seeding Time";
+"task.property.title.added_date" = "Added Date";
+"task.property.title.created_date" = "Created Date";
+"task.property.title.completed_date" = "Completed Date";
+"task.property.title.last_activity_date" = "Last Activity Date";
+"task.property.title.last_seen_completed_date" = "Last Seen Completed Date";
+
+// MARK: Tracker
+"tracker.property.title.tier" = "Tier";
+"tracker.property.title.downloads" = "Downloads";
+"tracker.property.title.message" = "Message";
+
+// MARK: Peer
+"peer.property.title.country" = "Country";
+"peer.property.title.ip_address" = "IP Address";
+"peer.property.title.port" = "Port";
+"peer.property.title.connection" = "Connection";
+"peer.property.title.flags" = "Flags";
+"peer.property.title.client" = "Client";
+"peer.property.title.relevance" = "Relevance";
+"peer.property.title.files" = "Files";
+
+// MARK: File
+"file.property.title.want_status" = "Want Status";
+"file.property.title.priority" = "Priority";
+"file.property.title.availability" = "Availability";
+"file.priority.title.low_priority" = "Low priority";
+"file.priority.title.normal_priority" = "Normal priority";
+"file.priority.title.high_priority" = "High priority";
+"file.priority.title.max_priority" = "Max priority";
+"file.priority.title.mixed_priority" = "Mixed priority";
+
 // MARK: TasksView
 "tasks_view.button.resume" = "Resume";
 "tasks_view.button.pause" = "Pause";
 "tasks_view.button.delete" = "Delete";
 "tasks_view.button.select_this_page" = "Select this page";
 "tasks_view.button.unselect_this_page" = "Unselect this page";
-"tasks_view.table_column_title.name" = "Name";
-"tasks_view.table_column_title.size" = "Size";
-"tasks_view.table_column_title.total_size" = "Total Size";
-"tasks_view.table_column_title.progress" = "Progress";
-"tasks_view.table_column_title.status" = "Status";
-"tasks_view.table_column_title.seeds" = "Seeds";
-"tasks_view.table_column_title.leechs" = "Leechs";
-"tasks_view.table_column_title.download_speed" = "DL Speed";
-"tasks_view.table_column_title.download_speed_limit" = "DL Speed Limit";
-"tasks_view.table_column_title.downloaded_size" = "DL Size";
-"tasks_view.table_column_title.upload_speed" = "UP Speed";
-"tasks_view.table_column_title.upload_speed_limit" = "UP Speed Limit";
-"tasks_view.table_column_title.uploaded_size" = "UP Size";
-"tasks_view.table_column_title.remaining_size" = "Remaining Size";
-"tasks_view.table_column_title.eta" = "ETA";
-"tasks_view.table_column_title.ratio" = "Ratio";
-"tasks_view.table_column_title.ratio_limit" = "Ratio Limit";
-"tasks_view.table_column_title.category" = "Category";
-"tasks_view.table_column_title.tag" = "Tag";
-"tasks_view.table_column_title.added_date" = "Added Date";
-"tasks_view.table_column_title.completed_date" = "Completed Date";
+"tasks_view.button.reset_category" = "Reset Category";
+"tasks_view.button.new_category" = "New Category";
+"tasks_view.button.set_category" = "Set Category";
+"tasks_view.button.reset_tags" = "Reset Tags";
+"tasks_view.button.new_tag" = "New Tag";
+"tasks_view.button.set_tag" = "Set Tag";
 // ActivityMonitor
 "activity_monitor.title" = "Activity monitor";
 "activity_monitor.card.title.status" = "Status";
@@ -374,6 +406,22 @@
 "activity_monitor.card.title.share_ratio" = "Share ratio";
 "activity_monitor.card.title.uploaded" = "Uploaded";
 "activity_monitor.card.title.downloaded" = "Downloaded";
+"activity_monitor.board.title.statistics" = "Statistics";
+"activity_monitor.board.section.title.general" = "General";
+"activity_monitor.board.title.dht" = "DHT";
+"activity_monitor.board.value.dht" = "%d nodes";
+"activity_monitor.board.section.title.user" = "User";
+"activity_monitor.board.title.session_waste" = "Session waste";
+"activity_monitor.board.title.connected_peers" = "Connected peers";
+"activity_monitor.board.section.title.cache" = "Cache";
+"activity_monitor.board.title.read_cache_hits" = "Read cache hits";
+"activity_monitor.board.title.total_buffer_size" = "Total buffer size";
+"activity_monitor.board.section.title.performance" = "Performance";
+"activity_monitor.board.title.write_cache_overload" = "Write cache overload";
+"activity_monitor.board.title.read_cache_overload" = "Read cache overload";
+"activity_monitor.board.title.queued_io_jobs" = "Queued I/O jobs";
+"activity_monitor.board.title.average_time_in_queue" = "Average time in queue";
+"activity_monitor.board.title.total_queued_size" = "Total queued size";
 // ClientStatusTray
 "client_status_tray.free_space" = "Free space";
 // ConnectionStatus
@@ -381,28 +429,85 @@
 "connection_status.value.connected" = "Connected";
 "connection_status.value.disconnected" = "Disconnected";
 "connection_status.value.firewalled" = "Firewalled";
-// StatisticsBoard
-"statistics_board.title" = "Statistics";
-"statistics_board.section.title.general" = "General";
-"statistics_board.title.dht" = "DHT";
-"statistics_board.value.dht" = "%d nodes";
-"statistics_board.section.title.user" = "User";
-"statistics_board.title.session_waste" = "Session waste";
-"statistics_board.title.connected_peers" = "Connected peers";
-"statistics_board.section.title.cache" = "Cache";
-"statistics_board.title.read_cache_hits" = "Read cache hits";
-"statistics_board.title.total_buffer_size" = "Total buffer size";
-"statistics_board.section.title.performance" = "Performance";
-"statistics_board.title.write_cache_overload" = "Write cache overload";
-"statistics_board.title.read_cache_overload" = "Read cache overload";
-"statistics_board.title.queued_io_jobs" = "Queued I/O jobs";
-"statistics_board.title.average_time_in_queue" = "Average time in queue";
-"statistics_board.title.total_queued_size" = "Total queued size";
-// TaskSortPicker
-"task_sort_picker.title.sort" = "Sort";
+// TaskInsightPanel
+"task_insight_panel.title" = "Task insight";
+"task_insight_panel.title.exclusive_feature" = "Exclusive Feature";
+"task_insight_panel.description.exclusive_feature" = "BitRemote+ membership is required to use this feature.";
+"task_insight_panel.tab.title.general" = "General";
+"task_insight_panel.group.title.transfer" = "Transfer";
+"task_insight_panel.title.seeded_for" = "seeded for %@";
+"task_insight_panel.title.this_session" = "%@ this session";
+"task_insight_panel.title.average" = "%@ avg.";
+"task_insight_panel.title.maximum" = "%@ max";
+"task_insight_panel.title.total" = "%@ total";
+"task_insight_panel.title.have" = "have %@";
+"task_insight_panel.group.title.information" = "Information";
+"task_insight_panel.section.title.content" = "Content";
+"task_insight_panel.section.title.time" = "Time";
+"task_insight_panel.section.title.metadata" = "Metadata";
+"task_insight_panel.tab.title.trackers" = "Trackers";
+"task_insight_panel.title.downloads" = "DLs";
+"task_insight_panel.tab.title.files" = "Files";
+// KeySortPicker
+"key_sort_picker.title.sort" = "Sort";
+"key_sort_picker.title.sort_tasks" = "Sort (Tasks)";
+"key_sort_picker.title.sort_trackers" = "Sort (Trackers)";
+"key_sort_picker.title.sort_peers" = "Sort (Peers)";
+"key_sort_picker.title.sort_files" = "Sort (Files)";
 // TransferChart
 "transfer_chart.title" = "Transfer history";
-"transfer_chart.transport_type.title.download" = "Download";
-"transfer_chart.transport_type.title.upload" = "Upload";
 "transfer_chart.title.date" = "Date";
 "transfer_chart.title.speed" = "Speed";
+
+// MARK: WhatsNew
+"whats_new.button.continue" = "Continue";
+
+// OnboardingView
+"onboarding_view.title" = "Welcome to\n%@";
+"onboarding_view.title.privacy_policy" = "Privacy Policy";
+"onboarding_view.title.eula" = "End User License Agreement";
+"onboarding_view.title.accept_terms" = "I accept %@ and %@.";
+
+// FeaturesShowcaseView
+"features_showcase_view.title" = "Discover features in\n%@";
+
+"features_showcase_view.version140.title.task_insight_panel" = "Task Insight Panel";
+"features_showcase_view.version140.subtitle.task_insight_panel" = "Gain clear visibility into your download tasks with real-time progress and performance information. Trackers, peers, and files can also be reviewed for a complete view.";
+"features_showcase_view.version140.title.expanded_client_support" = "Expanded Client Support";
+"features_showcase_view.version140.subtitle.expanded_client_support" = "Added support for qBit 5.x clients.";
+"features_showcase_view.version140.title.bugfix" = "Bug-fix";
+"features_showcase_view.version140.subtitle.bugfix" = "Resolved an issue that prevented QNAP clients from logging in.";
+
+"features_showcase_view.version130.title.activity_monitor" = "Activity Monitor";
+"features_showcase_view.version130.subtitle.activity_monitor" = "Monitor real-time statistics and transfer history happening on your client.";
+"features_showcase_view.version130.title.refined_interface" = "Refined Interface";
+"features_showcase_view.version130.subtitle.refined_interface" = "A more informative tasks page with twice the available sorting keys / columns. Improved accessibility, so it always feels right at any font size.";
+"features_showcase_view.version130.title.bugfix" = "Bug-fix";
+"features_showcase_view.version130.subtitle.bugfix" = "Resolved issues that sometimes caused app crashes when adding new tasks and infinite loading when certain clients had no tasks.";
+
+"features_showcase_view.version120.title.category_and_tag_improvement" = "Category & Tag Improvement";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "Introducing the ability to create, edit, and delete categories, as well as create and remove tags, for more comprehensive organization across supported clients.";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "Optional Certificate Evaluation";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "New option to bypass certificate evaluation for client hosts, enabling connections to servers with self-signed certificates.";
+"features_showcase_view.version120.title.client_host_format_checking" = "Client Host Format Checking";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "Improved host format checker now provides warning messages for potentially incorrect formats.";
+"features_showcase_view.version120.title.other_minor_changes" = "Other Minor Changes";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "New paste button for quick link input, bulk task selection options, smoother number transition animations, and refined user interface that hides unsupported filters.";
+"features_showcase_view.version120.title.bugfix" = "Bug-fix";
+"features_showcase_view.version120.subtitle.bugfix" = "Resolved an issue that caused incorrect filter applications, ensuring more accurate task management.";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "Clients Backup & Restore";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "Export and import clients with a unified JSON format, ensuring seamless transfers across app versions.";
+"features_showcase_view.version110.title.app_activity_logs" = "App Activity Logs";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "Easily browse and search through detailed logs, giving you full visibility into your app's operations.";
+"features_showcase_view.version110.title.new_features_showcase" = "New Features Showcase";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "Get a quick overview of new features and enhancements introduced in recent versions.";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store Debut";
+"features_showcase_view.version100.subtitle.app_store_debut" = "Experience our app's first release, now available for download on the App Store.";
+"features_showcase_view.version100.title.diverse_client_support" = "Diverse Client Support";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "Seamlessly integrate with popular download tools including aria2, qBit, Trans, Synology, and QNAP.";
+"features_showcase_view.version100.title.comprehensive_task_management" = "Comprehensive Task Management";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "Easily control your downloads with options to pause, resume, delete tasks, and add new ones on the fly.";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "Smart Filtering & Sorting";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "Organize downloads by status, category, or tag, and sort by various criteria for efficiency.";
