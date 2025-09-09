@@ -26,6 +26,7 @@
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "因在双重认证过程中发生问题，登录失败。";
 "app_error.remote_API_error.description.unknown_reason_failed" = "在处理您的请求时发生了问题，可能是由于向 API 传递了无效参数。";
 "app_error.remote_API_error.description.untracked_response" = "应用程序从 API 接收到了一个未能被追踪的应答，这可能会导致数据完整性问题。";
+"app_error.remote_API_error.description.invalid_response" = "应用程序从 API 接收到了一个无效的应答。";
 
 "app_error.solution.try_later" = "请稍后再试。";
 "app_error.solution.review_entered_information" = "请检查输入的信息是否准确无误，并稍后再试。";
@@ -53,6 +54,22 @@
 "common.title.password" = "密码";
 "common.title.optional" = "选填";
 "common.title.version" = "版本 %@ (%@)";
+"common.title.name" = "名称";
+"common.title.status" = "状态";
+"common.title.peers" = "用戶";
+"common.title.seeds" = "做种者";
+"common.title.leeches" = "吸血者";
+"common.title.tag" = "标签";
+"common.title.category" = "分类";
+"common.title.progress" = "进度";
+"common.title.total_size" = "总容量";
+"common.title.download" = "下载";
+"common.title.download_speed" = "下载速度";
+"common.title.downloaded_size" = "已下载容量";
+"common.title.upload_speed" = "上传速度";
+"common.title.uploaded_size" = "已上传容量";
+"common.title.upload" = "上传";
+"common.title.learn_more" = "更多内容";
 "common.title.view_error_info" = "查看错误信息";
 
 // MARK: Dialog
@@ -69,6 +86,7 @@
 "dialog.title.sync_failed" = "在同步过程中似乎出现了问题。";
 "dialog.title.login_failed" = "在登录过程中似乎出现了问题。";
 "dialog.button.retry_login" = "重新尝试登录";
+"dialog.button.open_activity_monitor" = "打开活动监视器";
 
 // MARK: EditClientView
 "edit_client_view.title" = "添加客户端";
@@ -96,63 +114,21 @@
 "error_info_view.placeholder.solution" = "目前对于这个错误，我们没有任何建议的解决方案。";
 "error_info_view.placeholder.context" = "这个错误中没有包含任何上下文信息。";
 
-// MARK: FeaturesShowcaseView
-"features_showcase_view.title" = "%@\n探索新功能";
-"features_showcase_view.button.continue" = "继续";
-
-"features_showcase_view.version130.title.activity_monitor" = "活动监视器";
-"features_showcase_view.version130.subtitle.activity_monitor" = "实时掌握客户端的统计数据与传输记录。";
-"features_showcase_view.version130.title.refined_interface" = "界面优化";
-"features_showcase_view.version130.subtitle.refined_interface" = "任务列表将展示更充足的信息，排序键 / 栏位数量也增加到 2 倍。更加完善了无障碍功能，在任何字体大小下都能呈现最佳效果。";
-"features_showcase_view.version130.title.bugfix" = "问题修正";
-"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任务时偶发的崩溃问题，以及特定客户端无任务时造成的无限加载问题。";
-
-"features_showcase_view.version120.title.category_and_tag_improvement" = "分类与标签的功能改善";
-"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分类的新增、编辑和移除，还有标签的新增和移除等功能，让支持的客户端能够进行更全面的管理。";
-"features_showcase_view.version120.title.optional_certificate_evaluation" = "可选的证书验证";
-"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增选项可跳过客户端主机的证书验证，允许连接到使用自签证书的服务器。";
-"features_showcase_view.version120.title.client_host_format_checking" = "客户端主机格式检查";
-"features_showcase_view.version120.subtitle.client_host_format_checking" = "改进的主机格式检查器现在会提供潜在格式错误的警告。";
-"features_showcase_view.version120.title.other_minor_changes" = "其他次要更新";
-"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快输入链接的粘贴按钮、批量选取任务的选项、更顺畅的数字过渡动画，并优化界面以隐藏不支持的筛选器。";
-"features_showcase_view.version120.title.bugfix" = "问题修正";
-"features_showcase_view.version120.subtitle.bugfix" = "修正了导致筛选应用不正确的问题，确保任务管理更加精确。";
-
-"features_showcase_view.version110.title.clients_backup_restore" = "客户端数据备份与恢复";
-"features_showcase_view.version110.subtitle.clients_backup_restore" = "使用统一的 JSON 格式导出和导入客户端，确保在不同版本间无缝转移。";
-"features_showcase_view.version110.title.app_activity_logs" = "App 活动记录";
-"features_showcase_view.version110.subtitle.app_activity_logs" = "轻松浏览和搜寻详细记录，让您全面了解 App 的运作情况。";
-"features_showcase_view.version110.title.new_features_showcase" = "探索新功能界面";
-"features_showcase_view.version110.subtitle.new_features_showcase" = "快速概览此版本新增的功能和改进。";
-
-"features_showcase_view.version100.title.app_store_debut" = "App Store 登场";
-"features_showcase_view.version100.subtitle.app_store_debut" = "体验 BitRemote 的首个版本，现已在 App Store 上可供下载。";
-"features_showcase_view.version100.title.diverse_client_support" = "多元客户端支持";
-"features_showcase_view.version100.subtitle.diverse_client_support" = "无缝整合常用的下载工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
-"features_showcase_view.version100.title.comprehensive_task_management" = "全面的任务管理";
-"features_showcase_view.version100.subtitle.comprehensive_task_management" = "轻松控制您的下载任务，可随时暂停、恢复、删除任务，并添加新任务。";
-"features_showcase_view.version100.title.smart_filtering_sorting" = "智能过滤和排序";
-"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "按状态、类别或标签整理下载任务，并按各种条件排序提高管理效率。";
-
 // MARK: FiltersView
 "filters_view.title.filters" = "筛选";
 "filters_view.section_title.status" = "状态";
-"filters_view.section_title.category" = "分类";
-"filters_view.section_title.tag" = "标签";
 "filters_view.button.info" = "信息";
 "filters_view.button.new_category" = "添加分类";
 "filters_view.button.new_tag" = "添加标签";
 "filters_view.info_view.title.name" = "名称";
 "filters_view.info_view.section.title.setting" = "设置";
 // CategoryInfoView
-"category_info_view.title" = "分类";
 "category_info_view.title.savepath" = "文件保存位置";
 "category_info_view.prompt.name" = "分类名称";
 "category_info_view.prompt.savepath" = "/下载";
 "category_info_view.placeholder.name" = "新的分类";
 "category_info_view.placeholder.savepath" = "文件保存位置为空";
 // TagInfoView
-"tag_info_view.title" = "标签";
 "tag_info_view.prompt.name" = "标签名称";
 "tag_info_view.placeholder.name" = "新的标签";
 
@@ -239,7 +215,6 @@
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "文件临时保存位置";
 "new_task_view.torrent_picker.button.select_files" = "选择文件";
 "new_task_view.torrent_picker.button.reselect_files" = "重新选择文件";
-"new_task_view.category_picker.title.category" = "分类";
 "new_task_view.category_picker.title.custom_category" = "自定义分类";
 "new_task_view.category_picker.prompt.custom_category" = "分类1";
 
@@ -259,9 +234,12 @@
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "未选择客户端";
+"placeholder.no_task_selected" = "未选择任务";
 "placeholder.no_clients_found" = "未找到客户端";
 "placeholder.no_tasks_found" = "未找到任务";
 "placeholder.no_logs_found" = "未找到记录";
+"placeholder.no_trackers_found" = "未找到 Tracker";
+"placeholder.no_peers_found" = "未找到用户";
 
 // MARK: SettingView
 "setting_view.title" = "设置";
@@ -273,10 +251,20 @@
 "general_setting_view.section.title.backup" = "备份";
 "general_setting_view.title.backup_clients" = "导出客户端备份";
 "general_setting_view.title.restore_clients" = "从备份中恢复客户端数据";
-"general_setting_view.section.title.subscription" = "订阅";
-"general_setting_view.title.sync_purchases" = "同步已购买项目";
-"general_setting_view.title.restore_purchases" = "恢复已购买项目";
-"general_setting_view.subtitle.restore_purchases" = "更新收据并同步已购买项目";
+// SubscriptionSettingView
+"subscription_setting_view.title" = "订阅";
+"subscription_setting_view.title.expires_on" = "%@ 到期";
+"subscription_setting_view.title.expired_on" = "%@ 到期";
+"subscription_setting_view.title.available" = "使用权有效";
+"subscription_setting_view.title.not_available" = "不可用";
+"subscription_setting_view.title.identifier" = "标识符";
+"subscription_setting_view.section.title.offer" = "优惠";
+"subscription_setting_view.section.title.caution_note" = "我们致力于提供顺畅的使用体验，但仍可能发生您观看广告后无法获得免费使用权的情况。我们对此深感抱歉，但请注意，我们无法对因此造成的任何不便或损失负责。";
+"subscription_setting_view.title.watch_ad" = "观看广告获得今日 BitRemote+ 使用权";
+"subscription_setting_view.section.title.diagnostic" = "诊断";
+"subscription_setting_view.title.sync_purchases" = "同步已购买项目";
+"subscription_setting_view.title.restore_purchases" = "恢复已购买项目";
+"subscription_setting_view.subtitle.restore_purchases" = "更新收据并同步已购买项目";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "App 活动记录";
 // AppearanceSettingView
@@ -308,8 +296,10 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "添加客户端";
+"sidebar.button.remove_ads" = "移除广告";
+"sidebar.button.no_ads_today" = "先移除一天";
 
-// MARK: Status
+// MARK: TaskStatus
 "task.status.name.all" = "全部";
 "task.status.name.none" = "无";
 "task.status.name.downloading" = "下载中";
@@ -321,6 +311,13 @@
 "task.status.name.stalled" = "停滞中";
 "task.status.name.error" = "错误";
 "task.status.name.unknown" = "未知";
+
+// MARK: TrackerStatus
+"tracker.status.name.disabled" = "已禁用";
+"tracker.status.name.uncontacted" = "尚未联系";
+"tracker.status.name.inactive" = "未工作";
+"tracker.status.name.updating" = "更新中";
+"tracker.status.name.active" = "工作中";
 
 // MARK: SubscriptionCapability
 "subscription_capability.title.remove_ads" = "移除广告";
@@ -339,33 +336,68 @@
 "tag.display_name.all" = "全部";
 "tag.display_name.none" = "无标签";
 
+// MARK: Task
+"task.property.title.comment" = "注释";
+"task.property.title.info_hash" = "哈希值";
+"task.property.title.save_path" = "保存位置";
+"task.property.title.connections" = "连接数";
+"task.property.title.size" = "容量";
+"task.property.title.wasted_size" = "已丢弃容量";
+"task.property.title.download_speed_limit" = "下载速度上限";
+"task.property.title.upload_speed_limit" = "上传速度上限";
+"task.property.title.remaining_size" = "剩余容量";
+"task.property.title.pieces" = "区块";
+"task.property.title.eta" = "预估剩余时间";
+"task.property.title.reannounce_in" = "重新汇报倒数";
+"task.property.title.ratio" = "分享率";
+"task.property.title.share_ratio" = "分享率";
+"task.property.title.ratio_limit" = "分享率上限";
+"task.property.title.creation_tool" = "创建工具";
+"task.property.title.active_time" = "活动时间";
+"task.property.title.seeding_time" = "做种时间";
+"task.property.title.added_date" = "添加日期";
+"task.property.title.created_date" = "创建时间";
+"task.property.title.completed_date" = "完成日期";
+"task.property.title.last_activity_date" = "最终活动日期";
+"task.property.title.last_seen_completed_date" = "最终完成确认日期";
+
+// MARK: Tracker
+"tracker.property.title.tier" = "层级";
+"tracker.property.title.downloads" = "下载";
+"tracker.property.title.message" = "消息";
+
+// MARK: Peer
+"peer.property.title.country" = "国家";
+"peer.property.title.ip_address" = "IP 地址";
+"peer.property.title.port" = "端口";
+"peer.property.title.connection" = "连接";
+"peer.property.title.flags" = "标志";
+"peer.property.title.client" = "客户端";
+"peer.property.title.relevance" = "关联度";
+"peer.property.title.files" = "文件";
+
+// MARK: File
+"file.property.title.want_status" = "文件期望状态";
+"file.property.title.priority" = "优先度";
+"file.property.title.availability" = "可用性";
+"file.priority.title.low_priority" = "低优先度";
+"file.priority.title.normal_priority" = "普通优先度";
+"file.priority.title.high_priority" = "高优先度";
+"file.priority.title.max_priority" = "最高优先度";
+"file.priority.title.mixed_priority" = "优先度混合";
+
 // MARK: TasksView
 "tasks_view.button.resume" = "继续";
 "tasks_view.button.pause" = "暂停";
 "tasks_view.button.delete" = "删除";
 "tasks_view.button.select_this_page" = "全选此页";
 "tasks_view.button.unselect_this_page" = "取消全选此页";
-"tasks_view.table_column_title.name" = "名称";
-"tasks_view.table_column_title.size" = "容量";
-"tasks_view.table_column_title.total_size" = "总容量";
-"tasks_view.table_column_title.progress" = "进度";
-"tasks_view.table_column_title.status" = "状态";
-"tasks_view.table_column_title.seeds" = "种子";
-"tasks_view.table_column_title.leechs" = "用户";
-"tasks_view.table_column_title.download_speed" = "下载速度";
-"tasks_view.table_column_title.download_speed_limit" = "下载速度上限";
-"tasks_view.table_column_title.downloaded_size" = "已下载容量";
-"tasks_view.table_column_title.upload_speed" = "上传速度";
-"tasks_view.table_column_title.upload_speed_limit" = "上传速度上限";
-"tasks_view.table_column_title.uploaded_size" = "已上传容量";
-"tasks_view.table_column_title.remaining_size" = "剩余容量";
-"tasks_view.table_column_title.eta" = "预估剩余时间";
-"tasks_view.table_column_title.ratio" = "分享率";
-"tasks_view.table_column_title.ratio_limit" = "分享率上限";
-"tasks_view.table_column_title.category" = "分类";
-"tasks_view.table_column_title.tag" = "标签";
-"tasks_view.table_column_title.added_date" = "添加日期";
-"tasks_view.table_column_title.completed_date" = "完成日期";
+"tasks_view.button.reset_category" = "重置分类";
+"tasks_view.button.new_category" = "添加分类";
+"tasks_view.button.set_category" = "设置分类";
+"tasks_view.button.reset_tags" = "重置标签";
+"tasks_view.button.new_tag" = "添加标签";
+"tasks_view.button.set_tag" = "设置标签";
 // ActivityMonitor
 "activity_monitor.title" = "活动监视器";
 "activity_monitor.card.title.status" = "状态";
@@ -374,6 +406,22 @@
 "activity_monitor.card.title.share_ratio" = "分享率";
 "activity_monitor.card.title.uploaded" = "已上传";
 "activity_monitor.card.title.downloaded" = "已下载";
+"activity_monitor.board.title.statistics" = "统计数据";
+"activity_monitor.board.section.title.general" = "一般";
+"activity_monitor.board.title.dht" = "DHT";
+"activity_monitor.board.value.dht" = "%d 个节点";
+"activity_monitor.board.section.title.user" = "使用者";
+"activity_monitor.board.title.session_waste" = "本次对话丢弃";
+"activity_monitor.board.title.connected_peers" = "连接用户";
+"activity_monitor.board.section.title.cache" = "缓存";
+"activity_monitor.board.title.read_cache_hits" = "读缓存次数";
+"activity_monitor.board.title.total_buffer_size" = "总缓存容量";
+"activity_monitor.board.section.title.performance" = "性能";
+"activity_monitor.board.title.write_cache_overload" = "写入缓存超负荷";
+"activity_monitor.board.title.read_cache_overload" = "读取缓存超负荷";
+"activity_monitor.board.title.queued_io_jobs" = "队列的 I/O 任务";
+"activity_monitor.board.title.average_time_in_queue" = "在队列的平均时间";
+"activity_monitor.board.title.total_queued_size" = "总队列容量";
 // ClientStatusTray
 "client_status_tray.free_space" = "剩余空间";
 // ConnectionStatus
@@ -381,28 +429,85 @@
 "connection_status.value.connected" = "已连接";
 "connection_status.value.disconnected" = "连接中断";
 "connection_status.value.firewalled" = "防火墙阻断";
-// StatisticsBoard
-"statistics_board.title" = "统计数据";
-"statistics_board.section.title.general" = "一般";
-"statistics_board.title.dht" = "DHT";
-"statistics_board.value.dht" = "%d 个节点";
-"statistics_board.section.title.user" = "使用者";
-"statistics_board.title.session_waste" = "本次对话丢弃";
-"statistics_board.title.connected_peers" = "连接用户";
-"statistics_board.section.title.cache" = "缓存";
-"statistics_board.title.read_cache_hits" = "读缓存次数";
-"statistics_board.title.total_buffer_size" = "总缓存容量";
-"statistics_board.section.title.performance" = "性能";
-"statistics_board.title.write_cache_overload" = "写入缓存超负荷";
-"statistics_board.title.read_cache_overload" = "读取缓存超负荷";
-"statistics_board.title.queued_io_jobs" = "队列的 I/O 任务";
-"statistics_board.title.average_time_in_queue" = "在队列的平均时间";
-"statistics_board.title.total_queued_size" = "总队列容量";
-// TaskSortPicker
-"task_sort_picker.title.sort" = "排序";
+// TaskInsightPanel
+"task_insight_panel.title" = "任务详情";
+"task_insight_panel.title.exclusive_feature" = "专属功能";
+"task_insight_panel.description.exclusive_feature" = "需要订阅 BitRemote+ 才能使用该功能。";
+"task_insight_panel.tab.title.general" = "一般";
+"task_insight_panel.group.title.transfer" = "传输";
+"task_insight_panel.title.seeded_for" = "已做种 %@";
+"task_insight_panel.title.this_session" = "本次对话中 %@";
+"task_insight_panel.title.average" = "平均 %@";
+"task_insight_panel.title.maximum" = "上限 %@";
+"task_insight_panel.title.total" = "总计 %@";
+"task_insight_panel.title.have" = "已完成 %@";
+"task_insight_panel.group.title.information" = "信息";
+"task_insight_panel.section.title.content" = "内容";
+"task_insight_panel.section.title.time" = "时间";
+"task_insight_panel.section.title.metadata" = "元数据";
+"task_insight_panel.tab.title.trackers" = "Trackers";
+"task_insight_panel.title.downloads" = "下载";
+"task_insight_panel.tab.title.files" = "文件";
+// KeySortPicker
+"key_sort_picker.title.sort" = "排序";
+"key_sort_picker.title.sort_tasks" = "排序（任务）";
+"key_sort_picker.title.sort_trackers" = "排序（Trackers）";
+"key_sort_picker.title.sort_peers" = "排序（用戶）";
+"key_sort_picker.title.sort_files" = "排序 (文件)";
 // TransferChart
 "transfer_chart.title" = "传输记录";
-"transfer_chart.transport_type.title.download" = "下载";
-"transfer_chart.transport_type.title.upload" = "上传";
 "transfer_chart.title.date" = "日期";
 "transfer_chart.title.speed" = "速度";
+
+// MARK: WhatsNew
+"whats_new.button.continue" = "继续";
+
+// OnboardingView
+"onboarding_view.title" = "欢迎使用\n%@";
+"onboarding_view.title.privacy_policy" = "隐私权政策";
+"onboarding_view.title.eula" = "最终用户许可协议";
+"onboarding_view.title.accept_terms" = "我同意%@和%@。";
+
+// FeaturesShowcaseView
+"features_showcase_view.title" = "%@\n探索新功能";
+
+"features_showcase_view.version140.title.task_insight_panel" = "任务详情面板";
+"features_showcase_view.version140.subtitle.task_insight_panel" = "清楚掌握下载任务的进度与性能状况，同时也能查看 trackers、用户与文件，全面了解任务状态。";
+"features_showcase_view.version140.title.expanded_client_support" = "扩充客户端支持";
+"features_showcase_view.version140.subtitle.expanded_client_support" = "新增支持 qBit 5.x 客户端。";
+"features_showcase_view.version140.title.bugfix" = "问题修正";
+"features_showcase_view.version140.subtitle.bugfix" = "已修正在 QNAP 客户端无法登入的问题。";
+
+"features_showcase_view.version130.title.activity_monitor" = "活动监视器";
+"features_showcase_view.version130.subtitle.activity_monitor" = "实时掌握客户端的统计数据与传输记录。";
+"features_showcase_view.version130.title.refined_interface" = "界面优化";
+"features_showcase_view.version130.subtitle.refined_interface" = "任务列表将展示更充足的信息，排序键 / 栏位数量也增加到 2 倍。更加完善了无障碍功能，在任何字体大小下都能呈现最佳效果。";
+"features_showcase_view.version130.title.bugfix" = "问题修正";
+"features_showcase_view.version130.subtitle.bugfix" = "修正了新增任务时偶发的崩溃问题，以及特定客户端无任务时造成的无限加载问题。";
+
+"features_showcase_view.version120.title.category_and_tag_improvement" = "分类与标签的功能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "提供了分类的新增、编辑和移除，还有标签的新增和移除等功能，让支持的客户端能够进行更全面的管理。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "可选的证书验证";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "新增选项可跳过客户端主机的证书验证，允许连接到使用自签证书的服务器。";
+"features_showcase_view.version120.title.client_host_format_checking" = "客户端主机格式检查";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "改进的主机格式检查器现在会提供潜在格式错误的警告。";
+"features_showcase_view.version120.title.other_minor_changes" = "其他次要更新";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "新增可更快输入链接的粘贴按钮、批量选取任务的选项、更顺畅的数字过渡动画，并优化界面以隐藏不支持的筛选器。";
+"features_showcase_view.version120.title.bugfix" = "问题修正";
+"features_showcase_view.version120.subtitle.bugfix" = "修正了导致筛选应用不正确的问题，确保任务管理更加精确。";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "客户端数据备份与恢复";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "使用统一的 JSON 格式导出和导入客户端，确保在不同版本间无缝转移。";
+"features_showcase_view.version110.title.app_activity_logs" = "App 活动记录";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "轻松浏览和搜寻详细记录，让您全面了解 App 的运作情况。";
+"features_showcase_view.version110.title.new_features_showcase" = "探索新功能界面";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "快速概览此版本新增的功能和改进。";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store 登场";
+"features_showcase_view.version100.subtitle.app_store_debut" = "体验 BitRemote 的首个版本，现已在 App Store 上可供下载。";
+"features_showcase_view.version100.title.diverse_client_support" = "多元客户端支持";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "无缝整合常用的下载工具，包括 aria2、qBit、Trans、Synology 和 QNAP。";
+"features_showcase_view.version100.title.comprehensive_task_management" = "全面的任务管理";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "轻松控制您的下载任务，可随时暂停、恢复、删除任务，并添加新任务。";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "智能过滤和排序";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "按状态、类别或标签整理下载任务，并按各种条件排序提高管理效率。";

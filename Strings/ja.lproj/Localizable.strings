@@ -26,6 +26,7 @@
 "app_error.remote_API_error.description.login_two_factor_authentication_failed" = "二要素認証中に問題が発生したため、ログインが失敗しました。";
 "app_error.remote_API_error.description.unknown_reason_failed" = "リクエスト処理中に問題が発生しました。API に無効な引数が渡された可能性があります。";
 "app_error.remote_API_error.description.untracked_response" = "API から追跡されていないレスポンスを受信しました。これによりデータの整合性に問題が生じる可能性があります。";
+"app_error.remote_API_error.description.invalid_response" = "API から無効なレスポンスを受信しました。";
 
 "app_error.solution.try_later" = "しばらくしてからもう一度お試しください。";
 "app_error.solution.review_entered_information" = "入力された情報を確認し、もう一度お試しください。";
@@ -53,6 +54,22 @@
 "common.title.password" = "パスワード";
 "common.title.optional" = "任意";
 "common.title.version" = "バージョン %@ (%@)";
+"common.title.name" = "名前";
+"common.title.status" = "状態";
+"common.title.peers" = "ピア";
+"common.title.seeds" = "シード";
+"common.title.leeches" = "リーチ";
+"common.title.tag" = "タグ";
+"common.title.category" = "カテゴリ";
+"common.title.progress" = "進捗";
+"common.title.total_size" = "全体サイズ";
+"common.title.download" = "ダウンロード";
+"common.title.download_speed" = "下り速度";
+"common.title.downloaded_size" = "ダウンロード済みサイズ";
+"common.title.upload_speed" = "上り速度";
+"common.title.uploaded_size" = "アップロード済みサイズ";
+"common.title.upload" = "アップロード";
+"common.title.learn_more" = "詳しい情報";
 "common.title.view_error_info" = "エラー情報を確認";
 
 // MARK: Dialog
@@ -69,6 +86,7 @@
 "dialog.title.sync_failed" = "同期処理中に問題が発生したようです。";
 "dialog.title.login_failed" = "ログイン処理中に問題が発生したようです。";
 "dialog.button.retry_login" = "ログインを再試行";
+"dialog.button.open_activity_monitor" = "アクティビティモニタを開く";
 
 // MARK: EditClientView
 "edit_client_view.title" = "新規クライアント";
@@ -96,63 +114,21 @@
 "error_info_view.placeholder.solution" = "このエラーを解決するための提案はありません。";
 "error_info_view.placeholder.context" = "このエラーには背景情報が含まれていません。";
 
-// MARK: FeaturesShowcaseView
-"features_showcase_view.title" = "%@\n新機能紹介";
-"features_showcase_view.button.continue" = "続ける";
-
-"features_showcase_view.version130.title.activity_monitor" = "アクティビティモニタ";
-"features_showcase_view.version130.subtitle.activity_monitor" = "クライアントの統計情報と転送履歴をリアルタイムで確認できます。";
-"features_showcase_view.version130.title.refined_interface" = "洗練されたインターフェース";
-"features_showcase_view.version130.subtitle.refined_interface" = "より情報量の多いタスク一覧画面にソートキー / 列数も 2 倍になりました。アクセシビリティが向上し、どのフォントサイズでも見やすく調整されます。";
-"features_showcase_view.version130.title.bugfix" = "不具合修正";
-"features_showcase_view.version130.subtitle.bugfix" = "新規タスク追加時のクラッシュや、特定のクライアントでタスクがない場合の読み込みが終わらない問題を修正しました。";
-
-"features_showcase_view.version120.title.category_and_tag_improvement" = "カテゴリとタグの機能改善";
-"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "カテゴリの作成、編集、削除機能、さらにタグの作成と削除機能を追加し、対応クライアントでの管理をより包括的に。";
-"features_showcase_view.version120.title.optional_certificate_evaluation" = "選択的証明書認証";
-"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "クライアントホストの証明書認証をスキップする新しいオプションが追加され、自己署名証明書を使用するサーバーへの接続が可能になります。";
-"features_showcase_view.version120.title.client_host_format_checking" = "クライアントホストのフォーマットチェック";
-"features_showcase_view.version120.subtitle.client_host_format_checking" = "チェッカーが改善され、フォーマットが正しくない可能性がある場合に警告メッセージを表示します。";
-"features_showcase_view.version120.title.other_minor_changes" = "その他の軽微な変更";
-"features_showcase_view.version120.subtitle.other_minor_changes" = "リンク入力用の貼り付けボタン、タスクの一括選択オプション、より滑らかな数字アニメーション、非対応フィルターを非表示にする改良されたインターフェース。";
-"features_showcase_view.version120.title.bugfix" = "不具合修正";
-"features_showcase_view.version120.subtitle.bugfix" = "フィルター適用が正しくない問題を修正し、より正確にタスクを管理できます。";
-
-"features_showcase_view.version110.title.clients_backup_restore" = "クライアントのバックアップと復元";
-"features_showcase_view.version110.subtitle.clients_backup_restore" = "統一された JSON フォーマットでクライアントをバックアップ・復元し、アプリのバージョン間で円滑に転送できます。";
-"features_showcase_view.version110.title.app_activity_logs" = "アプリ動作記録";
-"features_showcase_view.version110.subtitle.app_activity_logs" = "詳細なログを簡単に閲覧・検索でき、アプリの動作を完全に把握できます。";
-"features_showcase_view.version110.title.new_features_showcase" = "新機能紹介画面";
-"features_showcase_view.version110.subtitle.new_features_showcase" = "このバージョンで追加された新機能や改善点を簡単に確認できます。";
-
-"features_showcase_view.version100.title.app_store_debut" = "App Store デビュー";
-"features_showcase_view.version100.subtitle.app_store_debut" = "BitRemote が App Store でダウンロード可能になりました。アプリの初回リリースを体験してみましょう。";
-"features_showcase_view.version100.title.diverse_client_support" = "多様なクライアントサポート";
-"features_showcase_view.version100.subtitle.diverse_client_support" = "aria2、qBit、Trans、Synology、QNAP など、人気ダウンロードツールとシームレスに連携。";
-"features_showcase_view.version100.title.comprehensive_task_management" = "包括的なタスク管理";
-"features_showcase_view.version100.subtitle.comprehensive_task_management" = "ダウンロードタスクの一時停止、再開、削除、新規追加など、簡単に制御できます。";
-"features_showcase_view.version100.title.smart_filtering_sorting" = "スマートなフィルタリングと並べ替え";
-"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "ステータス、カテゴリ、タグでダウンロードタスクを整理し、多様な条件で効率的に並べ替えができます。";
-
 // MARK: FiltersView
 "filters_view.title.filters" = "フィルター";
 "filters_view.section_title.status" = "状態";
-"filters_view.section_title.category" = "カテゴリ";
-"filters_view.section_title.tag" = "タグ";
 "filters_view.button.info" = "情報";
 "filters_view.button.new_category" = "新規カテゴリ";
 "filters_view.button.new_tag" = "新規タグ";
 "filters_view.info_view.title.name" = "名前";
 "filters_view.info_view.section.title.setting" = "設定";
 // CategoryInfoView
-"category_info_view.title" = "カテゴリ";
 "category_info_view.title.savepath" = "ファイルの保存先";
 "category_info_view.prompt.name" = "カテゴリ名";
 "category_info_view.prompt.savepath" = "/ダウンロード";
 "category_info_view.placeholder.name" = "新規カテゴリ";
 "category_info_view.placeholder.savepath" = "ファイルの保存先なし";
 // TagInfoView
-"tag_info_view.title" = "タグ";
 "tag_info_view.prompt.name" = "タグ名";
 "tag_info_view.placeholder.name" = "新規タグ";
 
@@ -239,7 +215,6 @@
 "new_task_view.QNAP_download_station_form.title.temp_savepath" = "ファイルの一時保存先";
 "new_task_view.torrent_picker.button.select_files" = "ファイルを選択";
 "new_task_view.torrent_picker.button.reselect_files" = "ファイルを再選択";
-"new_task_view.category_picker.title.category" = "カテゴリ";
 "new_task_view.category_picker.title.custom_category" = "カスタムカテゴリ";
 "new_task_view.category_picker.prompt.custom_category" = "カテゴリ1";
 
@@ -259,9 +234,12 @@
 
 // MARK: Placeholder
 "placeholder.no_client_selected" = "クライアント未選択";
+"placeholder.no_task_selected" = "タスク未選択";
 "placeholder.no_clients_found" = "クライアントが見つかりません";
 "placeholder.no_tasks_found" = "タスクが見つかりません";
 "placeholder.no_logs_found" = "ログが見つかりません";
+"placeholder.no_trackers_found" = "トラッカーが見つかりません";
+"placeholder.no_peers_found" = "ピアが見つかりません";
 
 // MARK: SettingView
 "setting_view.title" = "設定";
@@ -273,10 +251,20 @@
 "general_setting_view.section.title.backup" = "バックアップ";
 "general_setting_view.title.backup_clients" = "クライアントのバックアップを作成する";
 "general_setting_view.title.restore_clients" = "バックアップからクライアントを復元する";
-"general_setting_view.section.title.subscription" = "サブスクリプション";
-"general_setting_view.title.sync_purchases" = "購入履歴を同期する";
-"general_setting_view.title.restore_purchases" = "購入履歴を復元する";
-"general_setting_view.subtitle.restore_purchases" = "レシートを更新して購入履歴を同期する";
+// SubscriptionSettingView
+"subscription_setting_view.title" = "サブスクリプション";
+"subscription_setting_view.title.expires_on" = "%@ まで有効";
+"subscription_setting_view.title.expired_on" = "%@ にて終了";
+"subscription_setting_view.title.available" = "利用可能";
+"subscription_setting_view.title.not_available" = "利用不可";
+"subscription_setting_view.title.identifier" = "識別子";
+"subscription_setting_view.section.title.offer" = "提案";
+"subscription_setting_view.section.title.caution_note" = "スムーズな体験を提供するよう努めておりますが、広告を視聴した後でも無料アクセスが付与されない場合があります。誠に申し訳ございませんが、これに起因するいかなる損失や不便についても責任を負いかねます。";
+"subscription_setting_view.title.watch_ad" = "広告を見て本日分の BitRemote+ を獲得する";
+"subscription_setting_view.section.title.diagnostic" = "診断";
+"subscription_setting_view.title.sync_purchases" = "購入履歴を同期する";
+"subscription_setting_view.title.restore_purchases" = "購入履歴を復元する";
+"subscription_setting_view.subtitle.restore_purchases" = "レシートを更新して購入履歴を同期する";
 // AppActivityLogsView
 "app_activity_logs_view.title" = "アプリ動作記録";
 // AppearanceSettingView
@@ -308,8 +296,10 @@
 
 // MARK: Sidebar
 "sidebar.button.edit_client.new" = "新規クライアント";
+"sidebar.button.remove_ads" = "広告非表示";
+"sidebar.button.no_ads_today" = "今日だけ非表示";
 
-// MARK: Status
+// MARK: TaskStatus
 "task.status.name.all" = "すべて";
 "task.status.name.none" = "なし";
 "task.status.name.downloading" = "ダウンロード中";
@@ -321,6 +311,13 @@
 "task.status.name.stalled" = "停滞中";
 "task.status.name.error" = "エラー";
 "task.status.name.unknown" = "不明";
+
+// MARK: TrackerStatus
+"tracker.status.name.disabled" = "無効";
+"tracker.status.name.uncontacted" = "未接続";
+"tracker.status.name.inactive" = "未稼働";
+"tracker.status.name.updating" = "更新中";
+"tracker.status.name.active" = "稼働中";
 
 // MARK: SubscriptionCapability
 "subscription_capability.title.remove_ads" = "広告非表示";
@@ -339,33 +336,68 @@
 "tag.display_name.all" = "すべて";
 "tag.display_name.none" = "タグなし";
 
+// MARK: Task
+"task.property.title.comment" = "注記";
+"task.property.title.info_hash" = "ハッシュ";
+"task.property.title.save_path" = "保存先";
+"task.property.title.connections" = "接続数";
+"task.property.title.size" = "サイズ";
+"task.property.title.wasted_size" = "破棄済みサイズ";
+"task.property.title.download_speed_limit" = "下り速度上限";
+"task.property.title.upload_speed_limit" = "上り速度上限";
+"task.property.title.remaining_size" = "残りサイズ";
+"task.property.title.pieces" = "ピース";
+"task.property.title.eta" = "予想残り時間";
+"task.property.title.reannounce_in" = "次のアナウンスまで";
+"task.property.title.ratio" = "共有比";
+"task.property.title.share_ratio" = "共有比";
+"task.property.title.ratio_limit" = "共有比上限";
+"task.property.title.creation_tool" = "作成ツール";
+"task.property.title.active_time" = "稼働時間";
+"task.property.title.seeding_time" = "シード時間";
+"task.property.title.added_date" = "追加日時";
+"task.property.title.created_date" = "作成日時";
+"task.property.title.completed_date" = "完了日時";
+"task.property.title.last_activity_date" = "最終稼働日時";
+"task.property.title.last_seen_completed_date" = "最終完了確認日時";
+
+// MARK: Tracker
+"tracker.property.title.tier" = "順位";
+"tracker.property.title.downloads" = "ダウンロード";
+"tracker.property.title.message" = "メッセージ";
+
+// MARK: Peer
+"peer.property.title.country" = "国";
+"peer.property.title.ip_address" = "IP アドレス";
+"peer.property.title.port" = "ポート";
+"peer.property.title.connection" = "接続";
+"peer.property.title.flags" = "フラグ";
+"peer.property.title.client" = "クライアント";
+"peer.property.title.relevance" = "関連性";
+"peer.property.title.files" = "ファイル";
+
+// MARK: File
+"file.property.title.want_status" = "ファイル希望状態";
+"file.property.title.priority" = "優先度";
+"file.property.title.availability" = "可用性";
+"file.priority.title.low_priority" = "低優先度";
+"file.priority.title.normal_priority" = "通常優先度";
+"file.priority.title.high_priority" = "高優先度";
+"file.priority.title.max_priority" = "最高優先度";
+"file.priority.title.mixed_priority" = "優先度混在";
+
 // MARK: TasksView
 "tasks_view.button.resume" = "再開";
 "tasks_view.button.pause" = "停止";
 "tasks_view.button.delete" = "削除";
 "tasks_view.button.select_this_page" = "本ページを選択";
 "tasks_view.button.unselect_this_page" = "本ページを選択解除";
-"tasks_view.table_column_title.name" = "名前";
-"tasks_view.table_column_title.size" = "サイズ";
-"tasks_view.table_column_title.total_size" = "全体サイズ";
-"tasks_view.table_column_title.progress" = "進捗";
-"tasks_view.table_column_title.status" = "状態";
-"tasks_view.table_column_title.seeds" = "シード";
-"tasks_view.table_column_title.leechs" = "リーチ";
-"tasks_view.table_column_title.download_speed" = "下り速度";
-"tasks_view.table_column_title.download_speed_limit" = "下り速度上限";
-"tasks_view.table_column_title.downloaded_size" = "ダウンロード済みサイズ";
-"tasks_view.table_column_title.upload_speed" = "上り速度";
-"tasks_view.table_column_title.upload_speed_limit" = "上り速度上限";
-"tasks_view.table_column_title.uploaded_size" = "アップロード済みサイズ";
-"tasks_view.table_column_title.remaining_size" = "残りサイズ";
-"tasks_view.table_column_title.eta" = "予想残り時間";
-"tasks_view.table_column_title.ratio" = "共有比";
-"tasks_view.table_column_title.ratio_limit" = "共有比上限";
-"tasks_view.table_column_title.category" = "カテゴリ";
-"tasks_view.table_column_title.tag" = "タグ";
-"tasks_view.table_column_title.added_date" = "追加日時";
-"tasks_view.table_column_title.completed_date" = "完了日時";
+"tasks_view.button.reset_category" = "カテゴリをリセット";
+"tasks_view.button.new_category" = "新規カテゴリ";
+"tasks_view.button.set_category" = "カテゴリを設定";
+"tasks_view.button.reset_tags" = "タグをリセット";
+"tasks_view.button.new_tag" = "新規タグ";
+"tasks_view.button.set_tag" = "タグを設定";
 // ActivityMonitor
 "activity_monitor.title" = "アクティビティモニタ";
 "activity_monitor.card.title.status" = "状態";
@@ -374,6 +406,22 @@
 "activity_monitor.card.title.share_ratio" = "共有比";
 "activity_monitor.card.title.uploaded" = "アップロード済み";
 "activity_monitor.card.title.downloaded" = "ダウンロード済み";
+"activity_monitor.board.title.statistics" = "統計情報";
+"activity_monitor.board.section.title.general" = "全般";
+"activity_monitor.board.title.dht" = "DHT";
+"activity_monitor.board.value.dht" = "%d ノード";
+"activity_monitor.board.section.title.user" = "利用者";
+"activity_monitor.board.title.session_waste" = "セッション破棄";
+"activity_monitor.board.title.connected_peers" = "接続ピア数";
+"activity_monitor.board.section.title.cache" = "キャッシュ";
+"activity_monitor.board.title.read_cache_hits" = "読み込みキャッシュヒット";
+"activity_monitor.board.title.total_buffer_size" = "全バッファサイズ";
+"activity_monitor.board.section.title.performance" = "性能";
+"activity_monitor.board.title.write_cache_overload" = "書き込みキャッシュオーバーロード";
+"activity_monitor.board.title.read_cache_overload" = "読み込みキャッシュオーバーロード";
+"activity_monitor.board.title.queued_io_jobs" = "待ち I/O ジョブ数";
+"activity_monitor.board.title.average_time_in_queue" = "平均キュー待ち時間";
+"activity_monitor.board.title.total_queued_size" = "総キューサイズ";
 // ClientStatusTray
 "client_status_tray.free_space" = "空き容量";
 // ConnectionStatus
@@ -381,28 +429,85 @@
 "connection_status.value.connected" = "接続済み";
 "connection_status.value.disconnected" = "接続切れ";
 "connection_status.value.firewalled" = "ファイアウォール";
-// StatisticsBoard
-"statistics_board.title" = "統計情報";
-"statistics_board.section.title.general" = "全般";
-"statistics_board.title.dht" = "DHT";
-"statistics_board.value.dht" = "%d ノード";
-"statistics_board.section.title.user" = "利用者";
-"statistics_board.title.session_waste" = "セッション破棄";
-"statistics_board.title.connected_peers" = "接続ピア数";
-"statistics_board.section.title.cache" = "キャッシュ";
-"statistics_board.title.read_cache_hits" = "読み込みキャッシュヒット";
-"statistics_board.title.total_buffer_size" = "全バッファサイズ";
-"statistics_board.section.title.performance" = "性能";
-"statistics_board.title.write_cache_overload" = "書き込みキャッシュオーバーロード";
-"statistics_board.title.read_cache_overload" = "読み込みキャッシュオーバーロード";
-"statistics_board.title.queued_io_jobs" = "待ち I/O ジョブ数";
-"statistics_board.title.average_time_in_queue" = "平均キュー待ち時間";
-"statistics_board.title.total_queued_size" = "総キューサイズ";
-// TaskSortPicker
-"task_sort_picker.title.sort" = "ソート";
+// TaskInsightPanel
+"task_insight_panel.title" = "タスク詳細";
+"task_insight_panel.title.exclusive_feature" = "専用機能";
+"task_insight_panel.description.exclusive_feature" = "この機能を利用するには、BitRemote+ が必要です。";
+"task_insight_panel.tab.title.general" = "全般";
+"task_insight_panel.group.title.transfer" = "転送";
+"task_insight_panel.title.seeded_for" = "%@ シード済み";
+"task_insight_panel.title.this_session" = "%@ セッション内";
+"task_insight_panel.title.average" = "平均 %@";
+"task_insight_panel.title.maximum" = "上限 %@";
+"task_insight_panel.title.total" = "合計 %@";
+"task_insight_panel.title.have" = "保有 %@";
+"task_insight_panel.group.title.information" = "情報";
+"task_insight_panel.section.title.content" = "内容";
+"task_insight_panel.section.title.time" = "時間";
+"task_insight_panel.section.title.metadata" = "メタ情報";
+"task_insight_panel.tab.title.trackers" = "トラッカー";
+"task_insight_panel.title.downloads" = "DLs";
+"task_insight_panel.tab.title.files" = "ファイル";
+// KeySortPicker
+"key_sort_picker.title.sort" = "ソート";
+"key_sort_picker.title.sort_tasks" = "ソート（タスク）";
+"key_sort_picker.title.sort_trackers" = "ソート（トラッカー）";
+"key_sort_picker.title.sort_peers" = "ソート（ピア）";
+"key_sort_picker.title.sort_files" = "ソート (ファイル)";
 // TransferChart
 "transfer_chart.title" = "転送履歴";
-"transfer_chart.transport_type.title.download" = "ダウンロード";
-"transfer_chart.transport_type.title.upload" = "アップロード";
 "transfer_chart.title.date" = "日付";
 "transfer_chart.title.speed" = "速度";
+
+// MARK: WhatsNew
+"whats_new.button.continue" = "続ける";
+
+// OnboardingView
+"onboarding_view.title" = "%@ へ\nようこそ";
+"onboarding_view.title.privacy_policy" = "個人情報保護方針";
+"onboarding_view.title.eula" = "エンドユーザー使用許諾契約";
+"onboarding_view.title.accept_terms" = "私は、%@と%@に同意します。";
+
+// FeaturesShowcaseView
+"features_showcase_view.title" = "%@\n新機能紹介";
+
+"features_showcase_view.version140.title.task_insight_panel" = "タスクの詳細情報パネル";
+"features_showcase_view.version140.subtitle.task_insight_panel" = "ダウンロードタスクの進行状況や動作の傾向を直感的に把握できます。さらにトラッカーやピア、ファイル情報も確認でき、全体像を見渡せます。";
+"features_showcase_view.version140.title.expanded_client_support" = "対応クライアントの拡張";
+"features_showcase_view.version140.subtitle.expanded_client_support" = "qBit 5.x クライアントに対応しました。";
+"features_showcase_view.version140.title.bugfix" = "不具合修正";
+"features_showcase_view.version140.subtitle.bugfix" = "QNAP クライアントにログインできない問題を修正しました。";
+
+"features_showcase_view.version130.title.activity_monitor" = "アクティビティモニタ";
+"features_showcase_view.version130.subtitle.activity_monitor" = "クライアントの統計情報と転送履歴をリアルタイムで確認できます。";
+"features_showcase_view.version130.title.refined_interface" = "洗練されたインターフェース";
+"features_showcase_view.version130.subtitle.refined_interface" = "より情報量の多いタスク一覧画面にソートキー / 列数も 2 倍になりました。アクセシビリティが向上し、どのフォントサイズでも見やすく調整されます。";
+"features_showcase_view.version130.title.bugfix" = "不具合修正";
+"features_showcase_view.version130.subtitle.bugfix" = "新規タスク追加時のクラッシュや、特定のクライアントでタスクがない場合の読み込みが終わらない問題を修正しました。";
+
+"features_showcase_view.version120.title.category_and_tag_improvement" = "カテゴリとタグの機能改善";
+"features_showcase_view.version120.subtitle.category_and_tag_improvement" = "カテゴリの作成、編集、削除機能、さらにタグの作成と削除機能を追加し、対応クライアントでの管理をより包括的に。";
+"features_showcase_view.version120.title.optional_certificate_evaluation" = "選択的証明書認証";
+"features_showcase_view.version120.subtitle.optional_certificate_evaluation" = "クライアントホストの証明書認証をスキップする新しいオプションが追加され、自己署名証明書を使用するサーバーへの接続が可能になります。";
+"features_showcase_view.version120.title.client_host_format_checking" = "クライアントホストのフォーマットチェック";
+"features_showcase_view.version120.subtitle.client_host_format_checking" = "チェッカーが改善され、フォーマットが正しくない可能性がある場合に警告メッセージを表示します。";
+"features_showcase_view.version120.title.other_minor_changes" = "その他の軽微な変更";
+"features_showcase_view.version120.subtitle.other_minor_changes" = "リンク入力用の貼り付けボタン、タスクの一括選択オプション、より滑らかな数字アニメーション、非対応フィルターを非表示にする改良されたインターフェース。";
+"features_showcase_view.version120.title.bugfix" = "不具合修正";
+"features_showcase_view.version120.subtitle.bugfix" = "フィルター適用が正しくない問題を修正し、より正確にタスクを管理できます。";
+
+"features_showcase_view.version110.title.clients_backup_restore" = "クライアントのバックアップと復元";
+"features_showcase_view.version110.subtitle.clients_backup_restore" = "統一された JSON フォーマットでクライアントをバックアップ・復元し、アプリのバージョン間で円滑に転送できます。";
+"features_showcase_view.version110.title.app_activity_logs" = "アプリ動作記録";
+"features_showcase_view.version110.subtitle.app_activity_logs" = "詳細なログを簡単に閲覧・検索でき、アプリの動作を完全に把握できます。";
+"features_showcase_view.version110.title.new_features_showcase" = "新機能紹介画面";
+"features_showcase_view.version110.subtitle.new_features_showcase" = "このバージョンで追加された新機能や改善点を簡単に確認できます。";
+
+"features_showcase_view.version100.title.app_store_debut" = "App Store デビュー";
+"features_showcase_view.version100.subtitle.app_store_debut" = "BitRemote が App Store でダウンロード可能になりました。アプリの初回リリースを体験してみましょう。";
+"features_showcase_view.version100.title.diverse_client_support" = "多様なクライアントサポート";
+"features_showcase_view.version100.subtitle.diverse_client_support" = "aria2、qBit、Trans、Synology、QNAP など、人気ダウンロードツールとシームレスに連携。";
+"features_showcase_view.version100.title.comprehensive_task_management" = "包括的なタスク管理";
+"features_showcase_view.version100.subtitle.comprehensive_task_management" = "ダウンロードタスクの一時停止、再開、削除、新規追加など、簡単に制御できます。";
+"features_showcase_view.version100.title.smart_filtering_sorting" = "スマートなフィルタリングと並べ替え";
+"features_showcase_view.version100.subtitle.smart_filtering_sorting" = "ステータス、カテゴリ、タグでダウンロードタスクを整理し、多様な条件で効率的に並べ替えができます。";
