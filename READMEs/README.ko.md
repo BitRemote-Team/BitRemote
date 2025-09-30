@@ -4,8 +4,8 @@
 
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/06adf4db-363a-4e4c-a277-0328037b0258">
-<img src="https://github.com/user-attachments/assets/b22205ce-0079-468d-8343-a72c7d1bcc16" width="512" alt="BitRemote app icon.">
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/2327b2ce-4c3f-4223-ab9a-5129e5032f17">
+<img src="https://github.com/user-attachments/assets/040be940-4d84-49ae-9561-15c57eb9ab4a" width="412" alt="BitRemote app icon.">
 </picture>
 </p>
 
@@ -49,7 +49,7 @@ If redeem codes are temporarily unavailable, eligible contributors will need to 
 - QNAP Download Station
 
 ## 시스템 요구 사항
-iOS / iPadOS 18.0, macOS 15.0 이상인지 확인해주세요.
+iOS / iPadOS / macOS 26.0 이상인지 확인해주세요.
 
 ## 문의, 피드백
 [![Twitter](https://img.shields.io/badge/Twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bitremote)
